@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Rothschild Boutique Flat",
+    "type": "Apartment",
+    "price": 612,
+    "capacity": 6,
+    "petsAllowed": true,
+    "amenities": [
+      "Wifi",
+      "Washer",
+      "Hot tub",
+      "Dryer",
+      "Kitchen",
+      "Security cameras",
+      "Garden",
+      "Pets allowed",
+      "Gym",
+      "TV"
+    ],
+    "bathCount": 1,
+    "bedRoomsCount": 2,
+    "bedsCount": 3,
+    "imageUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436597/l90ukcpzpv6yvv6vhsnd.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436917/mqkfjmfpmyqpqmzmqgau.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg",
+      "https://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"
+    ],
+    "labels": ["City center", "Business-friendly"],
+    "likedByUsers": [],
+    "host": {
+      "id": "u101",
+      "fullname": "Justin Time",
+      "imageURL": "/img/user/justin-img.jpg"
+    },
+    "loc": {
+      "address": "22 Rothschild Blvd, Tel Aviv-Yafo, 6688218, Israel",
+      "city": "Tel Aviv-Yafo",
+      "country": "Israel",
+      "countryCode": "IL",
+      "lat": 32.062902,
+      "lng": 34.771539
+    },
+    "bookings": [
+      {
+        "start": "2025-10-05T15:00:00.000Z",
+        "end": "2025-10-10T10:00:00.000Z"
+      },
+      { "start": "2025-12-24T15:00:00.000Z", "end": "2025-12-28T10:00:00.000Z" }
+    ],
+    "reviews": [
+      {
+        "id": "rv1",
+        "txt": "Amazing location on Rothschild. Clean, quiet, and exactly as pictured.",
+        "rate": 5,
+        "by": {
+          "id": "u201",
+          "fullname": "Dana",
+          "imageURL": "/img/user/dana.jpg"
+        }
+      }
+    ],
+    "summary": "Boutique apartment in the heart of Rothschild, perfect for business or an urban getaway."
+  },
+  {
+    "name": "Dizengoff Square Loft",
+    "type": "Loft",
+    "price": 540,
+    "capacity": 4,
+    "petsAllowed": false,
+    "amenities": [
+      "Wifi",
+      "Washer",
+      "Hot tub",
+      "Dryer",
+      "Kitchen",
+      "Security cameras",
+      "Garden",
+      "Pets allowed",
+      "Gym",
+      "TV"
+    ],
+    "bathCount": 1,
+    "bedRoomsCount": 1,
+    "bedsCount": 2,
+    "imageUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436597/l90ukcpzpv6yvv6vhsnd.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436917/mqkfjmfpmyqpqmzmqgau.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg",
+      "https://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"
+    ],
+    "labels": ["Near nightlife", "Walkable"],
+    "likedByUsers": [],
+    "host": {
+      "id": "u101",
+      "fullname": "Justin Time",
+      "imageURL": "/img/user/justin-img.jpg"
+    },
+    "loc": {
+      "address": "Dizengoff Square, Tel Aviv-Yafo, Israel",
+      "city": "Tel Aviv-Yafo",
+      "country": "Israel",
+      "countryCode": "IL",
+      "lat": 32.07806,
+      "lng": 34.77417
+    },
+    "bookings": [
+      {
+        "start": "2025-09-18T14:00:00.000Z",
+        "end": "2025-09-22T10:00:00.000Z"
+      },
+      { "start": "2025-11-01T14:00:00.000Z", "end": "2025-11-05T10:00:00.000Z" }
+    ],
+    "reviews": [
+      {
+        "id": "rv2",
+        "txt": "Bright loft overlooking the square. Easy walk to beaches and restaurants.",
+        "rate": 4,
+        "by": {
+          "id": "u202",
+          "fullname": "Avi",
+          "imageURL": "/img/user/avi.jpg"
+        }
+      }
+    ],
+    "summary": "Sunny loft above Dizengoff Square—great for anyone who loves the city's buzz."
+  },
+  {
+    "name": "Passeig de Gràcia Designer Suite",
+    "type": "Apartment",
+    "price": 690,
+    "capacity": 5,
+    "petsAllowed": true,
+    "amenities": [
+      "Wifi",
+      "Washer",
+      "Hot tub",
+      "Dryer",
+      "Kitchen",
+      "Security cameras",
+      "Garden",
+      "Pets allowed",
+      "Gym",
+      "TV"
+    ],
+    "bathCount": 1,
+    "bedRoomsCount": 2,
+    "bedsCount": 3,
+    "imageUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436597/l90ukcpzpv6yvv6vhsnd.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436917/mqkfjmfpmyqpqmzmqgau.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg",
+      "https://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"
+    ],
+    "labels": ["Luxury", "Shopping district"],
+    "likedByUsers": [],
+    "host": {
+      "id": "u101",
+      "fullname": "Justin Time",
+      "imageURL": "/img/user/justin-img.jpg"
+    },
+    "loc": {
+      "address": "Passeig de Gràcia 39, 08007 Barcelona, Spain",
+      "city": "Barcelona",
+      "country": "Spain",
+      "countryCode": "ES",
+      "lat": 41.3913876,
+      "lng": 2.1653495
+    },
+    "bookings": [
+      {
+        "start": "2025-10-12T15:00:00.000Z",
+        "end": "2025-10-16T10:00:00.000Z"
+      },
+      { "start": "2025-12-30T15:00:00.000Z", "end": "2026-01-03T10:00:00.000Z" }
+    ],
+    "reviews": [
+      {
+        "id": "rv3",
+        "txt": "Stylish suite on the iconic boulevard. Minutes from Casa Batlló.",
+        "rate": 5,
+        "by": {
+          "id": "u203",
+          "fullname": "Maria",
+          "imageURL": "/img/user/maria.jpg"
+        }
+      }
+    ],
+    "summary": "Designer apartment in the heart of Eixample, ideal for shopping and architecture lovers."
+  },
+  {
+    "name": "Sherlock’s Corner Flat",
+    "type": "Apartment",
+    "price": 655,
+    "capacity": 4,
+    "petsAllowed": false,
+    "amenities": [
+      "Wifi",
+      "Washer",
+      "Hot tub",
+      "Dryer",
+      "Kitchen",
+      "Security cameras",
+      "Garden",
+      "Pets allowed",
+      "Gym",
+      "TV"
+    ],
+    "bathCount": 1,
+    "bedRoomsCount": 1,
+    "bedsCount": 2,
+    "imageUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436597/l90ukcpzpv6yvv6vhsnd.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436917/mqkfjmfpmyqpqmzmqgau.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg",
+      "https://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"
+    ],
+    "labels": ["Museum area", "Central"],
+    "likedByUsers": [],
+    "host": {
+      "id": "u101",
+      "fullname": "Justin Time",
+      "imageURL": "/img/user/justin-img.jpg"
+    },
+    "loc": {
+      "address": "221B Baker Street, London NW1 6XE, United Kingdom",
+      "city": "London",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.523757,
+      "lng": -0.158526
+    },
+    "bookings": [
+      {
+        "start": "2025-09-25T15:00:00.000Z",
+        "end": "2025-09-29T10:00:00.000Z"
+      },
+      { "start": "2025-11-18T15:00:00.000Z", "end": "2025-11-22T10:00:00.000Z" }
+    ],
+    "reviews": [
+      {
+        "id": "rv4",
+        "txt": "Cozy flat near Regent’s Park and the Sherlock Holmes Museum.",
+        "rate": 4,
+        "by": {
+          "id": "u204",
+          "fullname": "James",
+          "imageURL": "/img/user/james.jpg"
+        }
+      }
+    ],
+    "summary": "Comfortable base steps from Baker Street with great transport links."
+  },
+  {
+    "name": "Portobello Market Mews",
+    "type": "Townhouse",
+    "price": 720,
+    "capacity": 7,
+    "petsAllowed": true,
+    "amenities": [
+      "Wifi",
+      "Washer",
+      "Hot tub",
+      "Dryer",
+      "Kitchen",
+      "Security cameras",
+      "Garden",
+      "Pets allowed",
+      "Gym",
+      "TV"
+    ],
+    "bathCount": 2,
+    "bedRoomsCount": 3,
+    "bedsCount": 5,
+    "imageUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436597/l90ukcpzpv6yvv6vhsnd.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436917/mqkfjmfpmyqpqmzmqgau.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg",
+      "https://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"
+    ],
+    "labels": ["Family-friendly", "Market vibes"],
+    "likedByUsers": [],
+    "host": {
+      "id": "u101",
+      "fullname": "Justin Time",
+      "imageURL": "/img/user/justin-img.jpg"
+    },
+    "loc": {
+      "address": "Portobello Road, London W10, United Kingdom",
+      "city": "London",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.51618,
+      "lng": -0.20517
+    },
+    "bookings": [
+      {
+        "start": "2025-10-20T15:00:00.000Z",
+        "end": "2025-10-24T10:00:00.000Z"
+      },
+      { "start": "2025-12-15T15:00:00.000Z", "end": "2025-12-19T10:00:00.000Z" }
+    ],
+    "reviews": [
+      {
+        "id": "rv5",
+        "txt": "Spacious townhouse near the market—great for families.",
+        "rate": 5,
+        "by": {
+          "id": "u205",
+          "fullname": "Sophie",
+          "imageURL": "/img/user/sophie.jpg"
+        }
+      }
+    ],
+    "summary": "Charming mews home with a small garden minutes from Portobello Market."
+  }
+]
