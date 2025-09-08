@@ -2,7 +2,7 @@ import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
 
-import homeRoutes from './routes/homeRoutes.js'
+import {homeRoutes} from './api/home/home.routes.js'
 import { errorHandler } from './middleware/errorHandler.js'
 
 dotenv.config()
@@ -15,7 +15,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 // Routes
-app.use('/api/homes', homeRoutes)
+app.use('/api', homeRoutes)
 
 // 404 - Fallback route
 app.use((req, res, next) => {

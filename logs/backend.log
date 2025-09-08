@@ -1,0 +1,42 @@
+8.9.2025, 13:22:45 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:22:45 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:22:45 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:22:45 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:22:45 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:22:45 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:22:45 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:22:45 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:23:09 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:23:09 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:23:09 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:23:09 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:23:55 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:23:55 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:23:55 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:23:55 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:24:40 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:24:40 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:24:40 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:24:40 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:26:59 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:26:59 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:26:59 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:26:59 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:27:15 - ERROR - cannot find homes | TypeError: Cannot set properties of undefined (setting 'loc.city')
+8.9.2025, 13:27:15 - ERROR - Failed to get homes | TypeError: Cannot set properties of undefined (setting 'loc.city')
+8.9.2025, 13:29:58 - ERROR - cannot find homes | TypeError: Cannot set properties of undefined (setting 'loc.city')
+8.9.2025, 13:29:58 - ERROR - Failed to get homes | TypeError: Cannot set properties of undefined (setting 'loc.city')
+8.9.2025, 13:31:25 - ERROR - cannot find homes | TypeError: Cannot set properties of undefined (setting 'loc.city')
+8.9.2025, 13:31:25 - ERROR - Failed to get homes | TypeError: Cannot set properties of undefined (setting 'loc.city')
+8.9.2025, 13:31:30 - ERROR - cannot find homes | TypeError: Cannot set properties of undefined (setting 'loc.city')
+8.9.2025, 13:31:30 - ERROR - Failed to get homes | TypeError: Cannot set properties of undefined (setting 'loc.city')
+8.9.2025, 13:31:32 - ERROR - cannot find homes | TypeError: Cannot set properties of undefined (setting 'loc.city')
+8.9.2025, 13:31:32 - ERROR - Failed to get homes | TypeError: Cannot set properties of undefined (setting 'loc.city')
+8.9.2025, 13:32:48 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:32:48 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:32:48 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:32:48 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:32:59 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:32:59 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:32:59 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 13:32:59 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
