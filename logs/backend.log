@@ -88,3 +88,55 @@
 8.9.2025, 21:27:31 - ERROR - Failed to add home | TypeError: Cannot read properties of undefined (reading '_id')
 8.9.2025, 21:27:51 - ERROR - Failed to add home | TypeError: Cannot read properties of undefined (reading '_id')
 8.9.2025, 21:27:51 - ERROR - Failed to add home | TypeError: Cannot read properties of undefined (reading '_id')
+8.9.2025, 22:40:21 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:40:21 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:40:21 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:40:21 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:46:49 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:46:49 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:46:49 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:46:49 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:48:30 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:48:30 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:48:30 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:48:30 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:50:52 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:50:52 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:50:52 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:50:52 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:57:18 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:57:18 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:57:18 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 22:57:18 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:02:48 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:02:48 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:02:48 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:02:48 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:05:05 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:05:05 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:05:05 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:05:05 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:10:08 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:10:08 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:10:08 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:10:08 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:17:42 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:17:42 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:17:42 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:17:42 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:18:18 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:18:18 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:18:18 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:18:18 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:18:22 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:18:22 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:18:22 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:18:22 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:18:29 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:18:29 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:18:29 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:18:29 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:20:19 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:20:19 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:20:19 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 23:20:19 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
