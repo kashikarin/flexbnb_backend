@@ -4,6 +4,7 @@ import {
   getHome,
   getHomes,
   updateHome,
+  removeHome,
   getHealth,
 } from './home.controller.js'
 
@@ -20,6 +21,7 @@ router.get('/', getHomes)
 
 router.get('/:homeId', getHome)
 router.put('/:homeId', updateHome)
+router.delete('/:homeId', removeHome)
 
 // @route  POST /api/homes
 // @desc   Add a new home

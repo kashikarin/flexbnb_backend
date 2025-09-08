@@ -5,8 +5,7 @@ import cors from 'cors'
 import dotenv from 'dotenv'
 
 import { homeRoutes } from './api/home/home.routes.js'
-import { userRoutes } from './api/user/user.routes.js'
-
+import { orderRoutes } from './api/order/order.routes.js'
 import { errorHandler } from './middleware/errorHandler.js'
 
 dotenv.config()
@@ -31,8 +30,7 @@ app.get('/api/health', (_req, res) => {
 
 // Home Routes
 app.use('/api/homes', homeRoutes)
-// User Routes
-app.use('/api/users', userRoutes)
+app.use('/api/orders', orderRoutes)
 
 // 404 - Fallback route
 app.use((req, res, next) => {
