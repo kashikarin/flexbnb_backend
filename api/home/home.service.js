@@ -53,10 +53,11 @@ async function add(home) {
 
 async function update(home) {
   const criteria = { _id: ObjectId.createFromHexString(home._id) }
-  try {
+  const { _id, ...homeToUpdate } = home
+    try {
     const collection = await dbService.getCollection('home')
-    await collection.updateOne(criteria, { $set: home })
-    return home
+    await collection.updateOne(criteria, { $set: homeToUpdate })
+    return { ...home, ...homeToUpdate}
   } catch (err) {
     logger.error('Failed to update home', err)
     throw err
