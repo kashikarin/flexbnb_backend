@@ -9,6 +9,7 @@ export const homeService = {
   getById,
   add,
   update,
+  remove
   // addCarMsg,
   // removeCarMsg,
 }
@@ -62,6 +63,19 @@ async function update(home) {
     logger.error('Failed to update home', err)
     throw err
   }
+}
+
+async function remove(homeId) {
+    const criteria = { _id: ObjectId.createFromHexString(homeId) }
+    try{
+        const collection = await dbService.getCollection('home')
+        const res = await collection.deleteOne(criteria)
+        if (res.deletedCount === 0) throw new Error('Wrong home')
+        return homeId
+    } catch(err) {
+        logger.error('Failed to remove home', err)
+    throw err
+    }
 }
 
 function _buildCriteria(filterBy) {

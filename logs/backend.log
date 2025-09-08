@@ -140,3 +140,15 @@
 8.9.2025, 23:20:19 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
 8.9.2025, 23:20:19 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
 8.9.2025, 23:20:19 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+9.9.2025, 0:04:58 - ERROR - Failed to get orders | ReferenceError: orderService is not defined
+9.9.2025, 0:13:30 - ERROR - Failed to get orders | ReferenceError: orderService is not defined
+9.9.2025, 0:13:50 - ERROR - Failed to get orders | ReferenceError: orderService is not defined
+9.9.2025, 0:14:49 - ERROR - Failed to get orders | ReferenceError: orderService is not defined
+9.9.2025, 0:55:35 - ERROR - Failed to remove order | ReferenceError: order is not defined
+9.9.2025, 0:58:02 - ERROR - Failed to remove order | ReferenceError: order is not defined
+9.9.2025, 0:59:11 - ERROR - Failed to remove order | TypeError: collection.deletedOne is not a function
+9.9.2025, 0:59:11 - ERROR - Failed to remove order | TypeError: collection.deletedOne is not a function
+9.9.2025, 0:59:28 - ERROR - Failed to remove order | TypeError: collection.deletedOne is not a function
+9.9.2025, 0:59:28 - ERROR - Failed to remove order | TypeError: collection.deletedOne is not a function
+9.9.2025, 1:00:33 - ERROR - Failed to remove order | TypeError: collection.deleteOne is not a function
+9.9.2025, 1:00:33 - ERROR - Failed to remove order | TypeError: collection.deleteOne is not a function

@@ -29,7 +29,7 @@ export async function getHome(req, res) {
     res.json(home)
   } catch (err) {
     logger.error(`Failed to get home by id ${homeId}`, err)
-    console.error('GET /api/home error:', err?.message, err?.stack)
+    console.error('GET /api/homes error:', err?.message, err?.stack)
     res.status(400).send({ err: 'Failed to get home' })
   }
 }
@@ -54,6 +54,17 @@ export async function updateHome(req, res) {
     logger.error('Failed to update home', err)
     res.status(400).send({ err: 'Failed to update home' })
   }
+}
+
+export async function removeHome(req, res){
+    const homeId = req.params.homeId
+    try {
+        const removedId = await homeService.remove(homeId)
+        res.json(removedId)
+    } catch(err){
+        logger.error('Failed to remove home', err)
+        res.status(400).send({ err: 'Failed to remove home' })
+    }
 }
 
 export async function getHealth(req, res) {
