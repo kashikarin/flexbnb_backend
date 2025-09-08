@@ -48,3 +48,39 @@
 8.9.2025, 15:00:19 - ERROR - Failed to update home | BSONError: hex string must be 24 characters
 8.9.2025, 15:02:02 - ERROR - Failed to update home | BSONError: hex string must be 24 characters
 8.9.2025, 15:06:09 - ERROR - Failed to update home | BSONError: hex string must be 24 characters
+8.9.2025, 18:19:02 - ERROR - while finding home health | BSONError: hex string must be 24 characters
+8.9.2025, 18:19:02 - ERROR - Failed to get home by id health | BSONError: hex string must be 24 characters
+8.9.2025, 18:21:34 - ERROR - while finding home h | BSONError: hex string must be 24 characters
+8.9.2025, 18:21:34 - ERROR - Failed to get home by id h | BSONError: hex string must be 24 characters
+8.9.2025, 18:21:37 - ERROR - while finding home homes | BSONError: hex string must be 24 characters
+8.9.2025, 18:21:37 - ERROR - Failed to get home by id homes | BSONError: hex string must be 24 characters
+8.9.2025, 18:21:38 - ERROR - while finding home home | BSONError: hex string must be 24 characters
+8.9.2025, 18:21:38 - ERROR - Failed to get home by id home | BSONError: hex string must be 24 characters
+8.9.2025, 18:22:17 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:22:17 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:22:17 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:22:17 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:22:41 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:22:41 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:22:41 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:22:41 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:23:39 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:23:39 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:23:39 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:23:39 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:24:52 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:24:52 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:24:52 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:24:52 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:29:04 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:29:04 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:29:04 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:29:04 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 18:54:26 - ERROR - cannot find homes | MongoServerSelectionError: C0606FFF01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80
+
+8.9.2025, 18:54:26 - ERROR - Failed to get homes | MongoServerSelectionError: C0606FFF01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80
+
+8.9.2025, 18:54:47 - ERROR - cannot find homes | MongoServerSelectionError: C0606FFF01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80
+
+8.9.2025, 18:54:47 - ERROR - Failed to get homes | MongoServerSelectionError: C0606FFF01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80
+
