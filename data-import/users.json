@@ -1,0 +1,11 @@
+[
+  {
+    "_id": "u101",
+    "username": "dev@flexbnb.test",
+    "fullname": "Flex Dev",
+    "password": "$2a$10$Qy6...hashed...",
+    "isAdmin": true,
+    "imgUrl": "",
+    "createdAt": 1725550000000
+  }
+]
