@@ -40,3 +40,11 @@
 8.9.2025, 13:32:59 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
 8.9.2025, 13:32:59 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
 8.9.2025, 13:32:59 - ERROR - Failed to get homes | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+8.9.2025, 14:56:09 - ERROR - Failed to update home | TypeError: homeService.update is not a function
+8.9.2025, 14:57:37 - ERROR - Failed to update home | TypeError: homeService.update is not a function
+8.9.2025, 14:58:02 - ERROR - Failed to update home | TypeError: homeService.update is not a function
+8.9.2025, 14:59:00 - ERROR - Failed to update home | BSONError: hex string must be 24 characters
+8.9.2025, 15:00:08 - ERROR - Failed to update home | BSONError: hex string must be 24 characters
+8.9.2025, 15:00:19 - ERROR - Failed to update home | BSONError: hex string must be 24 characters
+8.9.2025, 15:02:02 - ERROR - Failed to update home | BSONError: hex string must be 24 characters
+8.9.2025, 15:06:09 - ERROR - Failed to update home | BSONError: hex string must be 24 characters

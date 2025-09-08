@@ -1,5 +1,5 @@
 import express from 'express'
-import { getHome, getHomes } from './home.controller.js'
+import { addHome, getHome, getHomes, updateHome } from './home.controller.js'
 
 const router = express.Router()
 
@@ -8,15 +8,11 @@ const router = express.Router()
 // @access Public
 router.get('/', getHomes)
 router.get('/:homeId', getHome)
-
+router.post('/', addHome)
+router.put('/:homeId', updateHome)
 // @route  POST /api/homes
 // @desc   Add a new home
 // @access Authenticated
-router.post('/', (req, res) => {
-  const newHome = req.body
-  res
-    .status(201)
-    .json({ message: 'New home added successfully', home: newHome })
-})
+
 
 export const homeRoutes = router

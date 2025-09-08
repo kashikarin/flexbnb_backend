@@ -7,8 +7,8 @@ import { asyncLocalStorage } from '../../services/als.service.js'
 export const homeService = {
     query,
     getById,
-    // add,
-    // update,
+    add,
+    update,
     // addCarMsg,
     // removeCarMsg,
 }
@@ -36,6 +36,29 @@ async function getById(homeId) {
         return home
     } catch (err) {
         logger.error(`while finding home ${String(homeId)}`, err)
+        throw err
+    }
+}
+
+async function add(home) {
+    try{
+        const collection = await dbService.getCollection('home')
+        await collection.insertOne(home)
+        return home
+    } catch(err) {
+        logger.error('Failed to add home', err)
+        throw err
+    }
+}
+
+async function update(home) {
+    const criteria = { _id: ObjectId.createFromHexString(home._id)}
+    try{
+        const collection = await dbService.getCollection('home')
+        await collection.updateOne(criteria, { $set: home })
+        return home
+    } catch(err){
+        logger.error('Failed to update home', err)
         throw err
     }
 }
