@@ -1,7 +1,8 @@
 import { json } from 'express'
 import { dbService } from '../../services/db.service.js'
-import { logger } from '../../services/logger.service.js'
+
 import { homeService } from './home.service.js'
+import { loggerService } from '../../services/logger.service.js'
 
 export async function getHomes(req, res) {
   const { city, adults, children, pets, checkIn, checkOut } = req.query
@@ -17,7 +18,7 @@ export async function getHomes(req, res) {
     const homes = await homeService.query(filterBy)
     res.json(homes)
   } catch (err) {
-    logger.error('Failed to get homes', err)
+    loggerService.error('Failed to get homes', err)
     res.status(400).send({ err: 'Failed to get homes' })
   }
 }
@@ -28,7 +29,7 @@ export async function getHome(req, res) {
     const home = await homeService.getById(homeId)
     res.json(home)
   } catch (err) {
-    logger.error(`Failed to get home by id ${homeId}`, err)
+    loggerService.error(`Failed to get home by id ${homeId}`, err)
     console.error('GET /api/homes error:', err?.message, err?.stack)
     res.status(400).send({ err: 'Failed to get home' })
   }
@@ -51,27 +52,27 @@ export async function updateHome(req, res) {
     const updatedHome = await homeService.update(home)
     res.json(updatedHome)
   } catch (err) {
-    logger.error('Failed to update home', err)
+    loggerService.error('Failed to update home', err)
     res.status(400).send({ err: 'Failed to update home' })
   }
 }
 
-export async function removeHome(req, res){
-    const homeId = req.params.homeId
-    try {
-        const removedId = await homeService.remove(homeId)
-        res.json(removedId)
-    } catch(err){
-        logger.error('Failed to remove home', err)
-        res.status(400).send({ err: 'Failed to remove home' })
-    }
+export async function removeHome(req, res) {
+  const homeId = req.params.homeId
+  try {
+    const removedId = await homeService.remove(homeId)
+    res.json(removedId)
+  } catch (err) {
+    loggerService.error('Failed to remove home', err)
+    res.status(400).send({ err: 'Failed to remove home' })
+  }
 }
 
 export async function getHealth(req, res) {
   try {
     res.json({ ok: true })
   } catch (err) {
-    logger.error('Health check failed', err)
+    loggerService.error('Health check failed', err)
     res.status(500).send({ err: 'Health check failed' })
   }
 }

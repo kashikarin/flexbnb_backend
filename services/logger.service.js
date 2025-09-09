@@ -1,7 +1,7 @@
 import fs from 'fs'
 import { asyncLocalStorage } from './als.service.js'
 
-export const logger = {
+export const loggerService = {
   debug: (...args) => doLog('DEBUG', ...args),
   info: (...args) => doLog('INFO', ...args),
   warn: (...args) => doLog('WARN', ...args),
