@@ -25,13 +25,9 @@ export async function getOrder(req, res) {
     const order = await orderService.getById(orderId)
     res.json(order)
   } catch (err) {
-<<<<<<< HEAD
-    logger.error(`Failed to get order by id ${orderId}`, err)
-=======
-    loggerService.error(`Failed to get orders by id ${orderId}`, err)
->>>>>>> b32f13109797a78f6bea9f7dfab0f542336670de
-    console.error('GET /api/orders error:', err?.message, err?.stack)
-    res.status(400).send({ err: 'Failed to get order' })
+      logger.error(`Failed to get order by id ${orderId}`, err)
+      console.error('GET /api/orders error:', err?.message, err?.stack)
+      res.status(400).send({ err: 'Failed to get order' })
   }
 }
 

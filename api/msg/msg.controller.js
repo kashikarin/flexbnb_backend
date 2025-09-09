@@ -1,4 +1,4 @@
-import { logger } from "../../services/logger.service.js"
+import { loggerService } from "../../services/logger.service.js"
 import { msgService } from "./msg.service.js"
 
 export async function getMsgs(req, res) {
@@ -51,6 +51,17 @@ export async function addMsg(req, res) {
   } catch (err) {
     logger.error('Failed to add msg', err)
     res.status(400).send({ err: 'Failed to add msg' })
+  }
+}
+
+export async function updateMsg(req, res) {
+  const msg = req.body
+  try {
+    const updatedMsg = await msgService.update(msg)
+    res.json(updatedMsg)
+  } catch (err) {
+    loggerService.error('Failed to update msg', err)
+    res.status(400).send({ err: 'Failed to update msg' })
   }
 }
 

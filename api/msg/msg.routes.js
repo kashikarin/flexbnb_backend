@@ -3,7 +3,7 @@ import {
   addMsg,
   getMsg,
   getMsgs,
-//   updateOrder,
+  updateMsg,
   removeMsg,
   getHealth,
 } from './msg.controller.js'
@@ -20,7 +20,7 @@ router.get('/health', getHealth)
 router.get('/', getMsgs)
 
 router.get('/:msgId', getMsg)
-// router.put('/:msgId', updateMsg)
+router.put('/:msgId', updateMsg)
 router.delete('/:msgId', removeMsg)
 
 // // @route  POST /api/orders

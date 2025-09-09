@@ -1,4 +1,4 @@
-import { logger } from "../../services/logger.service.js"
+import { loggerService } from "../../services/logger.service.js"
 import { ObjectId } from 'mongodb'
 import { dbService } from '../../services/db.service.js'
 import { asyncLocalStorage } from '../../services/als.service.js'
@@ -7,7 +7,7 @@ export const msgService = {
   query,
   getById,
   add,
-//   update,
+  update,
   remove
   // addCarMsg,
   // removeCarMsg,
@@ -60,6 +60,19 @@ async function add(msg) {
     return msg
   } catch (err) {
     logger.error('Failed to add msg', err)
+    throw err
+  }
+}
+
+async function update(msg) {
+  const criteria = { _id: ObjectId.createFromHexString(msg._id) }
+  const { _id, ...msgToUpdate } = msg
+  try {
+    const collection = await dbService.getCollection('msg')
+    await collection.updateOne(criteria, { $set: msgToUpdate })
+    return { ...msg, ...msgToUpdate }
+  } catch (err) {
+    loggerService.error('Failed to update msg', err)
     throw err
   }
 }
