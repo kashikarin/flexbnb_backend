@@ -1,4 +1,5 @@
 import { MongoClient } from 'mongodb'
+import { loggerService } from './logger.service.js'
 
 import { config } from '../config/index.js'
 
@@ -18,6 +19,7 @@ async function getCollection(collectionName) {
 }
 
 async function _connect() {
+  console.log('🔌 Trying to connect to DB:', config.dbURL, 'DB Name:', config.dbName)
   if (dbConn) return dbConn
 
   try {
