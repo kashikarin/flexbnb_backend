@@ -90,37 +90,7 @@
 8.9.2025, 21:27:51 - ERROR - Failed to add home | TypeError: Cannot read properties of undefined (reading '_id')
 9.9.2025, 11:30:08 - ERROR - while finding home undefined | BSONError: hex string must be 24 characters
 9.9.2025, 11:30:08 - ERROR - Failed to get home by id undefined | BSONError: hex string must be 24 characters
-<<<<<<< HEAD
 9.9.2025, 20:50:23 - ERROR - Failed to get msgs | ReferenceError: msgService is not defined
 9.9.2025, 20:52:18 - ERROR - Failed to get msgs | ReferenceError: msgService is not defined
 =======
 >>>>>>> b32f13109797a78f6bea9f7dfab0f542336670de
-9.9.2025, 22:18:29 - ERROR - cannot find homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:18:29 - ERROR - Failed to get homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:18:40 - ERROR - cannot find homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:18:40 - ERROR - Failed to get homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:19:40 - ERROR - cannot find homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:19:40 - ERROR - Failed to get homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:21:52 - ERROR - cannot find homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:21:52 - ERROR - Failed to get homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:23:52 - ERROR - cannot find homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:23:52 - ERROR - Failed to get homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:24:14 - ERROR - cannot find homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:24:14 - ERROR - Failed to get homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:34:07 - ERROR - cannot find homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:34:07 - ERROR - Failed to get homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:34:57 - ERROR - cannot find homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:34:57 - ERROR - Failed to get homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:47:09 - ERROR - cannot find homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:47:09 - ERROR - Failed to get homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:53:42 - ERROR - cannot find homes | ReferenceError: loggerService is not defined
-9.9.2025, 22:53:42 - ERROR - Failed to get homes | ReferenceError: loggerService is not defined
-9.9.2025, 23:03:33 - ERROR - cannot find homes | ReferenceError: loggerService is not defined
-9.9.2025, 23:03:34 - ERROR - Failed to get homes | ReferenceError: loggerService is not defined
-9.9.2025, 23:09:36 - ERROR - cannot find homes | ReferenceError: loggerService is not defined
-9.9.2025, 23:11:45 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-9.9.2025, 23:11:45 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-9.9.2025, 23:11:45 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-9.9.2025, 23:16:25 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-9.9.2025, 23:16:25 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-9.9.2025, 23:16:25 - ERROR - cannot find homes | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017

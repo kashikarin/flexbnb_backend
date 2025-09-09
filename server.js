@@ -10,6 +10,7 @@ import { errorHandler } from './middleware/errorHandler.js'
 import { userRoutes } from './api/user/user.routes.js'
 import { msgRoutes } from './api/msg/msg.routes.js'
 import { authRoutes } from './api/auth/auth.routes.js'
+import { reviewRoutes } from './api/review/review.routes.js'
 
 dotenv.config()
 
@@ -37,6 +38,8 @@ app.use('/api/orders', orderRoutes)
 app.use('/api/users', userRoutes)
 app.use('/api/msgs', msgRoutes)
 app.use('/api/auth', authRoutes)
+app.use('/api/reviews', reviewRoutes)
+
 // 404 - Fallback route
 app.use((req, res, next) => {
   const error = new Error(`Not Found - ${req.originalUrl}`)
