@@ -8,6 +8,7 @@ import { homeRoutes } from './api/home/home.routes.js'
 import { orderRoutes } from './api/order/order.routes.js'
 import { errorHandler } from './middleware/errorHandler.js'
 import { userRoutes } from './api/user/user.routes.js'
+import { authRoutes } from './api/auth/auth.routes.js'
 
 dotenv.config()
 
@@ -33,6 +34,8 @@ app.get('/api/health', (_req, res) => {
 app.use('/api/homes', homeRoutes)
 app.use('/api/orders', orderRoutes)
 app.use('/api/users', userRoutes)
+app.use('/api/auth', authRoutes)
+
 // 404 - Fallback route
 app.use((req, res, next) => {
   const error = new Error(`Not Found - ${req.originalUrl}`)

@@ -1,15 +1,16 @@
 import { ObjectId } from 'mongodb'
-import { logger } from '../../services/logger.service.js'
+
 import { makeId } from '../../services/util.service.js'
 import { dbService } from '../../services/db.service.js'
 import { asyncLocalStorage } from '../../services/als.service.js'
+import { loggerService } from '../../services/logger.service.js'
 
 export const orderService = {
   query,
   getById,
   add,
   update,
-  remove
+  remove,
   // addCarMsg,
   // removeCarMsg,
 }
@@ -24,7 +25,7 @@ async function query(filterBy = {}) {
     console.log(orders)
     return orders
   } catch (err) {
-    logger.error('cannot find orders', err)
+    loggerService.error('cannot find orders', err)
     throw err
   }
 }
@@ -37,7 +38,7 @@ async function getById(orderId) {
     // order.createdAt = order._id.getTimestamp()
     return order
   } catch (err) {
-    logger.error(`while finding order ${String(orderId)}`, err)
+    loggerService.error(`while finding order ${String(orderId)}`, err)
     throw err
   }
 }
@@ -48,7 +49,7 @@ async function add(order) {
     await collection.insertOne(order)
     return order
   } catch (err) {
-    logger.error('Failed to add order', err)
+    loggerService.error('Failed to add order', err)
     throw err
   }
 }
@@ -56,33 +57,33 @@ async function add(order) {
 async function update(order) {
   const criteria = { _id: ObjectId.createFromHexString(order._id) }
   const { _id, ...orderToUpdate } = order
-    try {
+  try {
     const collection = await dbService.getCollection('order')
     await collection.updateOne(criteria, { $set: orderToUpdate })
-    return { ...order, ...orderToUpdate}
+    return { ...order, ...orderToUpdate }
   } catch (err) {
-    logger.error('Failed to update order', err)
+    loggerService.error('Failed to update order', err)
     throw err
   }
 }
 
 async function remove(orderId) {
-    const criteria = { _id: ObjectId.createFromHexString(orderId) }
-    try{
-        const collection = await dbService.getCollection('order')
-        const res = await collection.deleteOne(criteria)
-        if (res.deletedCount === 0) throw new Error('Wrong order')
-        return orderId
-    } catch(err) {
-        logger.error('Failed to remove order', err)
+  const criteria = { _id: ObjectId.createFromHexString(orderId) }
+  try {
+    const collection = await dbService.getCollection('order')
+    const res = await collection.deleteOne(criteria)
+    if (res.deletedCount === 0) throw new Error('Wrong order')
+    return orderId
+  } catch (err) {
+    loggerService.error('Failed to remove order', err)
     throw err
-    }
+  }
 }
 
 function _buildCriteria(filterBy) {
   const criteria = {}
 
-  if (filterBy.status) criteria.status = filterBy.status 
+  if (filterBy.status) criteria.status = filterBy.status
   if (filterBy.createdAt) {
     const dayStart = new Date(Number(filterBy.createdAt))
     const dayEnd = new Date(dayStart)
@@ -90,8 +91,8 @@ function _buildCriteria(filterBy) {
 
     criteria.createdAt = { $gte: dayStart, $lt: dayEnd }
   }
-  if (filterBy.checkIn) criteria.checkIn = new Date(filterBy.checkIn) 
-  if (filterBy.checkOut) criteria.checkOut = new Date(filterBy.checkOut) 
+  if (filterBy.checkIn) criteria.checkIn = new Date(filterBy.checkIn)
+  if (filterBy.checkOut) criteria.checkOut = new Date(filterBy.checkOut)
 
   return criteria
 }

@@ -1,5 +1,5 @@
-import { logger } from "../../services/logger.service.js"
-import { orderService } from "./order.service.js"
+import { loggerService } from '../../services/logger.service.js'
+import { orderService } from './order.service.js'
 
 export async function getOrders(req, res) {
   const { status, createdAt, checkIn, checkOut } = req.query
@@ -14,7 +14,7 @@ export async function getOrders(req, res) {
     const orders = await orderService.query(filterBy)
     res.json(orders)
   } catch (err) {
-    logger.error('Failed to get orders', err)
+    loggerService.error('Failed to get orders', err)
     res.status(400).send({ err: 'Failed to get orders' })
   }
 }
@@ -25,7 +25,7 @@ export async function getOrder(req, res) {
     const order = await orderService.getById(orderId)
     res.json(order)
   } catch (err) {
-    logger.error(`Failed to get orders by id ${ordersId}`, err)
+    loggerService.error(`Failed to get orders by id ${orderId}`, err)
     console.error('GET /api/orders error:', err?.message, err?.stack)
     res.status(400).send({ err: 'Failed to get order' })
   }
@@ -37,20 +37,20 @@ export async function addOrder(req, res) {
     const addedOrder = await orderService.add(order)
     res.json(addedOrder)
   } catch (err) {
-    logger.error('Failed to add order', err)
+    loggerService.error('Failed to add order', err)
     res.status(400).send({ err: 'Failed to add order' })
   }
 }
 
-export async function removeOrder(req, res){
-    const orderId = req.params.orderId
-    try {
-        const removedId = await orderService.remove(orderId)
-        res.json(removedId)
-    } catch(err){
-        logger.error('Failed to remove order', err)
-        res.status(400).send({ err: 'Failed to remove order' })
-    }
+export async function removeOrder(req, res) {
+  const orderId = req.params.orderId
+  try {
+    const removedId = await orderService.remove(orderId)
+    res.json(removedId)
+  } catch (err) {
+    loggerService.error('Failed to remove order', err)
+    res.status(400).send({ err: 'Failed to remove order' })
+  }
 }
 
 export async function updateOrder(req, res) {
@@ -59,7 +59,7 @@ export async function updateOrder(req, res) {
     const updatedOrder = await orderService.update(order)
     res.json(updatedOrder)
   } catch (err) {
-    logger.error('Failed to update order', err)
+    loggerService.error('Failed to update order', err)
     res.status(400).send({ err: 'Failed to update order' })
   }
 }
