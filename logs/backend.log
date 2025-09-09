@@ -90,3 +90,5 @@
 8.9.2025, 21:27:51 - ERROR - Failed to add home | TypeError: Cannot read properties of undefined (reading '_id')
 9.9.2025, 11:30:08 - ERROR - while finding home undefined | BSONError: hex string must be 24 characters
 9.9.2025, 11:30:08 - ERROR - Failed to get home by id undefined | BSONError: hex string must be 24 characters
+9.9.2025, 20:50:23 - ERROR - Failed to get msgs | ReferenceError: msgService is not defined
+9.9.2025, 20:52:18 - ERROR - Failed to get msgs | ReferenceError: msgService is not defined
