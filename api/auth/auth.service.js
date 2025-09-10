@@ -73,9 +73,8 @@ export async function signup({
     username: username || null,
     password: hash,
     fullname,
-    imgUrl:
-      imgUrl ||
-      'https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png',
+    imgUrl: imgUrl || '',
+    //https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png
     isHost: !!isHost,
     isAdmin: false,
     likedHomes: [],
@@ -121,6 +120,7 @@ async function login({ email, username, password }) {
     imgUrl: user.imgUrl,
     isHost: user.isHost,
     isAdmin: user.isAdmin,
+    likedHomes: user.likedHomes,
     createdAt: user.createdAt,
   }
 }
