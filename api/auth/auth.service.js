@@ -41,12 +41,29 @@ export async function signup({
 }) {
   const collection = await dbService.getCollection('users')
 
-  if (!(email || username) || !password || !fullname) {
-    throw new Error('Missing required fields')
+  if (!password || !fullname) {
+    throw new Error('Password and full name are required')
   }
 
-  const exists = await collection.findOne({ $or: [{ email }, { username }] })
-  if (exists) throw new Error('User already exists')
+  if (!email && !username) {
+    throw new Error('Email or username is required')
+  }
+
+  const existingUser = await collection.findOne({
+    $or: [email ? { email } : null, username ? { username } : null].filter(
+      Boolean
+    ),
+  })
+
+  if (existingUser) {
+    if (existingUser.email === email) {
+      throw new Error('Email already exists')
+    }
+    if (existingUser.username === username) {
+      throw new Error('Username already exists')
+    }
+    throw new Error('User already exists')
+  }
 
   const saltRounds = 10
   const hash = await bcrypt.hash(password, saltRounds)
@@ -84,10 +101,15 @@ async function login({ email, username, password }) {
   const user = await collection.findOne({
     $or: [{ email }, { username }],
   })
-  if (!user) throw new Error('Invalid username/email or password')
+
+  if (!user) {
+    throw new Error('Username not found')
+  }
 
   const match = await bcrypt.compare(password, user.password)
-  if (!match) throw new Error('Invalid username/email or password')
+  if (!match) {
+    throw new Error('Incorrect password')
+  }
 
   return {
     _id: user._id,
