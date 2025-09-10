@@ -78,6 +78,7 @@ export async function signup({
       'https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png',
     isHost: !!isHost,
     isAdmin: false,
+    likedHomes: [],
     createdAt: Date.now(),
   }
 
@@ -91,6 +92,7 @@ export async function signup({
     imgUrl: doc.imgUrl,
     isHost: doc.isHost,
     isAdmin: doc.isAdmin,
+    likedHomes: doc.likedHomes,
     createdAt: doc.createdAt,
   }
 }
