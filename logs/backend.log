@@ -90,3 +90,21 @@
 8.9.2025, 21:27:51 - ERROR - Failed to add home | TypeError: Cannot read properties of undefined (reading '_id')
 9.9.2025, 11:30:08 - ERROR - while finding home undefined | BSONError: hex string must be 24 characters
 9.9.2025, 11:30:08 - ERROR - Failed to get home by id undefined | BSONError: hex string must be 24 characters
+10.9.2025, 22:28:16 - DEBUG - auth.route - new account created: {"_id":"68c1d150b889b4567f2f2ce9","email":"alina111@something.com","username":"alin","fullname":"alina lena","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757532496509}
+10.9.2025, 22:28:16 - INFO - User signup: | {"_id":"68c1d150b889b4567f2f2ce9","email":"alina111@something.com","username":"alin","fullname":"alina lena","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757532496509}
+10.9.2025, 22:29:45 - ERROR - Failed to Login Error: Username not found
+10.9.2025, 22:29:50 - ERROR - Failed to Login Error: Username not found
+10.9.2025, 22:29:58 - ERROR - Failed to Login Error: Username not found
+10.9.2025, 22:30:16 - INFO - User login:  | {"_id":"68c1d150b889b4567f2f2ce9","email":"alina111@something.com","username":"alin","fullname":"alina lena","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757532496509}
+10.9.2025, 22:31:53 - DEBUG - auth.route - new account created: {"_id":"68c1d229b889b4567f2f2cea","email":"bobi@something.com","username":"bobo","fullname":"bobi bobo","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757532713008}
+10.9.2025, 22:31:53 - INFO - User signup: | {"_id":"68c1d229b889b4567f2f2cea","email":"bobi@something.com","username":"bobo","fullname":"bobi bobo","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757532713008}
+10.9.2025, 22:32:12 - ERROR - Failed to Login Error: Username not found
+10.9.2025, 22:32:23 - ERROR - Failed to Login Error: Username not found
+10.9.2025, 22:32:39 - ERROR - Failed to Login Error: Incorrect password
+10.9.2025, 22:32:53 - INFO - User login:  | {"_id":"68c1d229b889b4567f2f2cea","email":"bobi@something.com","username":"bobo","fullname":"bobi bobo","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757532713008}
+10.9.2025, 22:51:03 - INFO - User login:  | {"_id":"68c1d229b889b4567f2f2cea","email":"bobi@something.com","username":"bobo","fullname":"bobi bobo","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757532713008}
+11.9.2025, 1:15:49 - ERROR - Failed to Login Error: Username not found
+11.9.2025, 1:16:01 - ERROR - Failed to Login Error: Username not found
+11.9.2025, 1:16:06 - ERROR - Failed to Login Error: Username not found
+11.9.2025, 1:16:32 - DEBUG - auth.route - new account created: {"_id":"68c1f8c0b889b4567f2f2ceb","email":"alina@something.com","username":"alina","fullname":"alina al","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757542592375}
+11.9.2025, 1:16:32 - INFO - User signup: | {"_id":"68c1f8c0b889b4567f2f2ceb","email":"alina@something.com","username":"alina","fullname":"alina al","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757542592375}
