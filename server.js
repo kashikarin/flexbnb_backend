@@ -11,6 +11,7 @@ import { userRoutes } from './api/user/user.routes.js'
 import { msgRoutes } from './api/msg/msg.routes.js'
 import { authRoutes } from './api/auth/auth.routes.js'
 import { reviewRoutes } from './api/review/review.routes.js'
+import { cloudinaryRoutes } from "./api/cloudinary/cloudinary.routes.js"
 import cookieParser from 'cookie-parser'
 
 dotenv.config()
@@ -45,6 +46,7 @@ app.use('/api/users', userRoutes)
 app.use('/api/msgs', msgRoutes)
 app.use('/api/auth', authRoutes)
 app.use('/api/reviews', reviewRoutes)
+app.use("/api/cloudinary", cloudinaryRoutes)
 
 // 404 - Fallback route
 app.use((req, res, next) => {
