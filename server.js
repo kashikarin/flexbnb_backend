@@ -11,6 +11,7 @@ import { userRoutes } from './api/user/user.routes.js'
 import { msgRoutes } from './api/msg/msg.routes.js'
 import { authRoutes } from './api/auth/auth.routes.js'
 import { reviewRoutes } from './api/review/review.routes.js'
+import cookieParser from 'cookie-parser'
 
 dotenv.config()
 
@@ -19,6 +20,7 @@ const PORT = process.env.PORT || 8000
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+app.use(cookieParser())
 
 app.use(
   cors({
