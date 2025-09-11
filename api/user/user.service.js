@@ -5,17 +5,18 @@ import { dbService } from '../../services/db.service.js'
 import { ObjectId } from 'mongodb'
 import { loggerService } from '../../services/logger.service.js'
 
-// import loggerService from '../../services/logger.service.js'
-// const users = readJsonFile('data-import/users.json')
-
 export const userService = {
   query,
   getById,
-  //   remove,
+  remove,
   save,
+  update,
   getByUsername,
   getByLoginId,
+  toggleHomeLike,
+  getUserLikes,
 }
+
 async function query(filterBy = {}) {
   try {
     const criteria = _buildCriteria(filterBy)
@@ -37,7 +38,6 @@ async function getById(userId) {
 
     const collection = await dbService.getCollection('users')
     const user = await collection.findOne(criteria)
-    // user.createdAt = user._id.getTimestamp()
     return user
   } catch (err) {
     loggerService.error(`while finding user ${String(userId)}`, err)
@@ -47,8 +47,8 @@ async function getById(userId) {
 
 async function getByUsername(username) {
   try {
-    const user = users.find((user) => user.username === username)
-    // if (!user) throw `User not found by username : ${username}`
+    const collection = await dbService.getCollection('users')
+    const user = await collection.findOne({ username })
     return user
   } catch (err) {
     loggerService.error('userService[getByUsername] : ', err)
@@ -56,42 +56,96 @@ async function getByUsername(username) {
   }
 }
 
-// async function remove(userId) {
-//   try {
-//     const idx = users.findIndex((user) => user._id === userId)
-//     if (idx === -1) throw `Couldn't find user with _id ${userId}`
-
-//     users.splice(idx, 1)
-//     await _saveUsersToFile()
-//   } catch (err) {
-//     loggerService.error('userService[remove] : ', err)
-//     throw err
-//   }
-// }
+async function remove(userId) {
+  try {
+    const collection = await dbService.getCollection('users')
+    const result = await collection.deleteOne({ _id: new ObjectId(userId) })
+    return result
+  } catch (err) {
+    loggerService.error('userService[remove] : ', err)
+    throw err
+  }
+}
 
 async function save(user) {
   try {
+    console.log('🔧 userService.save received:', user)
+
     const collection = await dbService.getCollection('users')
     const { insertedId } = await collection.insertOne(user)
-    user._id = insertedId
-    return user
+
+    const result = {
+      _id: insertedId,
+      ...user,
+    }
+
+    console.log('🗄️ userService.save returning:', result)
+
+    return result
   } catch (err) {
     loggerService.error('userService[save]:', err)
     throw err
   }
 }
 
-// function _saveUsersToFile() {
-//   return new Promise((resolve, reject) => {
-//     const usersStr = JSON.stringify(users, null, 4)
-//     fs.writeFile('data-import/users.json', usersStr, (err) => {
-//       if (err) {
-//         return console.log(err)
-//       }
-//       resolve()
-//     })
-//   })
-// }
+async function update(user) {
+  try {
+    const userToSave = { ...user }
+    delete userToSave._id
+
+    const collection = await dbService.getCollection('users')
+    await collection.updateOne(
+      { _id: new ObjectId(user._id) },
+      { $set: userToSave }
+    )
+    return user
+  } catch (err) {
+    loggerService.error('userService[update]:', err)
+    throw err
+  }
+}
+
+async function toggleHomeLike(userId, homeId) {
+  try {
+    const collection = await dbService.getCollection('users')
+    const user = await collection.findOne({ _id: new ObjectId(userId) })
+
+    if (!user) throw new Error('User not found')
+    if (!user.likedHomes) user.likedHomes = []
+
+    const isCurrentlyLiked = user.likedHomes.some(
+      (id) => id.toString() === homeId
+    )
+
+    let updateOperation
+    if (isCurrentlyLiked) {
+      updateOperation = { $pull: { likedHomes: homeId } }
+    } else {
+      updateOperation = { $addToSet: { likedHomes: homeId } }
+    }
+
+    await collection.updateOne({ _id: new ObjectId(userId) }, updateOperation)
+
+    return !isCurrentlyLiked
+  } catch (err) {
+    loggerService.error('userService[toggleHomeLike]:', err)
+    throw err
+  }
+}
+
+async function getUserLikes(userId) {
+  try {
+    const collection = await dbService.getCollection('users')
+    const user = await collection.findOne(
+      { _id: new ObjectId(userId) },
+      { projection: { likedHomes: 1 } }
+    )
+    return user?.likedHomes || []
+  } catch (err) {
+    loggerService.error('userService[getUserLikes]:', err)
+    throw err
+  }
+}
 
 async function getByLoginId(loginId) {
   const collection = await dbService.getCollection('users')
@@ -99,6 +153,7 @@ async function getByLoginId(loginId) {
     $or: [{ email: loginId }, { username: loginId }],
   })
 }
+
 function _buildCriteria(filterBy) {
   const criteria = {}
 

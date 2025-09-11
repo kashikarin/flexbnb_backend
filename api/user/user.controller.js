@@ -34,13 +34,11 @@ export async function deleteUser(req, res) {
     res.status(400).send({ err: 'Failed to delete user' })
   }
 }
+
 export async function addUser(req, res) {
+  console.log('📥 1. Frontend sent to server:', req.body)
   try {
     const { email, username, password, fullname, imgUrl, isHost } = req.body
-
-    // if (!password || !(email || username) || !fullname) {
-    //   return res.status(400).send({ err: 'Missing required fields' })
-    // }
 
     const loginId = email || username
 
@@ -54,6 +52,7 @@ export async function addUser(req, res) {
       fullname,
       imgUrl,
       isHost: !!isHost,
+      likedHomes: [],
     })
 
     const mini = {
@@ -63,6 +62,7 @@ export async function addUser(req, res) {
       email: saved.email,
       username: saved.username,
       isHost: !!saved.isHost,
+      likedHomes: saved.likedHomes,
       createdAt: saved.createdAt,
     }
     res.status(201).json(mini)
@@ -71,13 +71,53 @@ export async function addUser(req, res) {
     res.status(400).send({ err: 'Failed to add user' })
   }
 }
-// export async function updateUser(req, res) {
-//     try {
-//         const user = req.body
-//         const savedUser = await userService.update(user)
-//         res.send(savedUser)
-//     } catch (err) {
-//         loggerService.error('Failed to update user', err)
-//         res.status(400).send({ err: 'Failed to update user' })
-//     }
-// }
+
+export async function updateUser(req, res) {
+  try {
+    const user = req.body
+    const savedUser = await userService.update(user)
+    res.send(savedUser)
+  } catch (err) {
+    loggerService.error('Failed to update user', err)
+    res.status(400).send({ err: 'Failed to update user' })
+  }
+}
+
+export async function toggleHomeLike(req, res) {
+  try {
+    console.log('🔍 req.loggedInUser:', req.loggedInUser) // הוסף את זה
+    console.log('🔍 req.headers:', req.headers) // ואת זה
+
+    if (!req.loggedInUser) {
+      console.log('❌ User not authenticated')
+      return res.status(401).send({ err: 'Must be logged in to like homes' })
+    }
+
+    const { homeId } = req.params
+    const userId = req.loggedInUser._id
+    console.log('✅ User authenticated, userId:', userId, 'homeId:', homeId)
+
+    const isLiked = await userService.toggleHomeLike(userId, homeId)
+
+    res.json({
+      liked: isLiked,
+      homeId,
+    })
+  } catch (err) {
+    loggerService.error('Failed to toggle home like', err)
+    res.status(400).send({ err: 'Failed to toggle like' })
+  }
+}
+
+export async function getUserLikes(req, res) {
+  try {
+    const userId = req.loggedInUser._id
+
+    const likedHomes = await userService.getUserLikes(userId)
+
+    res.json({ likedHomes })
+  } catch (err) {
+    loggerService.error('Failed to get user likes', err)
+    res.status(400).send({ err: 'Failed to get likes' })
+  }
+}
