@@ -90,3 +90,15 @@
 8.9.2025, 21:27:51 - ERROR - Failed to add home | TypeError: Cannot read properties of undefined (reading '_id')
 9.9.2025, 11:30:08 - ERROR - while finding home undefined | BSONError: hex string must be 24 characters
 9.9.2025, 11:30:08 - ERROR - Failed to get home by id undefined | BSONError: hex string must be 24 characters
+10.9.2025, 20:25:25 - DEBUG - auth.route - new account created: {"_id":"68c1b48520294cb63be14234","email":"romilula@karin.io","username":"Romilula","fullname":"Romi Ella","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757525125038}
+10.9.2025, 20:25:25 - INFO - User signup: | {"_id":"68c1b48520294cb63be14234","email":"romilula@karin.io","username":"Romilula","fullname":"Romi Ella","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757525125038}
+10.9.2025, 20:56:58 - INFO - User login:  | {"_id":"68c1b48520294cb63be14234","email":"romilula@karin.io","username":"Romilula","fullname":"Romi Ella","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757525125038}
+11.9.2025, 0:23:00 - ERROR - Failed to Login Error: Username not found
+11.9.2025, 0:23:10 - ERROR - Failed to Login Error: Username not found
+11.9.2025, 0:23:23 - ERROR - Failed to Login Error: Username not found
+11.9.2025, 0:23:47 - DEBUG - auth.route - new account created: {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757539427863}
+11.9.2025, 0:23:48 - INFO - User signup: | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757539427863}
+11.9.2025, 0:51:40 - ERROR - Failed to Login Error: Username not found
+11.9.2025, 0:51:47 - INFO - User login:  | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757539427863}
+11.9.2025, 1:06:59 - INFO - User login:  | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757539427863}
+11.9.2025, 1:44:12 - INFO - User login:  | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757539427863}
