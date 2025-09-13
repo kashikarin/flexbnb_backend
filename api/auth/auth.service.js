@@ -1,15 +1,17 @@
 import bcrypt from 'bcrypt'
 import Cryptr from 'cryptr'
+import { OAuth2Client } from 'google-auth-library'
 import { userService } from '../user/user.service.js'
-
 import { dbService } from '../../services/db.service.js'
 
 const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Puk-1234')
+const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID)
 
 export const authService = {
   ping,
   signup,
   login,
+  googleAuth,
   getLoginToken,
   validateToken,
 }
@@ -17,10 +19,12 @@ export const authService = {
 function ping() {
   return { ok: true, from: 'auth.service' }
 }
+
 function getLoginToken(user) {
   const str = JSON.stringify(user)
   return cryptr.encrypt(str)
 }
+
 function validateToken(token) {
   try {
     const json = cryptr.decrypt(token)
@@ -74,7 +78,6 @@ export async function signup({
     password: hash,
     fullname,
     imgUrl: imgUrl || '',
-    //https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png
     isHost: !!isHost,
     isAdmin: false,
     likedHomes: [],
@@ -122,5 +125,78 @@ async function login({ email, username, password }) {
     isAdmin: user.isAdmin,
     likedHomes: user.likedHomes,
     createdAt: user.createdAt,
+  }
+}
+
+async function googleAuth({ credential }) {
+  const collection = await dbService.getCollection('users')
+
+  if (!credential) {
+    throw new Error('Google credential is required')
+  }
+
+  try {
+    // אמת את ה-JWT עם Google
+    const ticket = await googleClient.verifyIdToken({
+      idToken: credential,
+      audience: process.env.GOOGLE_CLIENT_ID,
+    })
+
+    const payload = ticket.getPayload()
+
+    // חלץ נתונים מ-Google
+    const googleData = {
+      email: payload.email,
+      fullname: payload.name,
+      imgUrl: payload.picture,
+      googleId: payload.sub,
+    }
+
+    // בדוק אם המשתמש כבר קיים
+    let user = await collection.findOne({ email: googleData.email })
+
+    if (user) {
+      // משתמש קיים - עדכן תמונה אם השתנתה
+      if (googleData.imgUrl && user.imgUrl !== googleData.imgUrl) {
+        await collection.updateOne(
+          { _id: user._id },
+          { $set: { imgUrl: googleData.imgUrl } }
+        )
+        user.imgUrl = googleData.imgUrl
+      }
+    } else {
+      // משתמש חדש - צור חשבון
+      const newUser = {
+        email: googleData.email,
+        username: googleData.email.split('@')[0],
+        fullname: googleData.fullname,
+        imgUrl: googleData.imgUrl,
+        googleId: googleData.googleId,
+        isHost: false,
+        isAdmin: false,
+        likedHomes: [],
+        createdAt: Date.now(),
+        // אין password למשתמשי Google
+      }
+
+      const { insertedId } = await collection.insertOne(newUser)
+      user = { _id: insertedId, ...newUser }
+    }
+
+    // החזר משתמש בפורמט הרגיל
+    return {
+      _id: user._id,
+      email: user.email,
+      username: user.username,
+      fullname: user.fullname,
+      imgUrl: user.imgUrl,
+      isHost: user.isHost,
+      isAdmin: user.isAdmin,
+      likedHomes: user.likedHomes,
+      createdAt: user.createdAt,
+    }
+  } catch (error) {
+    console.error('Google Auth verification failed:', error)
+    throw new Error('Invalid Google credential')
   }
 }

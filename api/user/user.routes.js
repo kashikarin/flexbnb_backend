@@ -13,7 +13,7 @@ import { requireAuth } from '../../middleware/auth.middleware.js'
 const router = express.Router()
 
 router.get('/', getUsers)
-router.get('/likes/me', requireAuth, getUserLikes)
+router.get('/likes/:homeId', requireAuth, getUserLikes)
 router.get('/:id', getUser)
 router.post('/', addUser)
 router.put('/:id', updateUser)
