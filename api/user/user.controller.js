@@ -1,5 +1,6 @@
 import { loggerService } from '../../services/logger.service.js'
 import { userService } from './user.service.js'
+import { authService } from '../auth/auth.service.js'
 
 export async function getUser(req, res) {
   try {
@@ -36,7 +37,7 @@ export async function deleteUser(req, res) {
 }
 
 export async function addUser(req, res) {
-  console.log('📥 1. Frontend sent to server:', req.body)
+  console.log('🔥 1. Frontend sent to server:', req.body)
   try {
     const { email, username, password, fullname, imgUrl, isHost } = req.body
 
@@ -85,27 +86,25 @@ export async function updateUser(req, res) {
 
 export async function toggleHomeLike(req, res) {
   try {
-    console.log('🔍 req.loggedInUser:', req.loggedInUser) // הוסף את זה
-    console.log('🔍 req.headers:', req.headers) // ואת זה
+    const { homeId } = req.params
+    const loginToken = req.cookies.loginToken
 
-    if (!req.loggedInUser) {
-      console.log('❌ User not authenticated')
-      return res.status(401).send({ err: 'Must be logged in to like homes' })
+    if (!loginToken) {
+      return res.status(401).json({ error: 'Not authenticated' })
     }
 
-    const { homeId } = req.params
-    const userId = req.loggedInUser._id
-    console.log('✅ User authenticated, userId:', userId, 'homeId:', homeId)
+    const user = authService.validateToken(loginToken)
+    if (!user) {
+      return res.status(401).json({ error: 'Invalid token' })
+    }
 
-    const isLiked = await userService.toggleHomeLike(userId, homeId)
+    const isLiked = await userService.toggleHomeLike(user._id, homeId)
 
-    res.json({
-      liked: isLiked,
-      homeId,
-    })
+    const updatedUser = await userService.getById(user._id)
+    res.json({ isLiked, user: updatedUser })
   } catch (err) {
     loggerService.error('Failed to toggle home like', err)
-    res.status(400).send({ err: 'Failed to toggle like' })
+    res.status(500).json({ err: err.message })
   }
 }
 

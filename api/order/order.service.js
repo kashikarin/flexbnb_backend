@@ -46,7 +46,8 @@ async function getById(orderId) {
 async function add(order) {
   try {
     const collection = await dbService.getCollection('order')
-    await collection.insertOne(order)
+    const result = await collection.insertOne(order)
+    order._id = result.insertedId
     return order
   } catch (err) {
     loggerService.error('Failed to add order', err)
