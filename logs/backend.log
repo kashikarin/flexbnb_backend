@@ -240,3 +240,27 @@
 11.9.2025, 16:22:20 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
 11.9.2025, 16:27:17 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
 11.9.2025, 16:27:17 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+11.9.2025, 16:52:46 - INFO - User login:  | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757539427863}
+11.9.2025, 17:07:23 - ERROR - while finding home hd-location-container | BSONError: hex string must be 24 characters
+11.9.2025, 17:07:23 - ERROR - Failed to get home by id hd-location-container | BSONError: hex string must be 24 characters
+11.9.2025, 17:07:55 - ERROR - while finding home hd-amenities-container | BSONError: hex string must be 24 characters
+11.9.2025, 17:07:55 - ERROR - Failed to get home by id hd-amenities-container | BSONError: hex string must be 24 characters
+11.9.2025, 19:32:10 - INFO - User login:  | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"createdAt":1757539427863}
+11.9.2025, 19:34:06 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+11.9.2025, 19:34:06 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+14.9.2025, 22:30:49 - INFO - User login:  | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad59"],"createdAt":1757539427863}
+15.9.2025, 19:51:23 - INFO - User login:  | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad59"],"createdAt":1757539427863}
+15.9.2025, 20:18:25 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+15.9.2025, 20:18:25 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+15.9.2025, 20:22:11 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+15.9.2025, 20:22:11 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+15.9.2025, 22:20:12 - INFO - User login:  | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad59"],"createdAt":1757539427863}
+16.9.2025, 9:57:00 - INFO - User login:  | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad59"],"createdAt":1757539427863}
+16.9.2025, 10:15:44 - INFO - User login:  | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad59"],"createdAt":1757539427863}
+16.9.2025, 20:23:29 - INFO - User login:  | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad59"],"createdAt":1757539427863}
+16.9.2025, 20:25:18 - INFO - User login:  | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad59"],"createdAt":1757539427863}
+16.9.2025, 22:10:28 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+16.9.2025, 22:10:28 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+16.9.2025, 23:19:41 - INFO - User login:  | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad59"],"createdAt":1757539427863}
+16.9.2025, 23:29:43 - INFO - User login:  | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad59"],"createdAt":1757539427863}
+17.9.2025, 11:11:15 - INFO - User login:  | {"_id":"68c1ec6320294cb63be14236","email":"kk@gmail.com","username":"kk","fullname":"kk","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad59"],"createdAt":1757539427863}
