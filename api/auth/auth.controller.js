@@ -6,6 +6,28 @@ export async function health(req, res) {
   res.json({ ok: true, ...data })
 }
 
+export async function getCurrentUser(req, res) {
+  try {
+    const loginToken = req.cookies.loginToken
+
+    if (!loginToken) {
+      return res.status(401).json({ error: 'No token found' })
+    }
+
+    const user = authService.validateToken(loginToken)
+
+    if (!user) {
+      res.clearCookie('loginToken')
+      return res.status(401).json({ error: 'Invalid token' })
+    }
+
+    res.json(user)
+  } catch (err) {
+    loggerService.error('Failed to get current user: ' + err)
+    res.status(401).json({ error: 'Authentication failed' })
+  }
+}
+
 export async function signup(req, res) {
   try {
     const credentials = req.body
@@ -50,6 +72,29 @@ export async function login(req, res) {
     loggerService.error('Failed to Login ' + err)
 
     res.status(401).send({ err: err.message || 'Failed to Login' })
+  }
+}
+
+export async function googleAuth(req, res) {
+  try {
+    const { credential } = req.body
+
+    if (!credential) {
+      return res.status(400).send({ err: 'Google credential is required' })
+    }
+
+    loggerService.info('Google Auth attempt')
+
+    const user = await authService.googleAuth({ credential })
+    const loginToken = authService.getLoginToken(user)
+
+    loggerService.info('Google Auth successful:', user.email)
+
+    res.cookie('loginToken', loginToken, { sameSite: 'None', secure: true })
+    res.json(user)
+  } catch (err) {
+    loggerService.error('Failed to Google Auth: ' + err)
+    res.status(401).send({ err: err.message || 'Google authentication failed' })
   }
 }
 
