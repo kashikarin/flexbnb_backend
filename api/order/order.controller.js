@@ -32,7 +32,10 @@ export async function getOrder(req, res) {
 }
 
 export async function addOrder(req, res) {
+  const { loggedInUser } = req
+  
   const order = req.body
+
   try {
     const addedOrder = await orderService.add(order)
     res.json(addedOrder)

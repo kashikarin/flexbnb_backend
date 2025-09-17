@@ -7,6 +7,8 @@ import {
   removeHome,
   getHealth,
 } from './home.controller.js'
+import { log } from '../../middleware/logger.middleware.js'
+import { requireAuth } from '../../middleware/auth.middleware.js'
 
 const router = express.Router()
 // @route   GET /api/homes
@@ -20,12 +22,12 @@ router.get('/health', getHealth)
 router.get('/', getHomes)
 
 router.get('/:homeId', getHome)
-router.put('/:homeId', updateHome)
+router.put('/:homeId', log, updateHome) //requireAuth?
 router.delete('/:homeId', removeHome)
 
 // @route  POST /api/homes
 // @desc   Add a new home
 // @access Authenticated
-router.post('/', addHome)
+router.post('/', log, requireAuth, addHome)
 
 export const homeRoutes = router

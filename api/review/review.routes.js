@@ -7,6 +7,8 @@ import {
   removeReview,
   getHealth,
 } from './review.controller.js'
+import { log } from '../../middleware/logger.middleware.js'
+import { requireAuth } from '../../middleware/auth.middleware.js'
 
 const router = express.Router()
 // @route   GET /api/homes
@@ -20,12 +22,12 @@ router.get('/health', getHealth)
 router.get('/', getReviews)
 
 router.get('/:reviewId', getReview)
-router.put('/:reviewId', updateReview)
-router.delete('/:reviewId', removeReview)
+router.put('/:reviewId', log, requireAuth, updateReview)
+router.delete('/:reviewId', log, requireAuth, removeReview)
 
 // // @route  POST /api/reviews
 // // @desc   Add a new review
 // // @access Authenticated
-router.post('/', addReview)
+router.post('/', log, requireAuth, addReview)
 
 export const reviewRoutes = router
