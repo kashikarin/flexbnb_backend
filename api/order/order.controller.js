@@ -35,8 +35,16 @@ export async function addOrder(req, res) {
   const { loggedInUser } = req
   
   const order = req.body
-
+  
+    
+  
+  
   try {
+    order.purchaser = {
+      userId: loggedInUser._id,
+      fullname: loggedInUser.fullname,
+      imageUrl: loggedInUser.imageUrl
+    }
     const addedOrder = await orderService.add(order)
     res.json(addedOrder)
   } catch (err) {
