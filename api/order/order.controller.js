@@ -43,7 +43,8 @@ export async function addOrder(req, res) {
     order.purchaser = {
       userId: loggedInUser._id,
       fullname: loggedInUser.fullname,
-      imageUrl: loggedInUser.imageUrl
+      imageUrl: loggedInUser.imageUrl,
+      email: loggedInUser.email
     }
     const addedOrder = await orderService.add(order)
     res.json(addedOrder)

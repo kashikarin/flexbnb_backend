@@ -575,3 +575,33 @@
 21.9.2025, 9:42:59 - INFO - /api/orders | GET |  | {}
 21.9.2025, 9:50:22 - INFO - /api/orders | POST | {"host":{"userId":"u101","fullname":"Justin Time","imageUrl":"/img/user/justin-img.jpg"},"purchaser":null,"totalPrice":957.5999999999999,"checkIn":"2025-09-21T21:00:00.000Z","checkOut":"2025-09-23T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5d","name":"Barcelona Stay #9","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436597/l90ukcpzpv6yvv6vhsnd.jpg"},"status":"pending"} | {}
 21.9.2025, 9:50:22 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:05:33 - INFO - /api/orders | POST | {"host":{"userId":"u101","fullname":"Justin Time","imageUrl":"/img/user/justin-img.jpg"},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-20T21:00:00.000Z","checkOut":"2025-09-22T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+21.9.2025, 10:05:34 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:06:38 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:06:38 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:06:38 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:09:12 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:11:48 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:12:20 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:12:25 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:12:57 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:12:59 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:13:09 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:13:11 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:13:44 - INFO - /api/orders | POST | {"host":{"userId":"u101","fullname":"Justin Time","imageUrl":"/img/user/justin-img.jpg"},"purchaser":null,"totalPrice":319.20000000000005,"checkIn":"2025-09-20T21:00:00.000Z","checkOut":"2025-09-22T21:00:00.000Z","guests":{"adults":2,"children":0,"infants":0,"pets":1},"home":{"homeId":"68bf3a7da4e092bac135ad68","name":"London Stay #20","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436294/mvhb3iazpiar6duvy9we.jpg"},"status":"pending"} | {}
+21.9.2025, 10:13:44 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:13:56 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:13:57 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:13:57 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:31:04 - INFO - /api/orders | POST | {"host":{"userId":"u101","fullname":"Justin Time","imageUrl":"/img/user/justin-img.jpg"},"purchaser":null,"totalPrice":319.20000000000005,"checkIn":"2025-09-20T21:00:00.000Z","checkOut":"2025-09-22T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad68","name":"London Stay #20","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436294/mvhb3iazpiar6duvy9we.jpg"},"status":"pending"} | {}
+21.9.2025, 10:31:04 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:31:21 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:31:21 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:31:21 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:37:17 - INFO - /api/orders | POST | {"host":{"userId":"u101","fullname":"Justin Time","imageUrl":"/img/user/justin-img.jpg"},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-20T21:00:00.000Z","checkOut":"2025-09-22T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+21.9.2025, 10:37:17 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:46:10 - INFO - /api/orders | POST | {"host":{"userId":"u101","fullname":"Justin Time","imageUrl":"/img/user/justin-img.jpg"},"purchaser":null,"totalPrice":729.6000000000001,"checkIn":"2025-09-20T21:00:00.000Z","checkOut":"2025-09-22T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5c","name":"London Stay #8","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436523/ptcgbydjsamgf67a0npw.jpg"},"status":"pending"} | {}
+21.9.2025, 10:46:10 - INFO - /api/orders | GET |  | {}
+21.9.2025, 10:51:50 - INFO - /api/orders | POST | {"host":{"userId":"u101","fullname":"Justin Time","imageUrl":"/img/user/justin-img.jpg"},"purchaser":null,"totalPrice":547.2,"checkIn":"2025-09-20T21:00:00.000Z","checkOut":"2025-09-22T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad63","name":"Tel Aviv-Yafo Stay #15","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436821/b4ejulqdhsvyseyfnfr0.jpg"},"status":"pending"} | {}
+21.9.2025, 10:51:51 - INFO - /api/orders | GET |  | {}
+21.9.2025, 11:41:50 - INFO - /api/homes | POST | {"type":"Guesthouse","name":"yoyoyo","summary":"This elegant townhouse combines traditional charm with modern amenities. The exterior showcases timeless brickwork, while the interior offers an updated kitchen, a spacious living room, and a finished basement that can serve as a media room or guest suite. The property also features a private terrace perfect for summer dining. Located within walking distance of shops, parks, and public transport, it is a convenient and stylish choice for city living.","imageUrls":["https://res.cloudinary.com/dse2v78fc/image/upload/v1758442559/q6sxco2muam9fkgpm3xj.jpg"],"price":200,"labels":[],"amenities":["Paid parking on premises","Free parking on premises","Pool table"],"capacity":2,"bedroomsCount":2,"bedsCount":1,"bathCount":2,"bookings":[{"checkIn":"2025-09-30T08:41:50.660Z","checkOut":"2025-10-03T08:41:50.660Z"},{"checkIn":"2025-10-10T08:41:50.660Z","checkOut":"2025-10-15T08:41:50.660Z"},{"checkIn":"2025-10-23T08:41:50.660Z","checkOut":"2025-10-27T09:41:50.660Z"},{"checkIn":"2025-10-30T09:41:50.660Z","checkOut":"2025-11-04T09:41:50.660Z"},{"checkIn":"2025-11-14T09:41:50.660Z","checkOut":"2025-11-18T09:41:50.660Z"},{"checkIn":"2025-11-25T09:41:50.660Z","checkOut":"2025-11-29T09:41:50.660Z"},{"checkIn":"2025-12-06T09:41:50.660Z","checkOut":"2025-12-13T09:41:50.660Z"},{"checkIn":"2025-12-17T09:41:50.660Z","checkOut":"2025-12-23T09:41:50.660Z"},{"checkIn":"2025-12-25T09:41:50.660Z","checkOut":"2025-12-29T09:41:50.660Z"},{"checkIn":"2026-01-02T09:41:50.660Z","checkOut":"2026-01-06T09:41:50.660Z"},{"checkIn":"2026-01-13T09:41:50.660Z","checkOut":"2026-01-17T09:41:50.660Z"}]} | {}
