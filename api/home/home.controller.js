@@ -36,7 +36,13 @@ export async function getHome(req, res) {
 }
 
 export async function addHome(req, res) {
+  const {loggedInUser} = req
   const home = req.body
+  home.host = {
+    userId: loggedInUser._id,
+    fullname: loggedInUser.fullname,
+    imageUrl: loggedInUser.imageUrl || null
+  }
   try {
     const addedHome = await homeService.add(home)
     res.json(addedHome)
