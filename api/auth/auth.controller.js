@@ -76,6 +76,8 @@ export async function login(req, res) {
 }
 
 export async function googleAuth(req, res) {
+  console.log('🚀 GoogleAuth controller hit!') // הוסף את זה
+
   try {
     const { credential } = req.body
 

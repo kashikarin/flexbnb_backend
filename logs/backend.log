@@ -579,3 +579,34 @@
 21.9.2025, 21:47:57 - INFO - /api/orders | GET |  | {}
 21.9.2025, 21:47:57 - INFO - /api/orders | GET |  | {}
 21.9.2025, 21:47:57 - INFO - /api/orders | GET |  | {}
+21.9.2025, 22:03:46 - INFO - Google Auth attempt
+21.9.2025, 22:03:46 - ERROR - Failed to Google Auth: Error: Invalid Google credential
+21.9.2025, 22:03:58 - INFO - Google Auth attempt
+21.9.2025, 22:03:58 - ERROR - Failed to Google Auth: Error: Invalid Google credential
+21.9.2025, 22:05:58 - ERROR - Failed to signup Error: Password and full name are required
+21.9.2025, 22:06:04 - INFO - Google Auth attempt
+21.9.2025, 22:06:05 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+21.9.2025, 22:07:27 - INFO - Google Auth attempt
+21.9.2025, 22:07:27 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+21.9.2025, 22:28:59 - INFO - Google Auth attempt
+21.9.2025, 22:28:59 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+21.9.2025, 22:30:57 - INFO - Google Auth attempt
+21.9.2025, 22:30:58 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+21.9.2025, 22:31:32 - INFO - Google Auth attempt
+21.9.2025, 22:31:32 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+21.9.2025, 22:33:06 - INFO - Google Auth attempt
+21.9.2025, 22:33:07 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+21.9.2025, 22:35:32 - INFO - Google Auth attempt
+21.9.2025, 22:35:32 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+21.9.2025, 22:38:55 - INFO - Google Auth attempt
+21.9.2025, 22:38:57 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+21.9.2025, 22:40:09 - INFO - Google Auth attempt
+21.9.2025, 22:40:09 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+21.9.2025, 22:41:15 - INFO - Google Auth attempt
+21.9.2025, 22:41:16 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+21.9.2025, 22:41:50 - INFO - Google Auth attempt
+21.9.2025, 22:41:50 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+21.9.2025, 22:43:30 - INFO - Google Auth attempt
+21.9.2025, 22:43:31 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+21.9.2025, 22:46:22 - INFO - Google Auth attempt
+21.9.2025, 22:46:25 - INFO - Google Auth successful: | bahar.idan91@gmail.com
