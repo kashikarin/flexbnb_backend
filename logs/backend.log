@@ -461,3 +461,94 @@
 18.9.2025, 21:44:23 - INFO - /api/homes | POST | {"type":"House","name":"geo\n","summary":"geo","imageUrls":[],"price":1,"labels":[],"amenities":["Free parking on premises"],"capacity":1,"bedroomsCount":1,"bedsCount":1,"bathCount":1,"loc":{"lat":31.89549080414422,"lng":34.77372475316805},"bookings":[{"checkIn":"2025-09-26T18:44:23.178Z","checkOut":"2025-10-03T18:44:23.178Z"},{"checkIn":"2025-10-05T18:44:23.178Z","checkOut":"2025-10-09T18:44:23.178Z"},{"checkIn":"2025-10-18T18:44:23.178Z","checkOut":"2025-10-23T18:44:23.178Z"},{"checkIn":"2025-10-30T19:44:23.178Z","checkOut":"2025-11-01T19:44:23.178Z"},{"checkIn":"2025-11-11T19:44:23.178Z","checkOut":"2025-11-14T19:44:23.178Z"},{"checkIn":"2025-11-20T19:44:23.178Z","checkOut":"2025-11-26T19:44:23.178Z"},{"checkIn":"2025-12-01T19:44:23.178Z","checkOut":"2025-12-03T19:44:23.178Z"},{"checkIn":"2025-12-05T19:44:23.178Z","checkOut":"2025-12-10T19:44:23.178Z"},{"checkIn":"2025-12-19T19:44:23.178Z","checkOut":"2025-12-21T19:44:23.178Z"},{"checkIn":"2025-12-31T19:44:23.178Z","checkOut":"2026-01-03T19:44:23.178Z"},{"checkIn":"2026-01-08T19:44:23.178Z","checkOut":"2026-01-12T19:44:23.178Z"}]} | {}
 18.9.2025, 21:48:58 - INFO - /api/homes | POST | {"type":"Guesthouse","name":"asdasd","summary":"asdads","imageUrls":[],"price":"","labels":[],"amenities":["Patio","Free parking on premises","Pool"],"capacity":2,"bedroomsCount":1,"bedsCount":1,"bathCount":1,"loc":{"lat":31.903554490945645,"lng":34.799860138007375},"bookings":[{"checkIn":"2025-09-21T18:48:58.271Z","checkOut":"2025-09-24T18:48:58.271Z"},{"checkIn":"2025-10-03T18:48:58.271Z","checkOut":"2025-10-10T18:48:58.271Z"},{"checkIn":"2025-10-20T18:48:58.271Z","checkOut":"2025-10-22T18:48:58.271Z"},{"checkIn":"2025-10-26T19:48:58.271Z","checkOut":"2025-11-01T19:48:58.271Z"},{"checkIn":"2025-11-11T19:48:58.271Z","checkOut":"2025-11-13T19:48:58.271Z"},{"checkIn":"2025-11-23T19:48:58.271Z","checkOut":"2025-11-25T19:48:58.271Z"},{"checkIn":"2025-12-02T19:48:58.271Z","checkOut":"2025-12-05T19:48:58.271Z"},{"checkIn":"2025-12-12T19:48:58.271Z","checkOut":"2025-12-17T19:48:58.271Z"},{"checkIn":"2025-12-19T19:48:58.271Z","checkOut":"2025-12-22T19:48:58.271Z"},{"checkIn":"2025-12-25T19:48:58.271Z","checkOut":"2025-12-27T19:48:58.271Z"},{"checkIn":"2025-12-31T19:48:58.271Z","checkOut":"2026-01-05T19:48:58.271Z"},{"checkIn":"2026-01-13T19:48:58.271Z","checkOut":"2026-01-16T19:48:58.271Z"}]} | {}
 18.9.2025, 22:07:38 - INFO - User login:  | {"_id":"68cc2b36e44b028723c4a050","email":"squidwid","username":"squidwid","fullname":"squidwid","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758210870306}
+18.9.2025, 22:33:39 - INFO - /api/orders | GET |  | {}
+18.9.2025, 22:40:51 - INFO - /api/orders | GET |  | {}
+18.9.2025, 22:40:51 - INFO - /api/orders | GET |  | {}
+18.9.2025, 22:40:51 - INFO - /api/orders | GET |  | {}
+18.9.2025, 22:41:12 - INFO - /api/orders | GET |  | {}
+18.9.2025, 22:41:12 - INFO - /api/orders | GET |  | {}
+18.9.2025, 22:41:12 - INFO - /api/orders | GET |  | {}
+18.9.2025, 22:43:15 - INFO - /api/orders | GET |  | {}
+18.9.2025, 22:43:16 - INFO - /api/orders | GET |  | {}
+18.9.2025, 22:43:52 - INFO - /api/orders | GET |  | {}
+18.9.2025, 22:44:02 - INFO - /api/orders | GET |  | {}
+18.9.2025, 22:44:12 - INFO - /api/orders | GET |  | {}
+18.9.2025, 22:44:34 - INFO - /api/orders | GET |  | {}
+18.9.2025, 22:44:57 - INFO - /api/orders | GET |  | {}
+18.9.2025, 22:45:13 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:02:23 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:02:45 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:05:13 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:05:13 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:05:13 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:07:32 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:13:52 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:13:52 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:13:52 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:13:56 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:14:21 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:15:48 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:16:39 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:16:52 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:20:37 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:44:47 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:48:55 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:54:55 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:55:15 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:57:25 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:57:29 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:58:04 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:58:09 - INFO - /api/orders | GET |  | {}
+18.9.2025, 23:58:21 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:18:50 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:19:59 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:19:59 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:19:59 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:22:35 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:22:35 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:22:35 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:34:25 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:34:40 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:34:47 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:34:47 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:34:47 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:35:01 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:35:36 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:35:56 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:36:01 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:36:04 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:36:16 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:36:27 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:36:35 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:36:58 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:39:36 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:40:30 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:44:02 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:46:21 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:46:54 - INFO - /api/orders | GET |  | {}
+19.9.2025, 0:48:26 - INFO - /api/orders | POST | {"host":{"userId":"u101","fullname":"Justin Time","imageUrl":"/img/user/justin-img.jpg"},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-18T21:00:00.000Z","checkOut":"2025-09-20T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5d","name":"Barcelona Stay #9","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436597/l90ukcpzpv6yvv6vhsnd.jpg"},"status":"pending"} | {}
+19.9.2025, 0:48:26 - INFO - /api/orders | GET |  | {}
+19.9.2025, 12:12:02 - INFO - /api/homes | POST | {"type":"Apartment","name":"","summary":"asd","imageUrls":[],"price":"","labels":[],"amenities":[],"capacity":1,"bedroomsCount":1,"bedsCount":1,"bathCount":1,"loc":{"lat":31.89553372390444,"lng":34.77380916619515},"bookings":[{"checkIn":"2025-09-26T09:12:02.749Z","checkOut":"2025-10-03T09:12:02.749Z"},{"checkIn":"2025-10-13T09:12:02.749Z","checkOut":"2025-10-20T09:12:02.749Z"},{"checkIn":"2025-10-26T10:12:02.749Z","checkOut":"2025-10-28T10:12:02.749Z"},{"checkIn":"2025-11-01T10:12:02.749Z","checkOut":"2025-11-05T10:12:02.749Z"},{"checkIn":"2025-11-12T10:12:02.749Z","checkOut":"2025-11-16T10:12:02.749Z"},{"checkIn":"2025-11-21T10:12:02.749Z","checkOut":"2025-11-26T10:12:02.749Z"},{"checkIn":"2025-12-01T10:12:02.749Z","checkOut":"2025-12-08T10:12:02.749Z"},{"checkIn":"2025-12-13T10:12:02.749Z","checkOut":"2025-12-15T10:12:02.749Z"},{"checkIn":"2025-12-17T10:12:02.749Z","checkOut":"2025-12-24T10:12:02.749Z"},{"checkIn":"2025-12-27T10:12:02.749Z","checkOut":"2025-12-29T10:12:02.749Z"},{"checkIn":"2026-01-03T10:12:02.749Z","checkOut":"2026-01-07T10:12:02.749Z"},{"checkIn":"2026-01-15T10:12:02.749Z","checkOut":"2026-01-17T10:12:02.749Z"}]} | {}
+19.9.2025, 12:12:47 - INFO - /api/homes | POST | {"type":"Apartment","name":"asdasd","summary":"asd","imageUrls":[],"price":112,"labels":[],"amenities":["Free parking on premises"],"capacity":1,"bedroomsCount":1,"bedsCount":1,"bathCount":1,"loc":{"lat":31.89553375409883,"lng":34.77380918048328},"bookings":[{"checkIn":"2025-09-22T09:12:47.791Z","checkOut":"2025-09-27T09:12:47.791Z"},{"checkIn":"2025-10-04T09:12:47.791Z","checkOut":"2025-10-10T09:12:47.791Z"},{"checkIn":"2025-10-19T09:12:47.791Z","checkOut":"2025-10-24T09:12:47.791Z"},{"checkIn":"2025-11-01T10:12:47.791Z","checkOut":"2025-11-06T10:12:47.791Z"},{"checkIn":"2025-11-14T10:12:47.791Z","checkOut":"2025-11-20T10:12:47.791Z"},{"checkIn":"2025-11-24T10:12:47.791Z","checkOut":"2025-12-01T10:12:47.791Z"},{"checkIn":"2025-12-05T10:12:47.791Z","checkOut":"2025-12-09T10:12:47.791Z"},{"checkIn":"2025-12-15T10:12:47.791Z","checkOut":"2025-12-22T10:12:47.791Z"},{"checkIn":"2025-12-29T10:12:47.791Z","checkOut":"2026-01-05T10:12:47.791Z"},{"checkIn":"2026-01-11T10:12:47.791Z","checkOut":"2026-01-17T10:12:47.791Z"}]} | {}
+19.9.2025, 12:28:16 - INFO - /api/homes | POST | {"type":"Apartment","name":"","summary":"שדגשדגשד","imageUrls":[],"price":12312,"labels":[],"amenities":["Paid parking on premises","Free parking on premises","Patio"],"capacity":3,"bedroomsCount":1,"bedsCount":1,"bathCount":1,"loc":{"lat":31.895589570081256,"lng":34.7736670084321},"bookings":[{"checkIn":"2025-09-27T09:28:16.216Z","checkOut":"2025-10-03T09:28:16.216Z"},{"checkIn":"2025-10-09T09:28:16.216Z","checkOut":"2025-10-12T09:28:16.216Z"},{"checkIn":"2025-10-19T09:28:16.216Z","checkOut":"2025-10-26T10:28:16.216Z"},{"checkIn":"2025-11-03T10:28:16.216Z","checkOut":"2025-11-09T10:28:16.216Z"},{"checkIn":"2025-11-11T10:28:16.216Z","checkOut":"2025-11-18T10:28:16.216Z"},{"checkIn":"2025-11-27T10:28:16.216Z","checkOut":"2025-12-01T10:28:16.216Z"},{"checkIn":"2025-12-04T10:28:16.216Z","checkOut":"2025-12-06T10:28:16.216Z"},{"checkIn":"2025-12-14T10:28:16.216Z","checkOut":"2025-12-20T10:28:16.216Z"},{"checkIn":"2025-12-22T10:28:16.216Z","checkOut":"2025-12-25T10:28:16.216Z"},{"checkIn":"2025-12-29T10:28:16.216Z","checkOut":"2026-01-03T10:28:16.216Z"},{"checkIn":"2026-01-06T10:28:16.216Z","checkOut":"2026-01-10T10:28:16.216Z"}]} | {}
+19.9.2025, 12:37:56 - INFO - /api/homes | POST | {"type":"House","name":"asd","summary":"asd","imageUrls":[],"price":222,"labels":[],"amenities":["TV","Wifi","Kitchen"],"capacity":4,"bedroomsCount":1,"bedsCount":1,"bathCount":1,"loc":{"lat":31.89537678913798,"lng":34.77376856520896},"bookings":[{"checkIn":"2025-09-25T09:37:56.708Z","checkOut":"2025-10-02T09:37:56.708Z"},{"checkIn":"2025-10-07T09:37:56.708Z","checkOut":"2025-10-13T09:37:56.708Z"},{"checkIn":"2025-10-22T09:37:56.708Z","checkOut":"2025-10-29T10:37:56.708Z"},{"checkIn":"2025-11-03T10:37:56.708Z","checkOut":"2025-11-10T10:37:56.708Z"},{"checkIn":"2025-11-13T10:37:56.708Z","checkOut":"2025-11-20T10:37:56.708Z"},{"checkIn":"2025-11-30T10:37:56.708Z","checkOut":"2025-12-07T10:37:56.708Z"},{"checkIn":"2025-12-13T10:37:56.708Z","checkOut":"2025-12-20T10:37:56.708Z"},{"checkIn":"2025-12-22T10:37:56.708Z","checkOut":"2025-12-27T10:37:56.708Z"},{"checkIn":"2026-01-03T10:37:56.708Z","checkOut":"2026-01-06T10:37:56.708Z"},{"checkIn":"2026-01-16T10:37:56.708Z","checkOut":"2026-01-21T10:37:56.708Z"}]} | {}
+21.9.2025, 21:33:48 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:33:48 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:33:48 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:46:36 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:46:36 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:46:36 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:46:46 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:46:46 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:46:46 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:47:12 - INFO - /api/orders | PUT | {"_id":"68cc7e2a6a32eaab28a01f23","host":{"userId":"u101","fullname":"Justin Time","imageUrl":"/img/user/justin-img.jpg"},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-18T21:00:00.000Z","checkOut":"2025-09-20T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5d","name":"Barcelona Stay #9","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436597/l90ukcpzpv6yvv6vhsnd.jpg"},"status":"approved"} | {"orderId":"68cc7e2a6a32eaab28a01f23"}
+21.9.2025, 21:47:12 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:47:12 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:47:15 - INFO - /api/orders | PUT | {"_id":"68cf1e902c6377d3f1a30939","host":{"userId":"u101","fullname":"Justin Time","imageUrl":"/img/user/justin-img.jpg"},"purchaser":{"userId":"68c1ec6320294cb63be14236","fullname":"kk","imageUrl":null},"totalPrice":319.20000000000005,"checkIn":"2025-09-20T21:00:00.000Z","checkOut":"2025-09-22T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5a","name":"London Stay #6","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436917/mqkfjmfpmyqpqmzmqgau.jpg"},"status":"approved"} | {"orderId":"68cf1e902c6377d3f1a30939"}
+21.9.2025, 21:47:16 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:47:16 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:47:39 - INFO - /api/orders | POST | {"host":{"userId":"u101","fullname":"Justin Time","imageUrl":"/img/user/justin-img.jpg"},"purchaser":null,"totalPrice":729.5999999999999,"checkIn":"2025-09-20T21:00:00.000Z","checkOut":"2025-09-22T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad66","name":"London Stay #18","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"},"status":"pending"} | {}
+21.9.2025, 21:47:39 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:47:57 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:47:57 - INFO - /api/orders | GET |  | {}
+21.9.2025, 21:47:57 - INFO - /api/orders | GET |  | {}
