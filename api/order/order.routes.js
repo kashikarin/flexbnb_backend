@@ -19,7 +19,7 @@ router.get('/health', getHealth)
 // @route  GET /api/homes
 // @desc   Get all homes
 // @access Public
-router.get('/', log, getOrders)
+router.get('/', log, requireAuth, getOrders)
 
 router.get('/:orderId', log, requireAuth, getOrder)
 router.put('/:orderId', log, requireAuth, updateOrder)

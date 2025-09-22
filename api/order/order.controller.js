@@ -1,15 +1,18 @@
+import { ObjectId } from 'mongodb'
 import { loggerService } from '../../services/logger.service.js'
+import { socketService } from '../../services/socket.service.js'
 import { orderService } from './order.service.js'
 
 export async function getOrders(req, res) {
-  const { status, createdAt, checkIn, checkOut } = req.query
-
+  const { status, createdAt, homeName, purchaserId } = req.query
+  const loggedInUserId = req.loggedInUser?._id
   try {
     const filterBy = {
       status: status ?? '',
       createdAt: createdAt ? Number(createdAt) : null,
-      checkIn: checkIn ?? '',
-      checkOut: checkOut ?? '',
+      hostId: loggedInUserId,
+      homeName: homeName ?? '',
+      purchaserId: purchaserId ?? ''
     }
     const orders = await orderService.query(filterBy)
     res.json(orders)
@@ -25,7 +28,7 @@ export async function getOrder(req, res) {
     const order = await orderService.getById(orderId)
     res.json(order)
   } catch (err) {
-      logger.error(`Failed to get order by id ${orderId}`, err)
+      loggerService.error(`Failed to get order by id ${orderId}`, err)
       console.error('GET /api/orders error:', err?.message, err?.stack)
       res.status(400).send({ err: 'Failed to get order' })
   }
@@ -33,20 +36,29 @@ export async function getOrder(req, res) {
 
 export async function addOrder(req, res) {
   const { loggedInUser } = req
-  
   const order = req.body
   
-    
-  
-  
   try {
+    if (!order.host?.userId || !ObjectId.isValid(order.host.userId)) {
+      return res.status(400).send({ err: 'Invalid or missing host.userId' })
+    }
+    
+    if (!loggedInUser?._id || !ObjectId.isValid(loggedInUser._id)) {
+      return res.status(400).send({ err: 'Invalid purchaser userId' })
+    }
+
     order.purchaser = {
-      userId: loggedInUser._id,
+      userId: new ObjectId(loggedInUser._id),
       fullname: loggedInUser.fullname,
       imageUrl: loggedInUser.imageUrl,
       email: loggedInUser.email
     }
+    order.host.userId = new ObjectId(order.host.userId)
+
     const addedOrder = await orderService.add(order)
+
+    socketService.emitToUser({ type: 'home-booked', data: addedOrder, userId: order.host.userId})
+
     res.json(addedOrder)
   } catch (err) {
     loggerService.error('Failed to add order', err)
@@ -80,7 +92,7 @@ export async function getHealth(req, res) {
   try {
     res.json({ ok: true })
   } catch (err) {
-    logger.error('Health check failed', err)
+    loggerService.error('Health check failed', err)
     res.status(500).send({ err: 'Health check failed' })
   }
 }

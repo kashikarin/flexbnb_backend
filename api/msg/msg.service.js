@@ -22,7 +22,7 @@ async function query(filterBy = {}) {
     console.log(msgs)
     return msgs
   } catch (err) {
-    logger.error('cannot find msgs', err)
+    loggerService.error('cannot find msgs', err)
     throw err
   }
 }
@@ -35,7 +35,7 @@ async function getById(msgId) {
     // msg.createdAt = msg._id.getTimestamp()
     return msg
   } catch (err) {
-    logger.error(`while finding msg ${String(msgId)}`, err)
+    loggerService.error(`while finding msg ${String(msgId)}`, err)
     throw err
   }
 }
@@ -48,7 +48,7 @@ async function remove(msgId) {
         if (res.deletedCount === 0) throw new Error('Wrong msg')
         return msgId
     } catch(err) {
-        logger.error('Failed to remove msg', err)
+        loggerService.error('Failed to remove msg', err)
     throw err
     }
 }
@@ -59,7 +59,7 @@ async function add(msg) {
     await collection.insertOne(msg)
     return msg
   } catch (err) {
-    logger.error('Failed to add msg', err)
+    loggerService.error('Failed to add msg', err)
     throw err
   }
 }

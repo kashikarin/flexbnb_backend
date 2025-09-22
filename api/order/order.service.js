@@ -10,15 +10,14 @@ export const orderService = {
   getById,
   add,
   update,
-  remove,
-  // addCarMsg,
-  // removeCarMsg,
+  remove
 }
 
 async function query(filterBy = {}) {
   try {
-    // const criteria = {}
     const criteria = _buildCriteria(filterBy)
+        console.log('🔍 criteria:', criteria)   // 👈
+
     const collection = await dbService.getCollection('order')
     const orderCursor = await collection.find(criteria)
     const orders = await orderCursor.toArray()
@@ -84,22 +83,20 @@ async function remove(orderId) {
 function _buildCriteria(filterBy) {
   const criteria = {}
 
-  if (filterBy.status) criteria.status = filterBy.status
+  if (filterBy.status) criteria.status = {$regex: filterBy.status, $options: 'i' }
+  if (filterBy.homeName) criteria['home.name'] = {$regex: filterBy.homeName, $options: 'i' }
   if (filterBy.createdAt) {
     const dayStart = new Date(Number(filterBy.createdAt))
     const dayEnd = new Date(dayStart)
     dayEnd.setDate(dayEnd.getDate() + 1)
-
     criteria.createdAt = { $gte: dayStart, $lt: dayEnd }
   }
-  if (filterBy.checkIn) criteria.checkIn = new Date(filterBy.checkIn)
-  if (filterBy.checkOut) criteria.checkOut = new Date(filterBy.checkOut)
-
+  if (filterBy.hostId && ObjectId.isValid(filterBy.hostId)) {
+    criteria['host.userId'] = new ObjectId(filterBy.hostId)
+  }
+  if (filterBy.purchaserId && ObjectId.isValid(filterBy.purchaserId)) {
+    criteria['purchaser.userId'] = new ObjectId(filterBy.purchaserId)
+  }
+  
   return criteria
 }
-
-// db.orders.find({ status: filterBy.status })
-// status: status ?? '',
-//       createdAt: Number(createdAt),
-//       checkIn: checkIn ?? '',
-//       checkOut: checkOut ?? '',

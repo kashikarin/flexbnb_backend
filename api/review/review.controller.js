@@ -26,7 +26,7 @@ export async function getReview(req, res) {
     const review = await reviewService.getById(reviewId)
     res.json(review)
   } catch (err) {
-      logger.error(`Failed to get review by id ${reviewId}`, err)
+      loggerService.error(`Failed to get review by id ${reviewId}`, err)
       console.error('GET /api/reviews error:', err?.message, err?.stack)
       res.status(400).send({ err: 'Failed to get review' })
   }
@@ -69,7 +69,7 @@ export async function getHealth(req, res) {
   try {
     res.json({ ok: true })
   } catch (err) {
-    logger.error('Health check failed', err)
+    loggerService.error('Health check failed', err)
     res.status(500).send({ err: 'Health check failed' })
   }
 }

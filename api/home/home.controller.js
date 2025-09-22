@@ -1,8 +1,8 @@
 import { json } from 'express'
 import { dbService } from '../../services/db.service.js'
-
 import { homeService } from './home.service.js'
 import { loggerService } from '../../services/logger.service.js'
+import { ObjectId } from 'mongodb'
 
 export async function getHomes(req, res) {
   const { city, adults, children, pets, checkIn, checkOut } = req.query
@@ -38,16 +38,25 @@ export async function getHome(req, res) {
 export async function addHome(req, res) {
   const {loggedInUser} = req
   const home = req.body
-  home.host = {
-    userId: loggedInUser._id,
-    fullname: loggedInUser.fullname,
-    imageUrl: loggedInUser.imageUrl || null
-  }
+
+  
+  
   try {
+    if (!loggedInUser?._id || !ObjectId.isValid(loggedInUser._id)) {
+      return res.status(400).send({ err: 'Invalid host userId' })
+    }
+    
+    home.host = {
+      userId: loggedInUser._id,
+      fullname: loggedInUser.fullname,
+      imageUrl: loggedInUser.imageUrl || null
+    }
+    
     const addedHome = await homeService.add(home)
+    
     res.json(addedHome)
   } catch (err) {
-    logger.error('Failed to add home', err)
+    loggerService.error('Failed to add home', err)
     res.status(400).send({ err: 'Failed to add home' })
   }
 }
