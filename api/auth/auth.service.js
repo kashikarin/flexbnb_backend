@@ -3,7 +3,7 @@ import Cryptr from 'cryptr'
 import { OAuth2Client } from 'google-auth-library'
 import { userService } from '../user/user.service.js'
 import { dbService } from '../../services/db.service.js'
-
+import { uploadService } from '../../services/upload.service.js'
 const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Puk-1234')
 const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID)
 
@@ -129,6 +129,8 @@ async function login({ email, username, password }) {
 }
 
 async function googleAuth({ credential }) {
+  console.log('🔥 Google Auth started - checking image upload...') // הוסף את זה
+
   const collection = await dbService.getCollection('users')
 
   if (!credential) {
@@ -136,7 +138,7 @@ async function googleAuth({ credential }) {
   }
 
   try {
-    // אמת את ה-JWT עם Google
+    // אימות ה-JWT עם Google
     const ticket = await googleClient.verifyIdToken({
       idToken: credential,
       audience: process.env.GOOGLE_CLIENT_ID,
@@ -144,11 +146,34 @@ async function googleAuth({ credential }) {
 
     const payload = ticket.getPayload()
 
+    // 🆕 העלה תמונה ל-Cloudinary במקום לשמור Google URL
+    let cloudinaryImageUrl = null
+    if (payload.picture) {
+      console.log('🖼️ Found Google image:', payload.picture) // הוסף את זה
+
+      try {
+        console.log('📤 Starting upload to Cloudinary...') // הוסף את זה
+
+        console.log('Uploading Google profile image to Cloudinary...')
+        cloudinaryImageUrl = await uploadService.uploadImageFromUrl(
+          payload.picture,
+          `google_user_${payload.sub}`
+        )
+        console.log('✅ Upload successful:', cloudinaryImageUrl) // הוסף את זה
+      } catch (uploadError) {
+        console.error('Failed to upload Google image:', uploadError)
+        // אם העלאה נכשלה, השתמש בתמונת ברירת מחדל או Google URL
+        console.log('❌ Upload failed:', uploadError) // הוסף את זה
+
+        cloudinaryImageUrl = payload.picture
+      }
+    }
+
     // חלץ נתונים מ-Google
     const googleData = {
       email: payload.email,
       fullname: payload.name,
-      imgUrl: payload.picture,
+      imgUrl: cloudinaryImageUrl, // 🔥 עכשיו זה URL מ-Cloudinary שלך!
       googleId: payload.sub,
     }
 
@@ -170,7 +195,7 @@ async function googleAuth({ credential }) {
         email: googleData.email,
         username: googleData.email.split('@')[0],
         fullname: googleData.fullname,
-        imgUrl: googleData.imgUrl,
+        imgUrl: googleData.imgUrl, // URL מ-Cloudinary
         googleId: googleData.googleId,
         isHost: false,
         isAdmin: false,
@@ -189,7 +214,7 @@ async function googleAuth({ credential }) {
       email: user.email,
       username: user.username,
       fullname: user.fullname,
-      imgUrl: user.imgUrl,
+      imgUrl: user.imgUrl, // עכשיו זה מ-Cloudinary!
       isHost: user.isHost,
       isAdmin: user.isAdmin,
       likedHomes: user.likedHomes,
