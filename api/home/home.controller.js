@@ -38,16 +38,14 @@ export async function getHome(req, res) {
 export async function addHome(req, res) {
   const {loggedInUser} = req
   const home = req.body
-
-  
-  
+ 
   try {
     if (!loggedInUser?._id || !ObjectId.isValid(loggedInUser._id)) {
       return res.status(400).send({ err: 'Invalid host userId' })
     }
     
     home.host = {
-      userId: loggedInUser._id,
+      userId: new ObjectId(loggedInUser._id),
       fullname: loggedInUser.fullname,
       imageUrl: loggedInUser.imageUrl || null
     }
