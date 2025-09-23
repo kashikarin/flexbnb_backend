@@ -22,7 +22,6 @@ async function query(filterBy = {}) {
     const collection = await dbService.getCollection('home')
     const homeCursor = await collection.find(criteria)
     const homes = await homeCursor.toArray()
-    console.log(homes)
     return homes
   } catch (err) {
     loggerService.error('cannot find homes', err)

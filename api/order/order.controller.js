@@ -54,10 +54,11 @@ export async function addOrder(req, res) {
       email: loggedInUser.email
     }
     order.host.userId = new ObjectId(order.host.userId)
+    order.home.homeId = new ObjectId(order.home.homeId)
 
     const addedOrder = await orderService.add(order)
-
-    socketService.emitToUser({ type: 'home-booked', data: addedOrder, userId: order.host.userId})
+    
+    socketService.emitToUser({ type: 'home-booked', data: addedOrder, userId: order.host.userId.toString()})
 
     res.json(addedOrder)
   } catch (err) {

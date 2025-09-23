@@ -23,7 +23,6 @@ async function query(filterBy = {}) {
     const collection = await dbService.getCollection('users')
     const userCursor = await collection.find(criteria)
     const users = await userCursor.toArray()
-    console.log(users)
     return users
   } catch (err) {
     loggerService.error('cannot find users', err)
