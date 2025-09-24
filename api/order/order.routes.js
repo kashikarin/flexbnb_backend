@@ -10,6 +10,7 @@ import {
 import {requireAuth} from '../../middleware/auth.middleware.js'
 import { log } from '../../middleware/logger.middleware.js'
 
+console.log('📦 order.routes loaded')
 const router = express.Router()
 // @route   GET /api/homes
 // @desc    Health check

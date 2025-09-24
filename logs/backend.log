@@ -1578,3 +1578,1382 @@
 23.9.2025, 23:55:19 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: ErujWlgbPpWTz-uFAAA9]
 24.9.2025, 0:10:50 - INFO - Socket disconnected [id: undefined]
 24.9.2025, 0:10:50 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 0:27:20 - INFO - New connected socket [id: UVI9y6iYIK86Z_RiAAAB]
+24.9.2025, 0:27:21 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: UVI9y6iYIK86Z_RiAAAB]
+24.9.2025, 0:27:21 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: UVI9y6iYIK86Z_RiAAAB]
+24.9.2025, 0:30:07 - INFO - /api/homes | POST | {"type":"House","name":"lovely apartment in givatayim","summary":"Perfectly located near schools and parks, this family-friendly home combines practicality with charm. The main floor offers a sunlit living area, a functional kitchen with a breakfast bar, and a laundry room with extra storage. The backyard is fully fenced and includes a play area and a small shed. With three bedrooms and two bathrooms, it provides the ideal balance of comfort and convenience.\n","imageUrls":["https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"],"price":250,"labels":[],"amenities":["Wifi","Washer","Outdoor dining area","Fire pit","Pool"],"capacity":2,"bedroomsCount":2,"bedsCount":1,"bathCount":2,"loc":{"lat":32.0646166,"lng":34.8127057,"address":"Simtat Tsviya Lubetkin 8, Giv'atayim, Israel","city":"Giv'atayim","country":"Israel","countryCode":"IL"},"bookings":[{"checkIn":"2025-09-25T21:30:07.515Z","checkOut":"2025-09-28T21:30:07.515Z"},{"checkIn":"2025-10-03T21:30:07.515Z","checkOut":"2025-10-10T21:30:07.515Z"},{"checkIn":"2025-10-18T21:30:07.515Z","checkOut":"2025-10-24T21:30:07.515Z"},{"checkIn":"2025-11-01T22:30:07.515Z","checkOut":"2025-11-07T22:30:07.515Z"},{"checkIn":"2025-11-09T22:30:07.515Z","checkOut":"2025-11-14T22:30:07.515Z"},{"checkIn":"2025-11-16T22:30:07.515Z","checkOut":"2025-11-21T22:30:07.515Z"},{"checkIn":"2025-11-29T22:30:07.515Z","checkOut":"2025-12-04T22:30:07.515Z"},{"checkIn":"2025-12-08T22:30:07.515Z","checkOut":"2025-12-13T22:30:07.515Z"},{"checkIn":"2025-12-16T22:30:07.515Z","checkOut":"2025-12-20T22:30:07.515Z"},{"checkIn":"2025-12-25T22:30:07.515Z","checkOut":"2026-01-01T22:30:07.515Z"},{"checkIn":"2026-01-06T22:30:07.515Z","checkOut":"2026-01-09T22:30:07.515Z"},{"checkIn":"2026-01-18T22:30:07.515Z","checkOut":"2026-01-24T22:30:07.515Z"}]} | {}
+24.9.2025, 0:30:09 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 0:30:12 - INFO - New connected socket [id: UJHoCImrpP6GpHi4AAAD]
+24.9.2025, 0:30:12 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: UJHoCImrpP6GpHi4AAAD]
+24.9.2025, 0:30:12 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: UJHoCImrpP6GpHi4AAAD]
+24.9.2025, 0:30:38 - INFO - Removing socket.userId for socket [id: UJHoCImrpP6GpHi4AAAD]
+24.9.2025, 0:43:06 - ERROR - Failed to signup Error: Username already exists
+24.9.2025, 0:43:12 - DEBUG - auth.route - new account created: {"_id":"68d31470714f672a02170d07","email":"kkk@gmail.com","username":"kkk","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758663792837}
+24.9.2025, 0:43:13 - INFO - User signup: | {"_id":"68d31470714f672a02170d07","email":"kkk@gmail.com","username":"kkk","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758663792837}
+24.9.2025, 0:43:13 - INFO - Setting socket.userId = [object Object] for socket [id: UJHoCImrpP6GpHi4AAAD]
+24.9.2025, 0:45:08 - INFO - /api/homes | POST | {"type":"House","name":"nice home in givatayim","summary":"A true entertainer’s dream, this modern house features a seamless flow between indoor and outdoor living spaces. The open-plan living and dining area connects directly to a covered patio with an outdoor kitchen and firepit. Inside, the home includes a gourmet kitchen, a luxurious master suite with a spa-like bathroom, and a home theater. Sustainable design elements such as solar panels and rainwater collection make this property as efficient as it is stylish.\n","imageUrls":["https://res.cloudinary.com/dse2v78fc/image/upload/v1758663872/onsiqz8ivtizpgjjn4kd.jpg"],"price":500,"labels":[],"amenities":["Kitchen","Paid parking on premises","Free parking on premises"],"capacity":2,"bedroomsCount":1,"bedsCount":1,"bathCount":1,"loc":{"lat":32.0646166,"lng":34.8127057,"address":"Simtat Tsviya Lubetkin 8, Giv'atayim, Israel","city":"Giv'atayim","country":"Israel","countryCode":"IL"},"bookings":[{"checkIn":"2025-09-27T21:45:08.595Z","checkOut":"2025-09-30T21:45:08.595Z"},{"checkIn":"2025-10-05T21:45:08.595Z","checkOut":"2025-10-10T21:45:08.595Z"},{"checkIn":"2025-10-20T21:45:08.595Z","checkOut":"2025-10-24T21:45:08.595Z"},{"checkIn":"2025-10-31T22:45:08.595Z","checkOut":"2025-11-05T22:45:08.595Z"},{"checkIn":"2025-11-08T22:45:08.595Z","checkOut":"2025-11-11T22:45:08.595Z"},{"checkIn":"2025-11-17T22:45:08.595Z","checkOut":"2025-11-21T22:45:08.595Z"},{"checkIn":"2025-11-23T22:45:08.595Z","checkOut":"2025-11-26T22:45:08.595Z"},{"checkIn":"2025-11-30T22:45:08.595Z","checkOut":"2025-12-02T22:45:08.595Z"},{"checkIn":"2025-12-10T22:45:08.595Z","checkOut":"2025-12-13T22:45:08.595Z"},{"checkIn":"2025-12-19T22:45:08.595Z","checkOut":"2025-12-25T22:45:08.595Z"},{"checkIn":"2026-01-03T22:45:08.595Z","checkOut":"2026-01-06T22:45:08.595Z"},{"checkIn":"2026-01-10T22:45:08.595Z","checkOut":"2026-01-12T22:45:08.595Z"},{"checkIn":"2026-01-17T22:45:08.595Z","checkOut":"2026-01-19T22:45:08.595Z"}]} | {}
+24.9.2025, 0:45:11 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 0:45:13 - INFO - New connected socket [id: bcZcC1gC0vigKknhAAAF]
+24.9.2025, 0:45:13 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: bcZcC1gC0vigKknhAAAF]
+24.9.2025, 0:45:14 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: bcZcC1gC0vigKknhAAAF]
+24.9.2025, 0:45:44 - INFO - /api/orders | GET |  | {}
+24.9.2025, 0:46:15 - INFO - New connected socket [id: EZg-QfNlT51bAB90AAAH]
+24.9.2025, 0:46:47 - INFO - User login:  | {"_id":"68cffa1ee68e1ea21bb4a403","email":"kk@gmail.com","username":"kk","fullname":"kk","imageUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758460446446}
+24.9.2025, 0:46:47 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: EZg-QfNlT51bAB90AAAH]
+24.9.2025, 0:46:55 - INFO - /api/orders | POST | {"host":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg"},"purchaser":null,"totalPrice":1140.0000000000002,"checkIn":"2025-09-23T21:00:00.000Z","checkOut":"2025-09-25T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d314e4714f672a02170d08","name":"nice home in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663872/onsiqz8ivtizpgjjn4kd.jpg"},"status":"pending"} | {}
+24.9.2025, 0:46:55 - INFO - Emiting event: home-booked to user: 68d31470714f672a02170d07 socket [id: bcZcC1gC0vigKknhAAAF]
+24.9.2025, 0:46:55 - INFO - /api/orders | GET |  | {}
+24.9.2025, 0:47:01 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 0:47:02 - INFO - New connected socket [id: GXsBAC18-zmS69e8AAAJ]
+24.9.2025, 0:47:02 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: GXsBAC18-zmS69e8AAAJ]
+24.9.2025, 0:47:02 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: GXsBAC18-zmS69e8AAAJ]
+24.9.2025, 0:47:06 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 0:47:08 - INFO - New connected socket [id: wD3EVOZP3Uw4utAfAAAL]
+24.9.2025, 0:47:08 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: wD3EVOZP3Uw4utAfAAAL]
+24.9.2025, 0:47:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 0:47:08 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: wD3EVOZP3Uw4utAfAAAL]
+24.9.2025, 0:47:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 0:47:49 - INFO - /api/orders | POST | {"host":{"userId":"68cc2b36e44b028723c4a050","fullname":"squidwid","imageUrl":null},"purchaser":null,"totalPrice":1368.0000000000002,"checkIn":"2025-09-25T22:33:22.962Z","checkOut":"2025-09-27T22:33:22.962Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad59","name":"London Stay #5","imageUrl":"https://res.cloudinary.com/dmtlr2viw/image/upload/v1663436855/khyvb5q3yzcqaoscuppz.jpg"},"status":"pending"} | {}
+24.9.2025, 0:47:50 - INFO - No active socket for user: 68cc2b36e44b028723c4a050
+24.9.2025, 0:47:50 - INFO - /api/orders | GET |  | {}
+24.9.2025, 0:47:56 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 0:47:59 - INFO - New connected socket [id: htVYyxVbE7kLLYMeAAAN]
+24.9.2025, 0:47:59 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: htVYyxVbE7kLLYMeAAAN]
+24.9.2025, 0:47:59 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: htVYyxVbE7kLLYMeAAAN]
+24.9.2025, 0:47:59 - INFO - /api/orders | GET |  | {}
+24.9.2025, 0:48:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 0:54:00 - INFO - /api/orders | POST | {"host":{"userId":"68d052f3998c54e8c029efff","fullname":"Idan Bahar","imageUrl":null},"purchaser":null,"totalPrice":280.44000000000005,"checkIn":"2025-09-23T21:00:00.000Z","checkOut":"2025-09-25T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d22f0cbbe88618180c55bb","name":"1","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758605051/sc12ff0ry7v6ndleyyxy.jpg"},"status":"pending"} | {}
+24.9.2025, 0:54:00 - INFO - No active socket for user: 68d052f3998c54e8c029efff
+24.9.2025, 0:54:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 0:55:37 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 0:55:40 - INFO - New connected socket [id: C_pL0nkDf6p_xX-YAAAP]
+24.9.2025, 0:55:40 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: C_pL0nkDf6p_xX-YAAAP]
+24.9.2025, 0:55:40 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: C_pL0nkDf6p_xX-YAAAP]
+24.9.2025, 0:55:57 - INFO - /api/orders | POST | {"host":{"userId":"68cc2b36e44b028723c4a050","fullname":"squidwid","imageUrl":null},"purchaser":null,"totalPrice":1368.0000000000002,"checkIn":"2025-09-25T22:33:22.962Z","checkOut":"2025-09-27T22:33:22.962Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad59","name":"London Stay #5","imageUrl":"https://res.cloudinary.com/dmtlr2viw/image/upload/v1663436855/khyvb5q3yzcqaoscuppz.jpg"},"status":"pending"} | {}
+24.9.2025, 0:55:57 - INFO - No active socket for user: 68cc2b36e44b028723c4a050
+24.9.2025, 0:55:57 - INFO - /api/orders | GET |  | {}
+24.9.2025, 0:56:15 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 0:56:17 - INFO - New connected socket [id: aQKYJ1PKIItvoTDvAAAR]
+24.9.2025, 0:56:17 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: aQKYJ1PKIItvoTDvAAAR]
+24.9.2025, 0:56:17 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: aQKYJ1PKIItvoTDvAAAR]
+24.9.2025, 0:56:21 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 0:56:23 - INFO - New connected socket [id: CNGimNETuG4Fmb9kAAAT]
+24.9.2025, 0:56:23 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: CNGimNETuG4Fmb9kAAAT]
+24.9.2025, 0:56:23 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: CNGimNETuG4Fmb9kAAAT]
+24.9.2025, 0:57:23 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":729.6000000000001,"checkIn":"2025-09-23T21:00:00.000Z","checkOut":"2025-09-25T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad66","name":"London Stay #18","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"},"status":"pending"} | {}
+24.9.2025, 0:57:24 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: GXsBAC18-zmS69e8AAAJ]
+24.9.2025, 0:57:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 0:57:31 - INFO - /api/orders | GET |  | {}
+24.9.2025, 0:57:46 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 0:57:48 - INFO - New connected socket [id: ZvhWxbbevkorFOn8AAAV]
+24.9.2025, 0:57:48 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: ZvhWxbbevkorFOn8AAAV]
+24.9.2025, 0:57:48 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: ZvhWxbbevkorFOn8AAAV]
+24.9.2025, 0:57:51 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 0:57:52 - INFO - New connected socket [id: xkIJzOn1jFfRisV8AAAX]
+24.9.2025, 0:57:52 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: xkIJzOn1jFfRisV8AAAX]
+24.9.2025, 0:57:52 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: xkIJzOn1jFfRisV8AAAX]
+24.9.2025, 1:03:58 - INFO - Removing socket.userId for socket [id: xkIJzOn1jFfRisV8AAAX]
+24.9.2025, 1:04:40 - INFO - User login:  | {"_id":"68d31470714f672a02170d07","email":"kkk@gmail.com","username":"kkk","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758663792837}
+24.9.2025, 1:04:40 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: xkIJzOn1jFfRisV8AAAX]
+24.9.2025, 1:04:46 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:05:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:07:21 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:07:34 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:07:45 - INFO - New connected socket [id: kuak1FIUg6k10ldDAAAB]
+24.9.2025, 1:07:45 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: kuak1FIUg6k10ldDAAAB]
+24.9.2025, 1:07:45 - INFO - New connected socket [id: NFpLN9Vycg91WSWAAAAD]
+24.9.2025, 1:07:45 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: NFpLN9Vycg91WSWAAAAD]
+24.9.2025, 1:07:48 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:08:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:08:18 - INFO - /api/orders | GET |  | {"orderId":"68bf417f35629479e44cfe26"}
+24.9.2025, 1:10:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:12:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:12:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:13:41 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:13:46 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:37:19 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 1:37:20 - INFO - New connected socket [id: EMcW-Qk7yZCPjR4-AAAF]
+24.9.2025, 1:37:20 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: EMcW-Qk7yZCPjR4-AAAF]
+24.9.2025, 1:37:20 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: EMcW-Qk7yZCPjR4-AAAF]
+24.9.2025, 1:37:20 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:37:21 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:37:21 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:37:49 - INFO - New connected socket [id: eZfoh-hj1p8O1fD0AAAB]
+24.9.2025, 1:37:49 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: eZfoh-hj1p8O1fD0AAAB]
+24.9.2025, 1:37:50 - INFO - New connected socket [id: wbhpCwHTRVE9T1TIAAAD]
+24.9.2025, 1:37:50 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: wbhpCwHTRVE9T1TIAAAD]
+24.9.2025, 1:38:30 - INFO - /api/orders | PUT | {"_id":"68d26ee2894e240cc0d322d2","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":""},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":null,"email":"jz@gmail.com"},"totalPrice":319.20000000000005,"checkIn":"2025-09-22T21:00:00.000Z","checkOut":"2025-09-24T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad68","name":"London Stay #20","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436294/mvhb3iazpiar6duvy9we.jpg"},"status":"approved"} | {"orderId":"68d26ee2894e240cc0d322d2"}
+24.9.2025, 1:38:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:38:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:41:51 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:41:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:46:03 - INFO - New connected socket [id: bL2pnWOrEioYDEPgAAAB]
+24.9.2025, 1:46:03 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: bL2pnWOrEioYDEPgAAAB]
+24.9.2025, 1:46:03 - INFO - New connected socket [id: h1N71INrnd8GLkuiAAAD]
+24.9.2025, 1:46:03 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: h1N71INrnd8GLkuiAAAD]
+24.9.2025, 1:46:36 - INFO - User login:  | {"_id":"68cffa1ee68e1ea21bb4a403","email":"kk@gmail.com","username":"kk","fullname":"kk","imageUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758460446446}
+24.9.2025, 1:49:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:52:21 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:52:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:52:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:52:44 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:52:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:53:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:58:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 1:58:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:00:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:04:44 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:04:48 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:10:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:10:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:10:16 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:10:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:10:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:10:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:13:42 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:13:42 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:13:42 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:13:43 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:19:41 - INFO - New connected socket [id: hm2ojv-mon4QOQiQAAAF]
+24.9.2025, 2:19:41 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: hm2ojv-mon4QOQiQAAAF]
+24.9.2025, 2:19:42 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: hm2ojv-mon4QOQiQAAAF]
+24.9.2025, 2:20:04 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 2:20:05 - INFO - New connected socket [id: 1WPwvL-Z3t3_xbolAAAH]
+24.9.2025, 2:20:05 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: 1WPwvL-Z3t3_xbolAAAH]
+24.9.2025, 2:20:05 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: 1WPwvL-Z3t3_xbolAAAH]
+24.9.2025, 2:20:53 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 2:20:53 - INFO - New connected socket [id: d61hTg4UTIBkkMcKAAAJ]
+24.9.2025, 2:20:53 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: d61hTg4UTIBkkMcKAAAJ]
+24.9.2025, 2:20:54 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: d61hTg4UTIBkkMcKAAAJ]
+24.9.2025, 2:21:09 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 2:21:10 - INFO - New connected socket [id: 6YgWNSDZjM6rY3iaAAAL]
+24.9.2025, 2:21:11 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: 6YgWNSDZjM6rY3iaAAAL]
+24.9.2025, 2:21:11 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: 6YgWNSDZjM6rY3iaAAAL]
+24.9.2025, 2:37:14 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 2:39:34 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 2:39:37 - INFO - New connected socket [id: G8TLlRjOzJ6eTMatAAAN]
+24.9.2025, 2:39:37 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: G8TLlRjOzJ6eTMatAAAN]
+24.9.2025, 2:39:37 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: G8TLlRjOzJ6eTMatAAAN]
+24.9.2025, 2:40:09 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 2:40:12 - INFO - New connected socket [id: tR14--38eT6B1Aq5AAAP]
+24.9.2025, 2:40:12 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: tR14--38eT6B1Aq5AAAP]
+24.9.2025, 2:40:12 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: tR14--38eT6B1Aq5AAAP]
+24.9.2025, 2:42:07 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 2:42:09 - INFO - New connected socket [id: eQ_83KZPJJouSC78AAAR]
+24.9.2025, 2:42:09 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: eQ_83KZPJJouSC78AAAR]
+24.9.2025, 2:42:09 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: eQ_83KZPJJouSC78AAAR]
+24.9.2025, 2:42:17 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 2:42:19 - INFO - New connected socket [id: zxnGJHb-gebhwsZlAAAT]
+24.9.2025, 2:42:19 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: zxnGJHb-gebhwsZlAAAT]
+24.9.2025, 2:42:19 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: zxnGJHb-gebhwsZlAAAT]
+24.9.2025, 2:44:27 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:44:27 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:44:28 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:44:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:44:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:44:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:44:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:44:31 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:44:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:44:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:44:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:44:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:46:13 - INFO - New connected socket [id: e6ByGSsOrILTrlxAAAAV]
+24.9.2025, 2:46:13 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: e6ByGSsOrILTrlxAAAAV]
+24.9.2025, 2:46:13 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: e6ByGSsOrILTrlxAAAAV]
+24.9.2025, 2:46:15 - INFO - New connected socket [id: IuGMjGPZDAhOkiF8AAAX]
+24.9.2025, 2:46:15 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: IuGMjGPZDAhOkiF8AAAX]
+24.9.2025, 2:46:15 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: IuGMjGPZDAhOkiF8AAAX]
+24.9.2025, 2:46:19 - INFO - New connected socket [id: FhPF-mi2lw4uc_WYAAAZ]
+24.9.2025, 2:46:20 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: FhPF-mi2lw4uc_WYAAAZ]
+24.9.2025, 2:46:20 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: FhPF-mi2lw4uc_WYAAAZ]
+24.9.2025, 2:47:05 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:47:05 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:47:05 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:47:06 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:47:33 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 2:47:33 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 2:47:33 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 2:47:36 - INFO - New connected socket [id: GcPnuw4tF9Qpkp9WAAAb]
+24.9.2025, 2:47:36 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: GcPnuw4tF9Qpkp9WAAAb]
+24.9.2025, 2:47:36 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: GcPnuw4tF9Qpkp9WAAAb]
+24.9.2025, 2:47:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:47:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:47:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:47:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:01 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:01 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:07 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:09 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:09 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:09 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:22 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:25 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:25 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:25 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:25 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:25 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:26 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:26 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:26 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:50 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:50 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:57 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:48:57 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:05 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:05 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:06 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:06 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:06 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:06 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:07 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:07 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:07 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:07 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:07 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:49:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:41 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 2:53:42 - INFO - New connected socket [id: Y_CpT2TnjZdDm7vkAAAd]
+24.9.2025, 2:53:42 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: Y_CpT2TnjZdDm7vkAAAd]
+24.9.2025, 2:53:42 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: Y_CpT2TnjZdDm7vkAAAd]
+24.9.2025, 2:53:42 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:42 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:43 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:43 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:44 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:45 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:45 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:45 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:45 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:45 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:45 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:46 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:46 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:46 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:46 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:46 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:46 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:47 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:47 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:53:47 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:55:47 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:55:47 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:55:49 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:55:50 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:55:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:55:53 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:55:55 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:55:55 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:56:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:56:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:56:09 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:56:09 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:56:09 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:56:09 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:56:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:56:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:56:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:56:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:57:58 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:57:59 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:57:59 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:57:59 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:01 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:01 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:02 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:01 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:02 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:04 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 2:58:06 - INFO - New connected socket [id: U42EgZ24OQVuxtLyAAAf]
+24.9.2025, 2:58:06 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: U42EgZ24OQVuxtLyAAAf]
+24.9.2025, 2:58:07 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: U42EgZ24OQVuxtLyAAAf]
+24.9.2025, 2:58:07 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:07 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:07 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:07 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:09 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:09 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:16 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:17 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:17 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:18 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:18 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:18 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:18 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:31 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 2:58:32 - INFO - New connected socket [id: zpAFqf4Fm08f1c92AAAh]
+24.9.2025, 2:58:32 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: zpAFqf4Fm08f1c92AAAh]
+24.9.2025, 2:58:33 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: zpAFqf4Fm08f1c92AAAh]
+24.9.2025, 2:58:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:34 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:39 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:39 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:39 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:40 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:39 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:40 - INFO - /api/orders | GET |  | {}
+24.9.2025, 2:58:40 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:05 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:05 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:06 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:07 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:25 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:25 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:26 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:26 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:26 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:26 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:26 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:27 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 3:02:28 - INFO - New connected socket [id: WxhKqv6M90rre2LnAAAj]
+24.9.2025, 3:02:28 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: WxhKqv6M90rre2LnAAAj]
+24.9.2025, 3:02:29 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: WxhKqv6M90rre2LnAAAj]
+24.9.2025, 3:02:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:32 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 3:02:34 - INFO - New connected socket [id: UryWRakY_L3qwjv4AAAl]
+24.9.2025, 3:02:34 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: UryWRakY_L3qwjv4AAAl]
+24.9.2025, 3:02:34 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: UryWRakY_L3qwjv4AAAl]
+24.9.2025, 3:02:34 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:34 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:47 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:47 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:47 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:48 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:53 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 3:02:55 - INFO - New connected socket [id: ecygm6D3g93LuD6DAAAn]
+24.9.2025, 3:02:55 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:55 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:56 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: ecygm6D3g93LuD6DAAAn]
+24.9.2025, 3:02:56 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:56 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:02:56 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: ecygm6D3g93LuD6DAAAn]
+24.9.2025, 3:03:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:20 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:21 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:21 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:25 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:26 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:26 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:26 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:27 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:27 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:27 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:28 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:53 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:53 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:55 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:55 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:55 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:55 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:03:55 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:09 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 3:04:11 - INFO - New connected socket [id: HjiWxcMNWj8TuocxAAAp]
+24.9.2025, 3:04:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:11 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: HjiWxcMNWj8TuocxAAAp]
+24.9.2025, 3:04:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:12 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: HjiWxcMNWj8TuocxAAAp]
+24.9.2025, 3:04:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:16 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:16 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:16 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:16 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:27 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:28 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:31 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:31 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:31 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:34 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:34 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:34 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:41 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:42 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:42 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:42 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:42 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:43 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:43 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:43 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:44 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:44 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:45 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:04:45 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:06:58 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:06:59 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:07:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:07:01 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:08:55 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:08:55 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:08:56 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:08:56 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:08:57 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:08:59 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:08:59 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:01 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:02 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:22 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:22 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:25 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:25 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:27 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:28 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:31 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:09:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:12:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:12:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:12:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:12:16 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:12:16 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:12:16 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:12:16 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:12:17 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:12:17 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:12:17 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:12:18 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:12:18 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:14:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:14:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:14:20 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:14:20 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:14:20 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:14:21 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:16 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:16 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:17 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:39 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:39 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:40 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:40 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:41 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:41 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:41 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:41 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:42 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:42 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:42 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:42 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:42 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:21:43 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:22:58 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:01 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:03 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 3:23:04 - INFO - New connected socket [id: 6AY6BmgJ2UxsJHx4AAAr]
+24.9.2025, 3:23:05 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:05 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 6AY6BmgJ2UxsJHx4AAAr]
+24.9.2025, 3:23:06 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:06 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:06 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:07 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 6AY6BmgJ2UxsJHx4AAAr]
+24.9.2025, 3:23:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:09 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:39 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:39 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:39 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:39 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:39 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:40 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:23:40 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:30:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:30:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:30:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:30:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:30:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:30:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:30:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:30:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:30:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:30:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:30:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:30:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:30:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:30:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:33:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:33:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:33:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:33:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:33:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:33:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:33:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:33:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:33:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:33:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:33:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:33:16 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:33:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:33:20 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:33:35 - INFO - New connected socket [id: 48_rsybQf_NhxVNSAAAD]
+24.9.2025, 3:33:35 - INFO - New connected socket [id: TrSwiETGd8-hgd9LAAAE]
+24.9.2025, 3:33:35 - INFO - New connected socket [id: JReaKTpgJ7WVxUiOAAAF]
+24.9.2025, 3:33:35 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 48_rsybQf_NhxVNSAAAD]
+24.9.2025, 3:33:35 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: TrSwiETGd8-hgd9LAAAE]
+24.9.2025, 3:33:35 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: JReaKTpgJ7WVxUiOAAAF]
+24.9.2025, 3:35:59 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:35:59 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:35:59 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:35:59 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:35:59 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:35:59 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:00 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:00 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:00 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:00 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:00 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:00 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:00 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:00 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:01 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:01 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:01 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:01 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:01 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:01 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:01 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:01 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:01 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:01 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:01 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:03 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:03 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:03 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:03 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:03 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:03 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:03 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:03 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:04 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:04 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:04 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:04 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:04 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:04 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:04 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:04 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:04 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:04 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:04 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:04 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:04 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:04 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:04 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:04 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:33 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:33 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:33 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:33 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:33 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:33 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:33 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:33 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:33 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:33 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:33 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:33 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:36 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:36 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:36 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:36 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:36 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:36 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:36 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:36 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:41 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:41 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:41 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:41 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:36:41 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:36:41 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:56 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:38:56 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:56 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:56 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:38:56 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:56 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:57 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:38:57 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:57 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:57 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:38:57 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:57 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:57 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:38:57 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:57 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:57 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:38:57 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:57 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:57 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:38:57 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:58 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:58 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:38:58 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:58 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:58 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:38:58 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:58 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:58 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:38:58 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:58 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:58 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:38:58 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:58 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:58 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:38:58 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:38:58 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:09 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:09 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:09 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:09 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:09 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:09 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:09 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:09 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:09 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:10 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:10 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:10 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:10 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:10 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:10 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:10 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:10 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:10 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:11 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:11 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:11 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:11 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:11 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:11 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:11 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:11 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:11 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:12 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:12 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:12 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:12 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:12 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:12 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:12 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:12 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:12 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:12 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:12 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:12 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:12 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:12 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:13 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:13 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:13 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:13 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:13 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:13 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:13 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:13 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:44:13 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:44:13 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:47:35 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:35 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:47:35 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:35 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:47:35 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:35 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:47:35 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:35 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:47:36 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:36 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:36 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:47:36 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:36 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:47:37 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:37 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:47:37 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:37 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:47:37 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:37 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:47:37 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:37 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:47:38 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:38 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:47:38 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:47:38 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:49:30 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:30 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:49:30 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:30 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:31 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:49:31 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:31 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:31 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:49:31 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:31 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:31 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:49:31 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:31 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:49:32 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:32 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:49:32 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:32 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:49:32 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:32 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:49:32 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:32 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:49:32 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:32 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:49:32 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:32 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:49:32 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:49:32 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:50 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:50 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:50 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:50 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:50 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:50 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:50 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:50 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:50 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:51 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:51 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:51 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:51 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:51 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:51 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:51 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:51 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:51 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:51 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:51 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:51 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:51 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:52 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:52 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:52 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:52 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:52 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:52 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:52 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:52 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:52 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:52 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:52 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:52 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:52 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:53 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:53 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:53 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:53 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:53 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:53 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:53 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:53 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:53 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:53 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:54 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:54 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:54 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:54 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:54 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:54 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:54 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:54 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:54 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:54 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:54 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:54 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:54 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:50:54 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:50:54 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:56:53 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 3:57:30 - INFO - New connected socket [id: KsGFxvz5HDODdnZFAAAH]
+24.9.2025, 3:57:34 - INFO - Removing socket.userId for socket [id: KsGFxvz5HDODdnZFAAAH]
+24.9.2025, 3:57:44 - INFO - User login:  | {"_id":"68cffa1ee68e1ea21bb4a403","email":"kk@gmail.com","username":"kk","fullname":"kk","imageUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758460446446}
+24.9.2025, 3:57:44 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: KsGFxvz5HDODdnZFAAAH]
+24.9.2025, 3:57:48 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:57:48 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:57:48 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:57:48 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:57:48 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:57:48 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:04 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 3:58:08 - INFO - New connected socket [id: 960e3F9spc7-YMBbAAAJ]
+24.9.2025, 3:58:08 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 960e3F9spc7-YMBbAAAJ]
+24.9.2025, 3:58:08 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 960e3F9spc7-YMBbAAAJ]
+24.9.2025, 3:58:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:08 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:08 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:08 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:08 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:08 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:08 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:08 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:08 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:12 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:12 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:12 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:12 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:12 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:12 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:12 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:12 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:12 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:14 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:14 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:14 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:14 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:14 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:14 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:14 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:14 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:14 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:14 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:14 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:15 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:15 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:15 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:15 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:15 - ERROR - Failed to get orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:15 - ERROR - cannot find orders | Error: hostId is required for dashboard queries
+24.9.2025, 3:58:44 - INFO - New connected socket [id: wILhRRfk6bN1BS1-AAAB]
+24.9.2025, 3:58:44 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: wILhRRfk6bN1BS1-AAAB]
+24.9.2025, 3:58:45 - INFO - New connected socket [id: gxtBvzp55SMWiuGqAAAE]
+24.9.2025, 3:58:45 - INFO - New connected socket [id: 7cG6l2LaVlFNUXFHAAAF]
+24.9.2025, 3:58:45 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: gxtBvzp55SMWiuGqAAAE]
+24.9.2025, 3:58:45 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: 7cG6l2LaVlFNUXFHAAAF]
+24.9.2025, 3:58:51 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 3:58:53 - INFO - New connected socket [id: pCDLIgl04u_56ONfAAAH]
+24.9.2025, 3:58:53 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: pCDLIgl04u_56ONfAAAH]
+24.9.2025, 3:58:54 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: pCDLIgl04u_56ONfAAAH]
+24.9.2025, 3:58:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:55 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:58:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:02 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:02 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:02 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:05 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:05 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:17 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:18 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:18 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:20 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:20 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:20 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:20 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:26 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:27 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:28 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:28 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:28 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:28 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:31 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:31 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:31 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:34 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:34 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:40 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:41 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:41 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:41 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:44 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:44 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:44 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:45 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:46 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:46 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:48 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:48 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:53 - INFO - /api/orders | GET |  | {}
+24.9.2025, 3:59:53 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:00:22 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:00:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:02:26 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:02:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:02:48 - INFO - /api/orders | PUT | {"_id":"68d28b08b6cd71cbe21c8b49","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":null,"email":"jz@gmail.com"},"totalPrice":729.6000000000001,"checkIn":"2025-09-22T21:00:00.000Z","checkOut":"2025-09-24T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad66","name":"London Stay #18","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"},"status":"approved"} | {"orderId":"68d28b08b6cd71cbe21c8b49"}
+24.9.2025, 4:02:49 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:02:49 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:02:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:02:55 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:02:59 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:02:59 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:04:08 - INFO - /api/orders | PUT | {"_id":"68d2733dbe05553385ee877a","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":null,"email":"jz@gmail.com"},"totalPrice":364.80000000000007,"checkIn":"2025-09-22T21:00:00.000Z","checkOut":"2025-09-24T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5f","name":"Barcelona Stay #11","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436823/af6elioxovkhvp6cg1un.jpg"},"status":"approved"} | {"orderId":"68d2733dbe05553385ee877a"}
+24.9.2025, 4:04:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:04:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:07:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:07:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:07:07 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:07:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:07:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:07:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:07:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:07:31 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:07:41 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:07:42 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:07:57 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:07:57 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:08:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:08:00 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:08:01 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:08:01 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:08:04 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 4:08:07 - INFO - New connected socket [id: BetjQI5Rxfc0Hjy3AAAJ]
+24.9.2025, 4:08:07 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: BetjQI5Rxfc0Hjy3AAAJ]
+24.9.2025, 4:08:07 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: BetjQI5Rxfc0Hjy3AAAJ]
+24.9.2025, 4:08:07 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:08:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:08:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:08:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:08:09 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 4:08:11 - INFO - New connected socket [id: 9IqbnUmy1DI5KeIHAAAL]
+24.9.2025, 4:08:11 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 9IqbnUmy1DI5KeIHAAAL]
+24.9.2025, 4:08:12 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 9IqbnUmy1DI5KeIHAAAL]
+24.9.2025, 4:08:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:08:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:08:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:08:13 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:08:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:08:16 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:08:21 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 4:08:44 - INFO - New connected socket [id: UKa_4zhKw_fTZ2EuAAAC]
+24.9.2025, 4:08:44 - INFO - New connected socket [id: VoCYoQs07XazXUsLAAAD]
+24.9.2025, 4:08:44 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: UKa_4zhKw_fTZ2EuAAAC]
+24.9.2025, 4:08:44 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: VoCYoQs07XazXUsLAAAD]
+24.9.2025, 4:08:52 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 4:08:52 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 4:09:03 - INFO - New connected socket [id: JvPHqJAQcu9U1zO8AAAF]
+24.9.2025, 4:09:03 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: JvPHqJAQcu9U1zO8AAAF]
+24.9.2025, 4:09:04 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: JvPHqJAQcu9U1zO8AAAF]
+24.9.2025, 4:09:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:09:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:09:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:09:05 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:09:07 - INFO - New connected socket [id: CnTRV3ePDuhA7-mKAAAH]
+24.9.2025, 4:09:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:09:12 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:09:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:09:20 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:09:22 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:09:22 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:09:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:09:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:09:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:09:34 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:16:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:16:06 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:16:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:16:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:16:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:16:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:16:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:16:55 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:16:56 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 4:16:58 - INFO - New connected socket [id: XAIihA-nbVfCA4HwAAAJ]
+24.9.2025, 4:16:58 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: XAIihA-nbVfCA4HwAAAJ]
+24.9.2025, 4:16:58 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: XAIihA-nbVfCA4HwAAAJ]
+24.9.2025, 4:16:58 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:16:58 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:16:59 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:16:59 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:03 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:06 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:06 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:08 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:09 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:09 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:15 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 4:17:26 - INFO - New connected socket [id: U7_LByeDqF3PdNYNAAAB]
+24.9.2025, 4:17:26 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: U7_LByeDqF3PdNYNAAAB]
+24.9.2025, 4:17:42 - INFO - New connected socket [id: nzz9QYtDmQnCd82rAAAD]
+24.9.2025, 4:17:49 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:49 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:52 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:56 - INFO - /api/orders | GET |  | {}
+24.9.2025, 4:17:56 - INFO - /api/orders | GET |  | {}
