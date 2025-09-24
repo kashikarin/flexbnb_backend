@@ -267,3 +267,5 @@
 11.9.2025, 12:21:32 - INFO - User login:  | {"_id":"68c2727be535bd6e1ebc9909","email":"bobi@something.com","username":"b","fullname":"bobi bobi","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad57","68bf3a7da4e092bac135ad5f","68bf3a7da4e092bac135ad59"],"createdAt":1757573755460}
 11.9.2025, 14:02:12 - ERROR - Failed to Login Error: Username not found
 11.9.2025, 14:02:17 - INFO - User login:  | {"_id":"68c2727be535bd6e1ebc9909","email":"bobi@something.com","username":"b","fullname":"bobi bobi","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad57","68bf3a7da4e092bac135ad5f","68bf3a7da4e092bac135ad59"],"createdAt":1757573755460}
+21.9.2025, 23:43:54 - DEBUG - auth.route - new account created: {"_id":"68d0638a5b394c4e05cae76b","email":"a","username":"a","fullname":"a","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758487434067}
+21.9.2025, 23:43:54 - INFO - User signup: | {"_id":"68d0638a5b394c4e05cae76b","email":"a","username":"a","fullname":"a","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758487434067}
