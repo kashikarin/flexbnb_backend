@@ -21,6 +21,8 @@ async function query(filterBy = {}) {
     const collection = await dbService.getCollection('order')
     const orderCursor = await collection.find(criteria)
     const orders = await orderCursor.toArray()
+    console.log("🚀 ~ orders:", orders)
+    
     return orders
   } catch (err) {
     loggerService.error('cannot find orders', err)
@@ -56,6 +58,17 @@ async function add(order) {
 async function update(order) {
   const criteria = { _id: ObjectId.createFromHexString(order._id) }
   const { _id, ...orderToUpdate } = order
+
+  if (orderToUpdate.host?.userId && ObjectId.isValid(orderToUpdate.host.userId)) {
+    orderToUpdate.host.userId = new ObjectId(orderToUpdate.host.userId)
+  }
+  if (orderToUpdate.home?.homeId && ObjectId.isValid(orderToUpdate.home.homeId)) {
+    orderToUpdate.home.homeId = new ObjectId(orderToUpdate.home.homeId)
+  }
+  if (orderToUpdate.purchaser?.userId && ObjectId.isValid(orderToUpdate.purchaser.userId)) {
+    orderToUpdate.purchaser.userId = new ObjectId(orderToUpdate.purchaser.userId)
+  }
+  
   try {
     const collection = await dbService.getCollection('order')
     await collection.updateOne(criteria, { $set: orderToUpdate })
@@ -85,19 +98,7 @@ function _buildCriteria(filterBy) {
   if (!filterBy.hostId || !ObjectId.isValid(filterBy.hostId)) {
     throw new Error('hostId is required for dashboard queries')
   }
-
   criteria['host.userId'] = new ObjectId(filterBy.hostId)
-
-  if (filterBy.status && filterBy.status !== 'all') {
-    criteria.status = { $regex: filterBy.status, $options: 'i' }
-  }
-  if (filterBy.txt) {
-    const regex = { $regex: filterBy.txt, $options: 'i' }
-    criteria.$or = [
-      { 'home.name': regex },
-      { 'purchaser.fullname': regex },
-    ]
-  }
     
   return criteria
 }

@@ -4,18 +4,12 @@ import { socketService } from '../../services/socket.service.js'
 import { orderService } from './order.service.js'
 
 export async function getOrders(req, res) {
-  const { status, txt } = req.query
-  console.log('controller req.query:', req.query)
   const loggedInUserId = req.loggedInUser?._id  
   console.log('👤 loggedInUserId from req:', loggedInUserId)
 
   try {
     const filterBy = {
-      status: status ?? null,
       hostId: loggedInUserId,
-      txt: txt ?? ''
-      // homeName: homeName ?? '',
-      // purchaserName: purchaserName ?? ''
     }
     const orders = await orderService.query(filterBy)
     res.json(orders)
