@@ -2957,3 +2957,111 @@
 24.9.2025, 4:17:54 - INFO - /api/orders | GET |  | {}
 24.9.2025, 4:17:56 - INFO - /api/orders | GET |  | {}
 24.9.2025, 4:17:56 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:20:59 - INFO - New connected socket [id: 8vT8_L39CGAtALajAAAB]
+24.9.2025, 10:21:05 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 10:21:06 - INFO - New connected socket [id: Nt8YmXjYxHshl0KlAAAD]
+24.9.2025, 10:21:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:15 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:17 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:18 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:18 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:20 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:20 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:20 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:20 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:21 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:21 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:22 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:22 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:22 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:22 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:22 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:23 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:25 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:28 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:28 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:31 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:32 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:21:33 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:48:42 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 10:48:43 - INFO - New connected socket [id: PBi5teXB1yk32GOOAAAF]
+24.9.2025, 10:48:43 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: PBi5teXB1yk32GOOAAAF]
+24.9.2025, 10:48:43 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: PBi5teXB1yk32GOOAAAF]
+24.9.2025, 10:51:30 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 10:51:31 - INFO - New connected socket [id: R82Jd7y0UUVpzLijAAAH]
+24.9.2025, 10:51:31 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: R82Jd7y0UUVpzLijAAAH]
+24.9.2025, 10:51:32 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: R82Jd7y0UUVpzLijAAAH]
+24.9.2025, 10:51:42 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 10:51:42 - INFO - New connected socket [id: rDHVp9H0ybjxAlU5AAAJ]
+24.9.2025, 10:51:42 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: rDHVp9H0ybjxAlU5AAAJ]
+24.9.2025, 10:51:43 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: rDHVp9H0ybjxAlU5AAAJ]
+24.9.2025, 10:52:06 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 10:52:07 - INFO - New connected socket [id: Fu_uc3CcFUz5P--UAAAL]
+24.9.2025, 10:52:07 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: Fu_uc3CcFUz5P--UAAAL]
+24.9.2025, 10:52:07 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: Fu_uc3CcFUz5P--UAAAL]
+24.9.2025, 10:52:43 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:52:44 - INFO - /api/orders | GET |  | {}
+24.9.2025, 10:55:24 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 10:55:25 - INFO - New connected socket [id: BPnDAJ0PX_xQZcqmAAAN]
+24.9.2025, 10:55:25 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: BPnDAJ0PX_xQZcqmAAAN]
+24.9.2025, 10:55:26 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: BPnDAJ0PX_xQZcqmAAAN]
+24.9.2025, 11:20:29 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 11:20:30 - INFO - New connected socket [id: 91i6WTG92teYJ-d8AAAP]
+24.9.2025, 11:20:30 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 91i6WTG92teYJ-d8AAAP]
+24.9.2025, 11:20:31 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 91i6WTG92teYJ-d8AAAP]
+24.9.2025, 11:21:44 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 16:38:46 - INFO - New connected socket [id: bgT6sK0syq8E1J0BAAAR]
+24.9.2025, 16:39:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 16:39:35 - INFO - /api/orders | GET |  | {}
+24.9.2025, 16:39:53 - INFO - /api/orders | PUT | {"_id":"68d27371be05553385ee877b","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":null,"email":"jz@gmail.com"},"totalPrice":729.6000000000001,"checkIn":"2025-09-22T21:00:00.000Z","checkOut":"2025-09-24T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5e","name":"Barcelona Stay #10","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg"},"status":"approved"} | {"orderId":"68d27371be05553385ee877b"}
+24.9.2025, 16:39:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 16:39:54 - INFO - /api/orders | GET |  | {}
+24.9.2025, 17:46:48 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 17:47:37 - INFO - New connected socket [id: SCG5GNXoi6sOaE5GAAAT]
+24.9.2025, 17:47:37 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: SCG5GNXoi6sOaE5GAAAT]
+24.9.2025, 17:47:37 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: SCG5GNXoi6sOaE5GAAAT]
+24.9.2025, 17:47:37 - INFO - /api/orders | GET |  | {}
+24.9.2025, 17:47:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 17:47:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 17:47:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 17:59:34 - INFO - /api/orders | GET |  | {}
+24.9.2025, 17:59:38 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:28:46 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:28:48 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:28:49 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:28:50 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:45:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:45:04 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:46:54 - INFO - Socket disconnected [id: undefined]
+24.9.2025, 18:46:57 - INFO - New connected socket [id: 93K4m6Bt1gmts7hcAAAV]
+24.9.2025, 18:46:57 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 93K4m6Bt1gmts7hcAAAV]
+24.9.2025, 18:46:58 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 93K4m6Bt1gmts7hcAAAV]
+24.9.2025, 18:46:58 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:46:58 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:46:59 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:46:59 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:52:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:52:19 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:52:24 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:52:25 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:52:45 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:52:45 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:53:46 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:53:47 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:55:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:55:29 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:55:30 - INFO - /api/orders | GET |  | {}
+24.9.2025, 18:55:30 - INFO - /api/orders | GET |  | {}
