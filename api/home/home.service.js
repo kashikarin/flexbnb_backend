@@ -4,6 +4,7 @@ import { makeId } from '../../services/util.service.js'
 import { dbService } from '../../services/db.service.js'
 import { asyncLocalStorage } from '../../services/als.service.js'
 import { loggerService } from '../../services/logger.service.js'
+import geocodeService from '../geocode/geocode.service.js'
 
 export const homeService = {
   query,
@@ -21,7 +22,6 @@ async function query(filterBy = {}) {
     const collection = await dbService.getCollection('home')
     const homeCursor = await collection.find(criteria)
     const homes = await homeCursor.toArray()
-    console.log(homes)
     return homes
   } catch (err) {
     loggerService.error('cannot find homes', err)
@@ -44,6 +44,25 @@ async function getById(homeId) {
 
 async function add(home) {
   try {
+    if (home.loc && home.loc.lat && home.loc.lng && !home.loc.city) {
+      console.log('🗺️ Adding location data for home...')
+
+      const locationData = await geocodeService.reverseGeocode(
+        home.loc.lat,
+        home.loc.lng
+      )
+
+      home.loc = {
+        lat: locationData.lat,
+        lng: locationData.lng,
+        address: locationData.address,
+        city: locationData.city,
+        country: locationData.country,
+        countryCode: locationData.countryCode,
+      }
+
+      console.log('✅ Location data added:', home.loc)
+    }
     const collection = await dbService.getCollection('home')
     await collection.insertOne(home)
     return home

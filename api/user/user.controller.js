@@ -39,7 +39,7 @@ export async function deleteUser(req, res) {
 export async function addUser(req, res) {
   console.log('🔥 1. Frontend sent to server:', req.body)
   try {
-    const { email, username, password, fullname, imgUrl, isHost } = req.body
+    const { email, username, password, fullname, imageUrl, isHost } = req.body
 
     const loginId = email || username
 
@@ -51,7 +51,7 @@ export async function addUser(req, res) {
       username,
       password,
       fullname,
-      imgUrl,
+      imageUrl,
       isHost: !!isHost,
       likedHomes: [],
     })
@@ -59,7 +59,7 @@ export async function addUser(req, res) {
     const mini = {
       _id: saved._id,
       fullname: saved.fullname,
-      imgUrl: saved.imgUrl,
+      imageUrl: saved.imageUrl,
       email: saved.email,
       username: saved.username,
       isHost: !!saved.isHost,

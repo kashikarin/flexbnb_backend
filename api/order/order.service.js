@@ -10,19 +10,19 @@ export const orderService = {
   getById,
   add,
   update,
-  remove,
-  // addCarMsg,
-  // removeCarMsg,
+  remove
 }
 
 async function query(filterBy = {}) {
   try {
-    // const criteria = {}
     const criteria = _buildCriteria(filterBy)
+        console.log('🔍 criteria:', criteria)   // 👈
+    
     const collection = await dbService.getCollection('order')
     const orderCursor = await collection.find(criteria)
     const orders = await orderCursor.toArray()
-    console.log(orders)
+    console.log("🚀 ~ orders:", orders)
+    
     return orders
   } catch (err) {
     loggerService.error('cannot find orders', err)
@@ -58,6 +58,17 @@ async function add(order) {
 async function update(order) {
   const criteria = { _id: ObjectId.createFromHexString(order._id) }
   const { _id, ...orderToUpdate } = order
+
+  if (orderToUpdate.host?.userId && ObjectId.isValid(orderToUpdate.host.userId)) {
+    orderToUpdate.host.userId = new ObjectId(orderToUpdate.host.userId)
+  }
+  if (orderToUpdate.home?.homeId && ObjectId.isValid(orderToUpdate.home.homeId)) {
+    orderToUpdate.home.homeId = new ObjectId(orderToUpdate.home.homeId)
+  }
+  if (orderToUpdate.purchaser?.userId && ObjectId.isValid(orderToUpdate.purchaser.userId)) {
+    orderToUpdate.purchaser.userId = new ObjectId(orderToUpdate.purchaser.userId)
+  }
+  
   try {
     const collection = await dbService.getCollection('order')
     await collection.updateOne(criteria, { $set: orderToUpdate })
@@ -84,22 +95,10 @@ async function remove(orderId) {
 function _buildCriteria(filterBy) {
   const criteria = {}
 
-  if (filterBy.status) criteria.status = filterBy.status
-  if (filterBy.createdAt) {
-    const dayStart = new Date(Number(filterBy.createdAt))
-    const dayEnd = new Date(dayStart)
-    dayEnd.setDate(dayEnd.getDate() + 1)
-
-    criteria.createdAt = { $gte: dayStart, $lt: dayEnd }
+  if (!filterBy.hostId || !ObjectId.isValid(filterBy.hostId)) {
+    throw new Error('hostId is required for dashboard queries')
   }
-  if (filterBy.checkIn) criteria.checkIn = new Date(filterBy.checkIn)
-  if (filterBy.checkOut) criteria.checkOut = new Date(filterBy.checkOut)
-
+  criteria['host.userId'] = new ObjectId(filterBy.hostId)
+    
   return criteria
 }
-
-// db.orders.find({ status: filterBy.status })
-// status: status ?? '',
-//       createdAt: Number(createdAt),
-//       checkIn: checkIn ?? '',
-//       checkOut: checkOut ?? '',

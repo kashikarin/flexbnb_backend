@@ -32,7 +32,7 @@
     "host": {
       "id": "u101",
       "fullname": "Justin Time",
-      "imageURL": "/img/user/justin-img.jpg"
+      "imageUrl": "/img/user/justin-img.jpg"
     },
     "loc": {
       "address": "22 Rothschild Blvd, Tel Aviv-Yafo, 6688218, Israel",
@@ -55,9 +55,9 @@
         "txt": "Amazing location on Rothschild. Clean, quiet, and exactly as pictured.",
         "rate": 5,
         "by": {
-          "id": "u201",
+          "userId": "u201",
           "fullname": "Dana",
-          "imageURL": "/img/user/dana.jpg"
+          "imageUrl": "/img/user/dana.jpg"
         }
       }
     ],
@@ -96,7 +96,7 @@
     "host": {
       "id": "u101",
       "fullname": "Justin Time",
-      "imageURL": "/img/user/justin-img.jpg"
+      "imageUrl": "/img/user/justin-img.jpg"
     },
     "loc": {
       "address": "Dizengoff Square, Tel Aviv-Yafo, Israel",
@@ -119,9 +119,9 @@
         "txt": "Bright loft overlooking the square. Easy walk to beaches and restaurants.",
         "rate": 4,
         "by": {
-          "id": "u202",
+          "userId": "u202",
           "fullname": "Avi",
-          "imageURL": "/img/user/avi.jpg"
+          "imageUrl": "/img/user/avi.jpg"
         }
       }
     ],
@@ -160,7 +160,7 @@
     "host": {
       "id": "u101",
       "fullname": "Justin Time",
-      "imageURL": "/img/user/justin-img.jpg"
+      "imageUrl": "/img/user/justin-img.jpg"
     },
     "loc": {
       "address": "Passeig de Gràcia 39, 08007 Barcelona, Spain",
@@ -183,9 +183,9 @@
         "txt": "Stylish suite on the iconic boulevard. Minutes from Casa Batlló.",
         "rate": 5,
         "by": {
-          "id": "u203",
+          "userId": "u203",
           "fullname": "Maria",
-          "imageURL": "/img/user/maria.jpg"
+          "imageurl": "/img/user/maria.jpg"
         }
       }
     ],
@@ -224,7 +224,7 @@
     "host": {
       "id": "u101",
       "fullname": "Justin Time",
-      "imageURL": "/img/user/justin-img.jpg"
+      "imageUrl": "/img/user/justin-img.jpg"
     },
     "loc": {
       "address": "221B Baker Street, London NW1 6XE, United Kingdom",
@@ -247,9 +247,9 @@
         "txt": "Cozy flat near Regent’s Park and the Sherlock Holmes Museum.",
         "rate": 4,
         "by": {
-          "id": "u204",
+          "userId": "u204",
           "fullname": "James",
-          "imageURL": "/img/user/james.jpg"
+          "imageUrl": "/img/user/james.jpg"
         }
       }
     ],
@@ -286,9 +286,9 @@
     "labels": ["Family-friendly", "Market vibes"],
     "likedByUsers": [],
     "host": {
-      "id": "u101",
+      "userId": "u101",
       "fullname": "Justin Time",
-      "imageURL": "/img/user/justin-img.jpg"
+      "imageUrl": "/img/user/justin-img.jpg"
     },
     "loc": {
       "address": "Portobello Road, London W10, United Kingdom",
@@ -311,9 +311,9 @@
         "txt": "Spacious townhouse near the market—great for families.",
         "rate": 5,
         "by": {
-          "id": "u205",
+          "userId": "u205",
           "fullname": "Sophie",
-          "imageURL": "/img/user/sophie.jpg"
+          "imageUrl": "/img/user/sophie.jpg"
         }
       }
     ],
