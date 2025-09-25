@@ -3202,6 +3202,7 @@
 24.9.2025, 20:18:59 - INFO - /api/orders | PUT | {"_id":"68d3154f714f672a02170d09","host":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg"},"purchaser":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":"","email":"kk@gmail.com"},"totalPrice":1140.0000000000002,"checkIn":"2025-09-23T21:00:00.000Z","checkOut":"2025-09-25T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d314e4714f672a02170d08","name":"nice home in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663872/onsiqz8ivtizpgjjn4kd.jpg"},"status":"approved"} | {"orderId":"68d3154f714f672a02170d09"}
 24.9.2025, 20:19:00 - INFO - /api/orders | GET |  | {}
 24.9.2025, 20:19:00 - INFO - /api/orders | GET |  | {}
+<<<<<<< HEAD
 24.9.2025, 21:19:19 - INFO - New connected socket [id: sn4Lp7j7SIknrQvtAAAB]
 24.9.2025, 21:19:22 - INFO - Socket disconnected [id: undefined]
 24.9.2025, 21:19:23 - INFO - New connected socket [id: rGMoU-NIhmZHz9DBAAAD]
@@ -3419,3 +3420,63 @@
 25.9.2025, 15:14:06 - INFO - /api/auth | POST | {"email":"kkk@gmail.com","password":"kkk"} | {}
 25.9.2025, 15:14:07 - INFO - User login:  | {"_id":"68d31470714f672a02170d07","email":"kkk@gmail.com","username":"kkk","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758663792837}
 25.9.2025, 15:14:07 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: AEMQ1gZkSv3xvVOmAAAB]
+=======
+21.9.2025, 23:43:54 - DEBUG - auth.route - new account created: {"_id":"68d0638a5b394c4e05cae76b","email":"a","username":"a","fullname":"a","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758487434067}
+21.9.2025, 23:43:54 - INFO - User signup: | {"_id":"68d0638a5b394c4e05cae76b","email":"a","username":"a","fullname":"a","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758487434067}
+>>>>>>> 421ccda8d2ff3e29b70e0ad182534e6aa41c3d38
+25.9.2025, 15:41:45 - INFO - New connected socket [id: fMwv1MVJdPKy1Pr8AAAB]
+25.9.2025, 15:41:46 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: fMwv1MVJdPKy1Pr8AAAB]
+25.9.2025, 15:41:46 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: fMwv1MVJdPKy1Pr8AAAB]
+25.9.2025, 15:41:53 - INFO - New connected socket [id: RipRE5elpnJ5fkZvAAAD]
+25.9.2025, 15:42:03 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 15:42:04 - INFO - New connected socket [id: cd0ndOOl2JLRRT8DAAAF]
+25.9.2025, 15:42:05 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: cd0ndOOl2JLRRT8DAAAF]
+25.9.2025, 15:42:05 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: cd0ndOOl2JLRRT8DAAAF]
+25.9.2025, 15:42:15 - INFO - New connected socket [id: ICYZNE_fpU8uf-koAAAH]
+25.9.2025, 15:42:49 - INFO - /api/auth | POST | {"email":"kk@gmail.com","password":"kk"} | {}
+25.9.2025, 15:42:50 - INFO - User login:  | {"_id":"68cffa1ee68e1ea21bb4a403","email":"kk@gmail.com","username":"kk","fullname":"kk","imageUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758460446446}
+25.9.2025, 15:42:50 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: ICYZNE_fpU8uf-koAAAH]
+25.9.2025, 15:42:55 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:43:22 - INFO - /api/orders | PUT | {"_id":"68d52460c80ee401405ac399","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":729.6000000000001,"checkIn":"2025-10-02T22:33:23.049Z","checkOut":"2025-10-04T22:33:23.049Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad66","name":"London Stay #18","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"},"status":"approved"} | {"orderId":"68d52460c80ee401405ac399"}
+25.9.2025, 15:43:22 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: fMwv1MVJdPKy1Pr8AAAB]
+25.9.2025, 15:43:22 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:43:23 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:44:02 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+25.9.2025, 15:44:02 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: ICYZNE_fpU8uf-koAAAH]
+25.9.2025, 15:44:02 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:44:35 - INFO - /api/orders | PUT | {"_id":"68d523bfe4fe3e27a66fc760","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":729.6000000000001,"checkIn":"2025-09-24T21:00:00.000Z","checkOut":"2025-09-26T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5e","name":"Barcelona Stay #10","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg"},"status":"approved"} | {"orderId":"68d523bfe4fe3e27a66fc760"}
+25.9.2025, 15:44:36 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: fMwv1MVJdPKy1Pr8AAAB]
+25.9.2025, 15:44:36 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:44:36 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:45:16 - INFO - /api/orders | PUT | {"_id":"68d317c4714f672a02170d0d","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":729.6000000000001,"checkIn":"2025-09-23T21:00:00.000Z","checkOut":"2025-09-25T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad66","name":"London Stay #18","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"},"status":"approved"} | {"orderId":"68d317c4714f672a02170d0d"}
+25.9.2025, 15:45:17 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: fMwv1MVJdPKy1Pr8AAAB]
+25.9.2025, 15:45:17 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:45:17 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:48:08 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:48:15 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:48:18 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:48:26 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":729.6000000000001,"checkIn":"2025-09-24T21:00:00.000Z","checkOut":"2025-09-26T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5e","name":"Barcelona Stay #10","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg"},"status":"pending"} | {}
+25.9.2025, 15:48:28 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: ICYZNE_fpU8uf-koAAAH]
+25.9.2025, 15:48:28 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:49:28 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":729.6000000000001,"checkIn":"2025-09-24T21:00:00.000Z","checkOut":"2025-09-26T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5e","name":"Barcelona Stay #10","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg"},"status":"pending"} | {}
+25.9.2025, 15:49:28 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: ICYZNE_fpU8uf-koAAAH]
+25.9.2025, 15:49:28 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:49:38 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 15:49:39 - INFO - New connected socket [id: x2_5iLlf64O6LEwOAAAJ]
+25.9.2025, 15:49:39 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: x2_5iLlf64O6LEwOAAAJ]
+25.9.2025, 15:49:39 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: x2_5iLlf64O6LEwOAAAJ]
+25.9.2025, 15:49:39 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:49:40 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:49:40 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:49:53 - INFO - /api/orders | PUT | {"_id":"68d53a1c59fd7b7fb3a6efc8","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":729.6000000000001,"checkIn":"2025-09-24T21:00:00.000Z","checkOut":"2025-09-26T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5e","name":"Barcelona Stay #10","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg"},"status":"approved"} | {"orderId":"68d53a1c59fd7b7fb3a6efc8"}
+25.9.2025, 15:49:54 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: fMwv1MVJdPKy1Pr8AAAB]
+25.9.2025, 15:49:54 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:49:54 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:50:04 - INFO - /api/orders | PUT | {"_id":"68d53a5859fd7b7fb3a6efc9","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":729.6000000000001,"checkIn":"2025-09-24T21:00:00.000Z","checkOut":"2025-09-26T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5e","name":"Barcelona Stay #10","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg"},"status":"rejected"} | {"orderId":"68d53a5859fd7b7fb3a6efc9"}
+25.9.2025, 15:50:05 - INFO - Emiting event: order-rejected to user: 68d31470714f672a02170d07 socket [id: fMwv1MVJdPKy1Pr8AAAB]
+25.9.2025, 15:50:05 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:50:05 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:52:57 - INFO - /api/orders | PUT | {"_id":"68d5391259fd7b7fb3a6efc7","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"approved"} | {"orderId":"68d5391259fd7b7fb3a6efc7"}
+25.9.2025, 15:52:57 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: fMwv1MVJdPKy1Pr8AAAB]
+25.9.2025, 15:52:57 - INFO - /api/orders | GET |  | {}
+25.9.2025, 15:52:58 - INFO - /api/orders | GET |  | {}

@@ -71,7 +71,15 @@ export async function removeOrder(req, res) {
 export async function updateOrder(req, res) {
   const order = req.body
   try {
+    const existingOrder = await orderService.getById(order._id)  
     const updatedOrder = await orderService.update(order)
+    if (existingOrder.status !== order.status) {
+      if (order.status === 'approved') {
+        socketService.emitToUser({ type: 'order-approved', data: updatedOrder, userId: order.purchaser.userId.toString() })
+      } else {
+        socketService.emitToUser({ type: 'order-rejected', data: updatedOrder, userId: order.purchaser.userId.toString() })
+      }
+    }
     res.json(updatedOrder)
   } catch (err) {
     loggerService.error('Failed to update order', err)

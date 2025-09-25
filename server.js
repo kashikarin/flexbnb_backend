@@ -61,7 +61,7 @@ if (process.env.NODE_ENV === 'production') {
 app.get('/api/health', (_req, res) => {
   res.json({ ok: true })
 })
-console.log("🔑 GOOGLE_API_KEY loaded in backend:", process.env.GOOGLE_API_KEY.slice(0, 5));
+//console.log("🔑 GOOGLE_API_KEY loaded in backend:", process.env.GOOGLE_API_KEY.slice(0, 5));
 
 // Home Routes
 app.use('/api/homes', homeRoutes)
