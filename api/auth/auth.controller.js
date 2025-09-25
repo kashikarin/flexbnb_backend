@@ -31,6 +31,7 @@ export async function getCurrentUser(req, res) {
 export async function signup(req, res) {
   try {
     const credentials = req.body
+    console.log("🚀 ~ credentials:", credentials)
 
     const account = await authService.signup(credentials)
     loggerService.debug(

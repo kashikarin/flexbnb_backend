@@ -1,6 +1,7 @@
 import geocodeService from './geocode.service.js'
 console.log('🔍 Loaded geocodeService:', geocodeService)
 export async function getLocationByCoordinates(req, res) {
+  console.log('geocode service run')
   try {
     const { lat, lng } = req.query
 

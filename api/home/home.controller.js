@@ -18,8 +18,8 @@ export async function getHomes(req, res) {
     const homes = await homeService.query(filterBy)
     res.json(homes)
   } catch (err) {
-  console.error('❌ Controller error:', err)
-  res.status(400).send({ err: 'Cannot get homes', details: err.message })
+    console.error('❌ Controller error:', err)
+    res.status(400).send({ err: 'Cannot get homes', details: err.message })
 }
 }
 

@@ -19,7 +19,11 @@ export async function requireAuth(req, res, next) {
 
     next()
   } catch (err) {
-    loggerService.error('Auth middleware error:', err)
+    const user = req.loggedInUser || {}
+    const userId = user._id || 'Unknown'
+    const name = user.fullname || user.username || 'Unknown'
+
+    loggerService.error('Auth middleware error:', { uid, name, err })
     res.status(401).send({ err: 'Invalid token.' })
   }
 }

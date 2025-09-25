@@ -36,20 +36,13 @@ export async function addOrder(req, res) {
   const order = req.body
   
   try {
-    if (!order.host?.userId || !ObjectId.isValid(order.host.userId)) {
-      return res.status(400).send({ err: 'Invalid or missing host.userId' })
+    order.purchaser = {
+    userId: new ObjectId(loggedInUser._id),
+    fullname: loggedInUser.fullname,
+    imageUrl: loggedInUser.imageUrl,
+    email: loggedInUser.email
     }
     
-    if (!loggedInUser?._id || !ObjectId.isValid(loggedInUser._id)) {
-      return res.status(400).send({ err: 'Invalid purchaser userId' })
-    }
-
-    order.purchaser = {
-      userId: new ObjectId(loggedInUser._id),
-      fullname: loggedInUser.fullname,
-      imageUrl: loggedInUser.imageUrl,
-      email: loggedInUser.email
-    }
     order.host.userId = new ObjectId(order.host.userId)
     order.home.homeId = new ObjectId(order.home.homeId)
 

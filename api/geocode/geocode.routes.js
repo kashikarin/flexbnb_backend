@@ -1,6 +1,5 @@
 import express from 'express'
-import { getLocationByCoordinates } from './geocode.controller.js' // ⬅️ שים לב לנקודה
-
+import { getLocationByCoordinates } from './geocode.controller.js' 
 const router = express.Router()
 
 router.get('/', getLocationByCoordinates)
