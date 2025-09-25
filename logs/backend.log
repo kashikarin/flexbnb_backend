@@ -3480,3 +3480,522 @@
 25.9.2025, 15:52:57 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: fMwv1MVJdPKy1Pr8AAAB]
 25.9.2025, 15:52:57 - INFO - /api/orders | GET |  | {}
 25.9.2025, 15:52:58 - INFO - /api/orders | GET |  | {}
+25.9.2025, 18:33:48 - INFO - New connected socket [id: GQljpF6jm97biaaAAAAD]
+25.9.2025, 18:33:50 - INFO - New connected socket [id: xolFRqQ9386NHaguAAAE]
+25.9.2025, 18:33:50 - INFO - New connected socket [id: xxkRCrre4cwrVWitAAAF]
+25.9.2025, 18:33:50 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: GQljpF6jm97biaaAAAAD]
+25.9.2025, 18:33:50 - INFO - /api/orders | PUT | {"_id":"68d28b7ce8b7d424771f8afc","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":null,"email":"jz@gmail.com"},"totalPrice":729.6000000000001,"checkIn":"2025-09-22T21:00:00.000Z","checkOut":"2025-09-24T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad66","name":"London Stay #18","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"},"status":"rejected"} | {"orderId":"68d28b7ce8b7d424771f8afc"}
+25.9.2025, 18:33:50 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: xolFRqQ9386NHaguAAAE]
+25.9.2025, 18:33:50 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: xxkRCrre4cwrVWitAAAF]
+25.9.2025, 18:33:52 - INFO - No active socket for user: 68cff2457d02ba8a7b37f40a
+25.9.2025, 18:33:52 - INFO - /api/orders | GET |  | {}
+25.9.2025, 18:33:52 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:40:00 - INFO - New connected socket [id: jCQdDVZHSjJ7hU1_AAAC]
+25.9.2025, 19:40:00 - INFO - New connected socket [id: BHyQaiqnsX9BmmC1AAAD]
+25.9.2025, 19:40:00 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: jCQdDVZHSjJ7hU1_AAAC]
+25.9.2025, 19:40:00 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: BHyQaiqnsX9BmmC1AAAD]
+25.9.2025, 19:40:01 - INFO - New connected socket [id: 3K1X_TvYxiS9CEXzAAAF]
+25.9.2025, 19:40:01 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: 3K1X_TvYxiS9CEXzAAAF]
+25.9.2025, 19:40:20 - INFO - New connected socket [id: Ftek3wToUrgrd_s-AAAH]
+25.9.2025, 19:40:21 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 19:40:44 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+25.9.2025, 19:40:44 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: jCQdDVZHSjJ7hU1_AAAC]
+25.9.2025, 19:40:44 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:40:49 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 19:40:49 - INFO - New connected socket [id: IQrbUBTot3VBQwriAAAJ]
+25.9.2025, 19:40:49 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: IQrbUBTot3VBQwriAAAJ]
+25.9.2025, 19:40:50 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: IQrbUBTot3VBQwriAAAJ]
+25.9.2025, 19:41:10 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 19:41:12 - INFO - New connected socket [id: oPD5xAoEUyHz_KpYAAAL]
+25.9.2025, 19:41:12 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: oPD5xAoEUyHz_KpYAAAL]
+25.9.2025, 19:41:13 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:41:13 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:41:13 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: oPD5xAoEUyHz_KpYAAAL]
+25.9.2025, 19:41:13 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:42:03 - INFO - /api/orders | PUT | {"_id":"68d5708c6cd4190490985dda","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"approved"} | {"orderId":"68d5708c6cd4190490985dda"}
+25.9.2025, 19:42:03 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: 3K1X_TvYxiS9CEXzAAAF]
+25.9.2025, 19:42:03 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:42:04 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:43:37 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+25.9.2025, 19:43:37 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: oPD5xAoEUyHz_KpYAAAL]
+25.9.2025, 19:43:37 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:45:44 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 19:45:45 - INFO - New connected socket [id: zsynX8lSzggu88z7AAAN]
+25.9.2025, 19:45:45 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: zsynX8lSzggu88z7AAAN]
+25.9.2025, 19:45:45 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: zsynX8lSzggu88z7AAAN]
+25.9.2025, 19:45:45 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:45:46 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:45:47 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:45:57 - INFO - /api/orders | PUT | {"_id":"68d571396cd4190490985ddb","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"rejected"} | {"orderId":"68d571396cd4190490985ddb"}
+25.9.2025, 19:45:57 - INFO - Emiting event: order-rejected to user: 68d31470714f672a02170d07 socket [id: 3K1X_TvYxiS9CEXzAAAF]
+25.9.2025, 19:45:57 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:45:58 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:49:52 - INFO - New connected socket [id: -ssrSUNVZgn4CFnFAAAC]
+25.9.2025, 19:49:52 - INFO - New connected socket [id: HgLeQPKQGrqA7g1OAAAD]
+25.9.2025, 19:49:52 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: -ssrSUNVZgn4CFnFAAAC]
+25.9.2025, 19:49:52 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: HgLeQPKQGrqA7g1OAAAD]
+25.9.2025, 19:49:54 - INFO - New connected socket [id: haG7PTwOnsw87lBeAAAF]
+25.9.2025, 19:49:54 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: haG7PTwOnsw87lBeAAAF]
+25.9.2025, 19:50:22 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":547.2,"checkIn":"2025-09-24T21:00:00.000Z","checkOut":"2025-09-26T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad63","name":"Tel Aviv-Yafo Stay #15","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436821/b4ejulqdhsvyseyfnfr0.jpg"},"status":"pending"} | {}
+25.9.2025, 19:50:22 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: haG7PTwOnsw87lBeAAAF]
+25.9.2025, 19:50:22 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:50:35 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 19:50:36 - INFO - New connected socket [id: WbMCKdkpU_GaeADVAAAH]
+25.9.2025, 19:50:37 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: WbMCKdkpU_GaeADVAAAH]
+25.9.2025, 19:50:37 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: WbMCKdkpU_GaeADVAAAH]
+25.9.2025, 19:50:37 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:50:37 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:50:37 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:50:57 - INFO - /api/orders | PUT | {"_id":"68d572ce44b29f9e4e0ceb53","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":547.2,"checkIn":"2025-09-24T21:00:00.000Z","checkOut":"2025-09-26T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad63","name":"Tel Aviv-Yafo Stay #15","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436821/b4ejulqdhsvyseyfnfr0.jpg"},"status":"approved"} | {"orderId":"68d572ce44b29f9e4e0ceb53"}
+25.9.2025, 19:50:57 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: -ssrSUNVZgn4CFnFAAAC]
+25.9.2025, 19:50:57 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:50:57 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:56:42 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":729.6000000000001,"checkIn":"2025-09-24T21:00:00.000Z","checkOut":"2025-09-26T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5e","name":"Barcelona Stay #10","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg"},"status":"pending"} | {}
+25.9.2025, 19:56:43 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: WbMCKdkpU_GaeADVAAAH]
+25.9.2025, 19:56:43 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:56:48 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 19:56:50 - INFO - New connected socket [id: bgln1i1JzVxltKEZAAAJ]
+25.9.2025, 19:56:51 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: bgln1i1JzVxltKEZAAAJ]
+25.9.2025, 19:56:51 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:56:51 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:56:52 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: bgln1i1JzVxltKEZAAAJ]
+25.9.2025, 19:56:52 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:57:09 - INFO - /api/orders | PUT | {"_id":"68d5744b44b29f9e4e0ceb54","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":729.6000000000001,"checkIn":"2025-09-24T21:00:00.000Z","checkOut":"2025-09-26T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5e","name":"Barcelona Stay #10","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg"},"status":"approved"} | {"orderId":"68d5744b44b29f9e4e0ceb54"}
+25.9.2025, 19:57:10 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: -ssrSUNVZgn4CFnFAAAC]
+25.9.2025, 19:57:10 - INFO - /api/orders | GET |  | {}
+25.9.2025, 19:57:10 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:02:30 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":729.6000000000001,"checkIn":"2025-10-02T22:33:23.049Z","checkOut":"2025-10-04T22:33:23.049Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad66","name":"London Stay #18","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"},"status":"pending"} | {}
+25.9.2025, 20:02:31 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: bgln1i1JzVxltKEZAAAJ]
+25.9.2025, 20:02:31 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:03:06 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 20:03:08 - INFO - New connected socket [id: _zmfkrNPS63ap8tFAAAL]
+25.9.2025, 20:03:08 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: _zmfkrNPS63ap8tFAAAL]
+25.9.2025, 20:03:08 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:03:08 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:03:09 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: _zmfkrNPS63ap8tFAAAL]
+25.9.2025, 20:03:09 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:03:15 - INFO - /api/orders | PUT | {"_id":"68d575a744b29f9e4e0ceb55","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":729.6000000000001,"checkIn":"2025-10-02T22:33:23.049Z","checkOut":"2025-10-04T22:33:23.049Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad66","name":"London Stay #18","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"},"status":"approved"} | {"orderId":"68d575a744b29f9e4e0ceb55"}
+25.9.2025, 20:03:16 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: -ssrSUNVZgn4CFnFAAAC]
+25.9.2025, 20:03:16 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:03:17 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:03:35 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+25.9.2025, 20:03:35 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: _zmfkrNPS63ap8tFAAAL]
+25.9.2025, 20:03:36 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:11:51 - INFO - New connected socket [id: yTFAhaIMHxu8jg5BAAAC]
+25.9.2025, 20:11:52 - INFO - New connected socket [id: eXej1aSqbgivh-i1AAAE]
+25.9.2025, 20:11:52 - INFO - New connected socket [id: 6FWxSUV2oKON7bbSAAAF]
+25.9.2025, 20:11:52 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: yTFAhaIMHxu8jg5BAAAC]
+25.9.2025, 20:11:52 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 6FWxSUV2oKON7bbSAAAF]
+25.9.2025, 20:11:52 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: eXej1aSqbgivh-i1AAAE]
+25.9.2025, 20:12:13 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":729.6000000000001,"checkIn":"2025-10-02T22:33:23.049Z","checkOut":"2025-10-04T22:33:23.049Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad66","name":"London Stay #18","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"},"status":"pending"} | {}
+25.9.2025, 20:12:13 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: 6FWxSUV2oKON7bbSAAAF]
+25.9.2025, 20:12:13 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:12:16 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 20:12:18 - INFO - New connected socket [id: cxjMNDss4rMr7cpnAAAH]
+25.9.2025, 20:12:18 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: cxjMNDss4rMr7cpnAAAH]
+25.9.2025, 20:12:18 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: cxjMNDss4rMr7cpnAAAH]
+25.9.2025, 20:12:19 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:12:18 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:12:19 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:12:25 - INFO - /api/orders | PUT | {"_id":"68d575e744b29f9e4e0ceb56","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"approved"} | {"orderId":"68d575e744b29f9e4e0ceb56"}
+25.9.2025, 20:12:25 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: yTFAhaIMHxu8jg5BAAAC]
+25.9.2025, 20:12:25 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:12:26 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:12:54 - INFO - /api/orders | PUT | {"_id":"68d577ed8efdaccbffc9cebe","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":729.6000000000001,"checkIn":"2025-10-02T22:33:23.049Z","checkOut":"2025-10-04T22:33:23.049Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad66","name":"London Stay #18","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"},"status":"approved"} | {"orderId":"68d577ed8efdaccbffc9cebe"}
+25.9.2025, 20:12:54 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: yTFAhaIMHxu8jg5BAAAC]
+25.9.2025, 20:12:54 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:12:55 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:16:23 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":729.6000000000001,"checkIn":"2025-10-02T22:33:23.049Z","checkOut":"2025-10-04T22:33:23.049Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad66","name":"London Stay #18","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"},"status":"pending"} | {}
+25.9.2025, 20:16:23 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: cxjMNDss4rMr7cpnAAAH]
+25.9.2025, 20:16:23 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:16:56 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 20:16:59 - INFO - New connected socket [id: kXZprLPopqcpbDzfAAAJ]
+25.9.2025, 20:16:59 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: kXZprLPopqcpbDzfAAAJ]
+25.9.2025, 20:17:00 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: kXZprLPopqcpbDzfAAAJ]
+25.9.2025, 20:17:06 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 20:17:09 - INFO - New connected socket [id: 03nQRgyuPu51NZP6AAAL]
+25.9.2025, 20:17:09 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 03nQRgyuPu51NZP6AAAL]
+25.9.2025, 20:17:09 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 03nQRgyuPu51NZP6AAAL]
+25.9.2025, 20:17:10 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:17:10 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:17:11 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:17:22 - INFO - New connected socket [id: jr-w68xUiggNBnQ3AAAC]
+25.9.2025, 20:17:22 - INFO - New connected socket [id: iAHdGTtivLv2DtutAAAD]
+25.9.2025, 20:17:22 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: jr-w68xUiggNBnQ3AAAC]
+25.9.2025, 20:17:22 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: iAHdGTtivLv2DtutAAAD]
+25.9.2025, 20:17:25 - INFO - New connected socket [id: 3S2OrfbTBn2sTHAhAAAF]
+25.9.2025, 20:17:25 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 3S2OrfbTBn2sTHAhAAAF]
+25.9.2025, 20:17:32 - INFO - /api/orders | PUT | {"_id":"68d578e78efdaccbffc9cebf","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":729.6000000000001,"checkIn":"2025-10-02T22:33:23.049Z","checkOut":"2025-10-04T22:33:23.049Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad66","name":"London Stay #18","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"},"status":"approved"} | {"orderId":"68d578e78efdaccbffc9cebf"}
+25.9.2025, 20:17:34 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: jr-w68xUiggNBnQ3AAAC]
+25.9.2025, 20:17:34 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:17:34 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:19:58 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":729.6000000000001,"checkIn":"2025-10-02T22:33:23.049Z","checkOut":"2025-10-04T22:33:23.049Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad66","name":"London Stay #18","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"},"status":"pending"} | {}
+25.9.2025, 20:19:59 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: 3S2OrfbTBn2sTHAhAAAF]
+25.9.2025, 20:19:59 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:25:49 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+25.9.2025, 20:25:49 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: 3S2OrfbTBn2sTHAhAAAF]
+25.9.2025, 20:25:49 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:26:02 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 20:26:03 - INFO - New connected socket [id: Yi4cyG4BonRTz8TmAAAH]
+25.9.2025, 20:26:03 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: Yi4cyG4BonRTz8TmAAAH]
+25.9.2025, 20:26:04 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: Yi4cyG4BonRTz8TmAAAH]
+25.9.2025, 20:26:04 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:26:04 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:26:04 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:26:10 - INFO - /api/orders | PUT | {"_id":"68d579bfdba50b8cedf498e2","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":729.6000000000001,"checkIn":"2025-10-02T22:33:23.049Z","checkOut":"2025-10-04T22:33:23.049Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad66","name":"London Stay #18","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"},"status":"rejected"} | {"orderId":"68d579bfdba50b8cedf498e2"}
+25.9.2025, 20:26:11 - INFO - Emiting event: order-rejected to user: 68d31470714f672a02170d07 socket [id: jr-w68xUiggNBnQ3AAAC]
+25.9.2025, 20:26:11 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:26:11 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:31:14 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+25.9.2025, 20:31:14 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: Yi4cyG4BonRTz8TmAAAH]
+25.9.2025, 20:31:14 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:40:59 - INFO - New connected socket [id: RwFiQHOrtqKAj0HQAAAB]
+25.9.2025, 20:40:59 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: RwFiQHOrtqKAj0HQAAAB]
+25.9.2025, 20:40:59 - INFO - New connected socket [id: Vq5ayYbxqDeJmVgHAAAD]
+25.9.2025, 20:40:59 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: Vq5ayYbxqDeJmVgHAAAD]
+25.9.2025, 20:41:04 - INFO - /api/orders | PUT | {"_id":"68d57b1ddba50b8cedf498e3","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"approved"} | {"orderId":"68d57b1ddba50b8cedf498e3"}
+25.9.2025, 20:41:06 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: RwFiQHOrtqKAj0HQAAAB]
+25.9.2025, 20:41:07 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:41:07 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:41:09 - INFO - New connected socket [id: GlAhK_auyVDIuRdSAAAF]
+25.9.2025, 20:41:10 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: GlAhK_auyVDIuRdSAAAF]
+25.9.2025, 20:42:06 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 20:42:08 - INFO - New connected socket [id: KSyEkh6lP6oPGv7AAAAH]
+25.9.2025, 20:42:08 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: KSyEkh6lP6oPGv7AAAAH]
+25.9.2025, 20:42:09 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:42:09 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:42:09 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: KSyEkh6lP6oPGv7AAAAH]
+25.9.2025, 20:42:09 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:42:24 - INFO - New connected socket [id: oJIxipRT46CiAVUQAAAJ]
+25.9.2025, 20:42:25 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:42:26 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:42:36 - INFO - Removing socket.userId for socket [id: oJIxipRT46CiAVUQAAAJ]
+25.9.2025, 20:42:47 - INFO - /api/auth | POST | {"email":"kk@gmail.com","password":"kk"} | {}
+25.9.2025, 20:42:47 - INFO - User login:  | {"_id":"68cffa1ee68e1ea21bb4a403","email":"kk@gmail.com","username":"kk","fullname":"kk","imageUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758460446446}
+25.9.2025, 20:42:47 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: oJIxipRT46CiAVUQAAAJ]
+25.9.2025, 20:42:47 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:43:04 - INFO - New connected socket [id: G1grW1BLQ2dsTFbIAAAB]
+25.9.2025, 20:43:04 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: G1grW1BLQ2dsTFbIAAAB]
+25.9.2025, 20:43:05 - INFO - New connected socket [id: xY4UUowOOwaTJePrAAAD]
+25.9.2025, 20:43:05 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: xY4UUowOOwaTJePrAAAD]
+25.9.2025, 20:43:06 - INFO - New connected socket [id: aRbLvXcKwsxmSv4NAAAF]
+25.9.2025, 20:43:06 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: aRbLvXcKwsxmSv4NAAAF]
+25.9.2025, 20:43:06 - INFO - New connected socket [id: qM4yW7ezjESj3MdxAAAH]
+25.9.2025, 20:43:06 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: qM4yW7ezjESj3MdxAAAH]
+25.9.2025, 20:43:19 - INFO - /api/orders | PUT | {"_id":"68d57c62dba50b8cedf498e4","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"approved"} | {"orderId":"68d57c62dba50b8cedf498e4"}
+25.9.2025, 20:43:21 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: G1grW1BLQ2dsTFbIAAAB]
+25.9.2025, 20:43:21 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:43:21 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:45:31 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":729.6000000000001,"checkIn":"2025-09-24T21:00:00.000Z","checkOut":"2025-09-26T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5e","name":"Barcelona Stay #10","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg"},"status":"pending"} | {}
+25.9.2025, 20:45:31 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: aRbLvXcKwsxmSv4NAAAF]
+25.9.2025, 20:45:31 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:45:55 - INFO - New connected socket [id: ckeUcxofnBqoea67AAAC]
+25.9.2025, 20:45:55 - INFO - New connected socket [id: kXMTCpw0j4Y_XyCDAAAD]
+25.9.2025, 20:45:55 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: ckeUcxofnBqoea67AAAC]
+25.9.2025, 20:45:55 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: kXMTCpw0j4Y_XyCDAAAD]
+25.9.2025, 20:45:55 - INFO - New connected socket [id: 8GlY3mGhHc5eP_gBAAAG]
+25.9.2025, 20:45:55 - INFO - New connected socket [id: zyPRCJs_Yt8cdISQAAAH]
+25.9.2025, 20:45:55 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 8GlY3mGhHc5eP_gBAAAG]
+25.9.2025, 20:45:56 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: zyPRCJs_Yt8cdISQAAAH]
+25.9.2025, 20:45:56 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 20:46:11 - INFO - /api/orders | POST | {"host":{"userId":"68cc2b36e44b028723c4a050","fullname":"squidwid","imageUrl":null},"purchaser":null,"totalPrice":319.20000000000005,"checkIn":"2025-09-24T21:00:00.000Z","checkOut":"2025-09-26T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad68","name":"London Stay #20","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436294/mvhb3iazpiar6duvy9we.jpg"},"status":"pending"} | {}
+25.9.2025, 20:46:11 - INFO - No active socket for user: 68cc2b36e44b028723c4a050
+25.9.2025, 20:46:11 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:46:55 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 20:46:58 - INFO - New connected socket [id: qI21EnfGQSNur6RyAAAJ]
+25.9.2025, 20:46:58 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: qI21EnfGQSNur6RyAAAJ]
+25.9.2025, 20:46:59 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:46:59 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:46:59 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: qI21EnfGQSNur6RyAAAJ]
+25.9.2025, 20:46:59 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:47:51 - INFO - /api/orders | PUT | {"_id":"68d57fbb00fcf290425b0867","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":"","email":"kk@gmail.com"},"totalPrice":729.6000000000001,"checkIn":"2025-09-24T21:00:00.000Z","checkOut":"2025-09-26T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad5e","name":"Barcelona Stay #10","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg"},"status":"rejected"} | {"orderId":"68d57fbb00fcf290425b0867"}
+25.9.2025, 20:47:51 - INFO - Emiting event: order-rejected to user: 68cffa1ee68e1ea21bb4a403 socket [id: qI21EnfGQSNur6RyAAAJ]
+25.9.2025, 20:47:51 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:47:51 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:48:24 - INFO - New connected socket [id: zvSx6aXRkyepJjY9AAAL]
+25.9.2025, 20:48:28 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 20:48:34 - INFO - /api/auth | POST | {"email":"kk@gmail.com","password":"kk"} | {}
+25.9.2025, 20:48:34 - INFO - User login:  | {"_id":"68cffa1ee68e1ea21bb4a403","email":"kk@gmail.com","username":"kk","fullname":"kk","imageUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758460446446}
+25.9.2025, 20:48:34 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: zvSx6aXRkyepJjY9AAAL]
+25.9.2025, 20:48:34 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:49:18 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+25.9.2025, 20:49:18 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: zvSx6aXRkyepJjY9AAAL]
+25.9.2025, 20:49:18 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:49:22 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 20:49:23 - INFO - New connected socket [id: zr76eg_dkZ7MKPFDAAAN]
+25.9.2025, 20:49:23 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: zr76eg_dkZ7MKPFDAAAN]
+25.9.2025, 20:49:23 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: zr76eg_dkZ7MKPFDAAAN]
+25.9.2025, 20:49:23 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:49:23 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:49:24 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:49:29 - INFO - /api/orders | PUT | {"_id":"68d5809ec2cd08e501ac9923","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":"","email":"kk@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"approved"} | {"orderId":"68d5809ec2cd08e501ac9923"}
+25.9.2025, 20:49:29 - INFO - Emiting event: order-approved to user: 68cffa1ee68e1ea21bb4a403 socket [id: zr76eg_dkZ7MKPFDAAAN]
+25.9.2025, 20:49:29 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:49:30 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:51:56 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+25.9.2025, 20:51:57 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: zr76eg_dkZ7MKPFDAAAN]
+25.9.2025, 20:51:57 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:54:53 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 20:54:56 - INFO - New connected socket [id: urz04LGHP0AO1sENAAAP]
+25.9.2025, 20:54:57 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: urz04LGHP0AO1sENAAAP]
+25.9.2025, 20:54:57 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: urz04LGHP0AO1sENAAAP]
+25.9.2025, 20:55:35 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":547.1999999999999,"checkIn":"2025-10-18T21:00:00.000Z","checkOut":"2025-10-20T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad63","name":"Tel Aviv-Yafo Stay #15","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436821/b4ejulqdhsvyseyfnfr0.jpg"},"status":"pending"} | {}
+25.9.2025, 20:55:35 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: zr76eg_dkZ7MKPFDAAAN]
+25.9.2025, 20:55:35 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:57:40 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 20:57:41 - INFO - New connected socket [id: M9jDHshXA9AM_A1yAAAR]
+25.9.2025, 20:57:41 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: M9jDHshXA9AM_A1yAAAR]
+25.9.2025, 20:57:41 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:57:42 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: M9jDHshXA9AM_A1yAAAR]
+25.9.2025, 20:57:42 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:57:42 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:58:25 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+25.9.2025, 20:58:25 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: M9jDHshXA9AM_A1yAAAR]
+25.9.2025, 20:58:25 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:58:28 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 20:58:28 - INFO - New connected socket [id: t6eH5lUUUeXp_n5fAAAT]
+25.9.2025, 20:58:29 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: t6eH5lUUUeXp_n5fAAAT]
+25.9.2025, 20:58:29 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:58:29 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: t6eH5lUUUeXp_n5fAAAT]
+25.9.2025, 20:58:29 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:58:29 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:58:35 - INFO - /api/orders | PUT | {"_id":"68d58217c2cd08e501ac9925","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":"","email":"kk@gmail.com"},"totalPrice":547.1999999999999,"checkIn":"2025-10-18T21:00:00.000Z","checkOut":"2025-10-20T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad63","name":"Tel Aviv-Yafo Stay #15","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436821/b4ejulqdhsvyseyfnfr0.jpg"},"status":"approved"} | {"orderId":"68d58217c2cd08e501ac9925"}
+25.9.2025, 20:58:36 - INFO - Emiting event: order-approved to user: 68cffa1ee68e1ea21bb4a403 socket [id: t6eH5lUUUeXp_n5fAAAT]
+25.9.2025, 20:58:36 - INFO - /api/orders | GET |  | {}
+25.9.2025, 20:58:36 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:03:16 - INFO - Removing socket.userId for socket [id: kXMTCpw0j4Y_XyCDAAAD]
+25.9.2025, 21:03:52 - INFO - /api/auth | POST | {"email":"kk@gmail.com","password":"kk"} | {}
+25.9.2025, 21:03:53 - INFO - User login:  | {"_id":"68cffa1ee68e1ea21bb4a403","email":"kk@gmail.com","username":"kk","fullname":"kk","imageUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758460446446}
+25.9.2025, 21:03:53 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: kXMTCpw0j4Y_XyCDAAAD]
+25.9.2025, 21:04:00 - INFO - Removing socket.userId for socket [id: t6eH5lUUUeXp_n5fAAAT]
+25.9.2025, 21:04:07 - INFO - /api/auth | POST | {"email":"kkk@gmail.com","password":"kkk"} | {}
+25.9.2025, 21:04:07 - INFO - User login:  | {"_id":"68d31470714f672a02170d07","email":"kkk@gmail.com","username":"kkk","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758663792837}
+25.9.2025, 21:04:07 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: t6eH5lUUUeXp_n5fAAAT]
+25.9.2025, 21:04:17 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 21:04:19 - INFO - New connected socket [id: 14d5Y-UPc8h7q7znAAAV]
+25.9.2025, 21:04:19 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: 14d5Y-UPc8h7q7znAAAV]
+25.9.2025, 21:04:19 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: 14d5Y-UPc8h7q7znAAAV]
+25.9.2025, 21:04:32 - INFO - New connected socket [id: S_b9A6iefzAuCqOQAAAB]
+25.9.2025, 21:04:33 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: S_b9A6iefzAuCqOQAAAB]
+25.9.2025, 21:04:36 - INFO - New connected socket [id: P3OtsRBNhjNiymhPAAAD]
+25.9.2025, 21:04:36 - INFO - New connected socket [id: SpV1MwPfGuQiG5OYAAAF]
+25.9.2025, 21:04:36 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: SpV1MwPfGuQiG5OYAAAF]
+25.9.2025, 21:04:36 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: P3OtsRBNhjNiymhPAAAD]
+25.9.2025, 21:04:45 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+25.9.2025, 21:04:45 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: S_b9A6iefzAuCqOQAAAB]
+25.9.2025, 21:04:45 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:04:55 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:05:05 - INFO - /api/orders | PUT | {"_id":"68d5843d12cc0047d846251e","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"approved"} | {"orderId":"68d5843d12cc0047d846251e"}
+25.9.2025, 21:05:05 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: SpV1MwPfGuQiG5OYAAAF]
+25.9.2025, 21:05:05 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:05:05 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:08:02 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":478.79999999999995,"checkIn":"2025-10-04T22:33:23.000Z","checkOut":"2025-10-05T22:33:23.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+25.9.2025, 21:08:02 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: S_b9A6iefzAuCqOQAAAB]
+25.9.2025, 21:08:02 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:08:10 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 21:08:17 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:08:18 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:08:18 - INFO - New connected socket [id: vc9OMRR7uvGHoCUsAAAH]
+25.9.2025, 21:08:18 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:08:18 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: vc9OMRR7uvGHoCUsAAAH]
+25.9.2025, 21:08:19 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: vc9OMRR7uvGHoCUsAAAH]
+25.9.2025, 21:08:56 - INFO - /api/orders | PUT | {"_id":"68d5850212cc0047d846251f","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":478.79999999999995,"checkIn":"2025-10-04T22:33:23.000Z","checkOut":"2025-10-05T22:33:23.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"approved"} | {"orderId":"68d5850212cc0047d846251f"}
+25.9.2025, 21:08:56 - INFO - Emiting event: order-approved to user: 68d31470714f672a02170d07 socket [id: SpV1MwPfGuQiG5OYAAAF]
+25.9.2025, 21:08:56 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:08:56 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:11:38 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+25.9.2025, 21:11:38 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: P3OtsRBNhjNiymhPAAAD]
+25.9.2025, 21:11:38 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:12:04 - INFO - New connected socket [id: 8XzOQOw5n869HRsDAAAC]
+25.9.2025, 21:12:04 - INFO - New connected socket [id: peFMvde-FN_9S0SEAAAE]
+25.9.2025, 21:12:04 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: 8XzOQOw5n869HRsDAAAC]
+25.9.2025, 21:12:04 - INFO - New connected socket [id: ntpuMT6DPZlE6EpIAAAF]
+25.9.2025, 21:12:04 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: peFMvde-FN_9S0SEAAAE]
+25.9.2025, 21:12:04 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: ntpuMT6DPZlE6EpIAAAF]
+25.9.2025, 21:12:09 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+25.9.2025, 21:12:10 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: peFMvde-FN_9S0SEAAAE]
+25.9.2025, 21:12:10 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:12:16 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:12:23 - INFO - /api/orders | PUT | {"_id":"68d585faa7b1a86b170376b4","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"approved"} | {"orderId":"68d585faa7b1a86b170376b4"}
+25.9.2025, 21:12:23 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+25.9.2025, 21:12:23 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+25.9.2025, 21:12:24 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:15:07 - INFO - New connected socket [id: 2SwB_gZ6E8RhBAm6AAAB]
+25.9.2025, 21:15:07 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 2SwB_gZ6E8RhBAm6AAAB]
+25.9.2025, 21:15:07 - INFO - New connected socket [id: zOrrZaukSz6e6jrxAAAD]
+25.9.2025, 21:15:07 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: zOrrZaukSz6e6jrxAAAD]
+25.9.2025, 21:15:08 - INFO - New connected socket [id: rqpMIGWKDRLvjfqAAAAF]
+25.9.2025, 21:15:08 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: rqpMIGWKDRLvjfqAAAAF]
+25.9.2025, 21:15:26 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+25.9.2025, 21:15:27 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: 2SwB_gZ6E8RhBAm6AAAB]
+25.9.2025, 21:15:27 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:16:09 - INFO - Socket disconnected [id: undefined]
+25.9.2025, 21:16:16 - INFO - New connected socket [id: VKB9VwT_aT3BetrQAAAH]
+25.9.2025, 21:16:16 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: VKB9VwT_aT3BetrQAAAH]
+25.9.2025, 21:16:16 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: VKB9VwT_aT3BetrQAAAH]
+25.9.2025, 21:16:18 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:16:18 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:16:18 - INFO - /api/orders | GET |  | {}
+25.9.2025, 21:16:25 - INFO - /api/orders | PUT | {"_id":"68d585da12cc0047d8462520","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"approved"} | {"orderId":"68d585da12cc0047d8462520"}
+25.9.2025, 21:16:27 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+25.9.2025, 21:16:27 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+25.9.2025, 21:16:27 - INFO - /api/orders | GET |  | {}
+25.9.2025, 22:10:47 - INFO - New connected socket [id: xABn0nm2btT63AlcAAAB]
+25.9.2025, 22:10:47 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: xABn0nm2btT63AlcAAAB]
+25.9.2025, 22:10:50 - INFO - New connected socket [id: nkhOAWT6gAhUz4sTAAAE]
+25.9.2025, 22:10:50 - INFO - New connected socket [id: rYGhkdYEEbOLru2tAAAF]
+25.9.2025, 22:10:50 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: rYGhkdYEEbOLru2tAAAF]
+25.9.2025, 22:10:50 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: nkhOAWT6gAhUz4sTAAAE]
+25.9.2025, 22:38:49 - INFO - /api/orders | GET |  | {}
+25.9.2025, 22:38:55 - INFO - /api/orders | GET |  | {}
+26.9.2025, 0:22:13 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 0:22:18 - INFO - New connected socket [id: D4o0xYEQvL6RSy8FAAAH]
+26.9.2025, 0:22:18 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: D4o0xYEQvL6RSy8FAAAH]
+26.9.2025, 0:22:18 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: D4o0xYEQvL6RSy8FAAAH]
+26.9.2025, 0:28:50 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 0:28:52 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 0:29:09 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 0:29:27 - INFO - New connected socket [id: PladAda6x2mzYtFWAAAJ]
+26.9.2025, 0:29:46 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 0:29:48 - INFO - New connected socket [id: NQbhzGzGDOzKyTAiAAAL]
+26.9.2025, 0:29:50 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: NQbhzGzGDOzKyTAiAAAL]
+26.9.2025, 0:29:50 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: NQbhzGzGDOzKyTAiAAAL]
+26.9.2025, 0:31:33 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 0:31:45 - INFO - New connected socket [id: ZeUWKW1W6_loCx23AAAN]
+26.9.2025, 0:31:45 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: ZeUWKW1W6_loCx23AAAN]
+26.9.2025, 0:31:46 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: ZeUWKW1W6_loCx23AAAN]
+26.9.2025, 0:32:25 - INFO - New connected socket [id: jgqelUXTuU9nSWAFAAAP]
+26.9.2025, 0:32:46 - INFO - /api/auth | POST | {"email":"jz","password":"jz"} | {}
+26.9.2025, 0:32:46 - ERROR - Failed to Login Error: Username not found
+26.9.2025, 0:32:52 - INFO - /api/auth | POST | {"email":"jz@gmail.com","password":"jz"} | {}
+26.9.2025, 0:32:52 - INFO - User login:  | {"_id":"68cff2457d02ba8a7b37f40a","email":"jz@gmail.com","username":"jzoe","fullname":"john zoe","imageUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758458437870}
+26.9.2025, 0:32:52 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: jgqelUXTuU9nSWAFAAAP]
+26.9.2025, 0:33:03 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"pending"} | {}
+26.9.2025, 0:33:03 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: ZeUWKW1W6_loCx23AAAN]
+26.9.2025, 0:33:04 - INFO - /api/orders | GET |  | {}
+26.9.2025, 0:33:24 - INFO - New connected socket [id: mNLkd4M_8RqdpLaSAAAB]
+26.9.2025, 0:33:24 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: mNLkd4M_8RqdpLaSAAAB]
+26.9.2025, 0:33:27 - INFO - New connected socket [id: j9-7DDavAYLcy1dUAAAD]
+26.9.2025, 0:33:27 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: j9-7DDavAYLcy1dUAAAD]
+26.9.2025, 0:33:42 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+26.9.2025, 0:33:42 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: mNLkd4M_8RqdpLaSAAAB]
+26.9.2025, 0:33:42 - INFO - /api/orders | GET |  | {}
+26.9.2025, 0:33:52 - INFO - /api/orders | GET |  | {}
+26.9.2025, 0:34:01 - INFO - /api/orders | PUT | {"_id":"68d5a1dbb44380f61beeb46a","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":"","email":"kk@gmail.com"},"totalPrice":729.6000000000001,"checkIn":"2025-10-02T22:33:23.049Z","checkOut":"2025-10-04T22:33:23.049Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad66","name":"London Stay #18","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"},"status":"approved"} | {"orderId":"68d5a1dbb44380f61beeb46a"}
+26.9.2025, 0:34:02 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+26.9.2025, 0:34:02 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+26.9.2025, 0:34:02 - INFO - /api/orders | GET |  | {}
+26.9.2025, 0:35:41 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 0:35:43 - INFO - New connected socket [id: vswDPonke9l-rtOWAAAF]
+26.9.2025, 0:35:43 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: vswDPonke9l-rtOWAAAF]
+26.9.2025, 0:35:44 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: vswDPonke9l-rtOWAAAF]
+26.9.2025, 0:41:45 - INFO - /api/orders | GET |  | {}
+26.9.2025, 0:48:31 - INFO - /api/orders | PUT | {"_id":"68d28e739d6bc0e5afdee50c","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":null,"email":"jz@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-22T21:00:00.000Z","checkOut":"2025-09-24T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"approved"} | {"orderId":"68d28e739d6bc0e5afdee50c"}
+26.9.2025, 0:48:32 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+26.9.2025, 0:48:32 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+26.9.2025, 0:48:32 - INFO - /api/orders | GET |  | {}
+26.9.2025, 0:52:08 - INFO - New connected socket [id: dsIGrX5Rtygpu70zAAAB]
+26.9.2025, 0:52:08 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: dsIGrX5Rtygpu70zAAAB]
+26.9.2025, 0:52:11 - INFO - New connected socket [id: iGQoWQ1GbvBVJjUwAAAD]
+26.9.2025, 0:52:11 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: iGQoWQ1GbvBVJjUwAAAD]
+26.9.2025, 0:56:58 - INFO - /api/orders | PUT | {"_id":"68d586bfe89382e48ceadb7b","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","email":"kkk@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"approved"} | {"orderId":"68d586bfe89382e48ceadb7b"}
+26.9.2025, 0:57:00 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+26.9.2025, 0:57:00 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+26.9.2025, 0:57:00 - INFO - /api/orders | GET |  | {}
+26.9.2025, 0:57:52 - INFO - New connected socket [id: 6alDBmyxpVmgj4xWAAAC]
+26.9.2025, 0:57:52 - INFO - New connected socket [id: J8LkR2VOw2pP6GZTAAAD]
+26.9.2025, 0:57:52 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: J8LkR2VOw2pP6GZTAAAD]
+26.9.2025, 0:57:52 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 6alDBmyxpVmgj4xWAAAC]
+26.9.2025, 0:57:58 - INFO - /api/orders | PUT | {"_id":"68d59931b44380f61beeb469","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":"","email":"jz@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"approved"} | {"orderId":"68d59931b44380f61beeb469"}
+26.9.2025, 0:58:00 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+26.9.2025, 0:58:00 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+26.9.2025, 0:58:00 - INFO - /api/orders | GET |  | {}
+26.9.2025, 0:58:33 - INFO - /api/orders | GET |  | {}
+26.9.2025, 0:58:34 - INFO - /api/orders | GET |  | {}
+26.9.2025, 0:58:38 - INFO - /api/orders | PUT | {"_id":"68d5a3181ac78d09671ede27","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":"","email":"jz@gmail.com"},"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"approved"} | {"orderId":"68d5a3181ac78d09671ede27"}
+26.9.2025, 0:58:38 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+26.9.2025, 0:58:38 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+26.9.2025, 0:58:38 - INFO - /api/orders | GET |  | {}
+26.9.2025, 0:58:50 - INFO - New connected socket [id: ua4NLPpuNi0oN7ZzAAAB]
+26.9.2025, 0:58:50 - INFO - New connected socket [id: Umv-wI7f_m4YlKxGAAAD]
+26.9.2025, 0:58:50 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: Umv-wI7f_m4YlKxGAAAD]
+26.9.2025, 0:58:50 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: ua4NLPpuNi0oN7ZzAAAB]
+26.9.2025, 0:58:53 - INFO - /api/orders | PUT | {"_id":"68d5a7e21ac78d09671ede28","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":"","email":"kk@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"approved"} | {"orderId":"68d5a7e21ac78d09671ede28"}
+26.9.2025, 0:58:54 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+26.9.2025, 0:58:54 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+26.9.2025, 0:58:54 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:00:35 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:00:36 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:00:37 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:00:44 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:00:47 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:00:48 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:00:50 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:00:51 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:00:52 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:00:54 - INFO - /api/orders | PUT | {"_id":"68d5a83d1ce8f5ab9d0b5bc8","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":"","email":"kk@gmail.com"},"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"approved"} | {"orderId":"68d5a83d1ce8f5ab9d0b5bc8"}
+26.9.2025, 1:00:54 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+26.9.2025, 1:00:54 - ERROR - Failed to update order | ReferenceError: updatedOrder is not defined
+26.9.2025, 1:00:55 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:02:08 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:02:09 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:02:09 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:16:40 - INFO - New connected socket [id: zwpLXrueeZqDPYL6AAAB]
+26.9.2025, 1:16:40 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: zwpLXrueeZqDPYL6AAAB]
+26.9.2025, 1:16:42 - INFO - New connected socket [id: jgm1nxINRmhJTTEvAAAD]
+26.9.2025, 1:16:42 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: jgm1nxINRmhJTTEvAAAD]
+26.9.2025, 1:16:50 - INFO - /api/orders | PUT | {"_id":"68d5b50f64335b89ca1e08ef","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":"","email":"jz@gmail.com"},"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"approved"} | {"orderId":"68d5b50f64335b89ca1e08ef"}
+26.9.2025, 1:16:52 - INFO - Emiting event: order-approved to user: 68cff2457d02ba8a7b37f40a socket [id: zwpLXrueeZqDPYL6AAAB]
+26.9.2025, 1:16:52 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:16:53 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:17:04 - INFO - /api/orders | PUT | {"_id":"68d5b53641d562f21c7b751e","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":"","email":"jz@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"rejected"} | {"orderId":"68d5b53641d562f21c7b751e"}
+26.9.2025, 1:17:04 - INFO - Emiting event: order-rejected to user: 68cff2457d02ba8a7b37f40a socket [id: zwpLXrueeZqDPYL6AAAB]
+26.9.2025, 1:17:04 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:17:05 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:29:13 - INFO - New connected socket [id: 7PquOjtZwSx4kMJvAAAC]
+26.9.2025, 1:29:13 - INFO - New connected socket [id: 02_YfrblaR8AokKuAAAD]
+26.9.2025, 1:29:13 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 02_YfrblaR8AokKuAAAD]
+26.9.2025, 1:29:13 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: 7PquOjtZwSx4kMJvAAAC]
+26.9.2025, 1:29:53 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"pending"} | {}
+26.9.2025, 1:29:54 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: 02_YfrblaR8AokKuAAAD]
+26.9.2025, 1:29:54 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:29:58 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 1:30:02 - INFO - New connected socket [id: 6juYerhKe3lXLwdMAAAF]
+26.9.2025, 1:30:03 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:30:03 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:30:03 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 6juYerhKe3lXLwdMAAAF]
+26.9.2025, 1:30:03 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:30:03 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 6juYerhKe3lXLwdMAAAF]
+26.9.2025, 1:30:29 - INFO - /api/orders | PUT | {"_id":"68d5c261da2a2a6323604918","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":"","email":"jz@gmail.com"},"totalPrice":957.6000000000001,"checkIn":"2025-09-28T22:33:23.139Z","checkOut":"2025-09-30T22:33:23.139Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68bf3a7da4e092bac135ad67","name":"London Stay #19","imageUrl":"http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg"},"status":"approved"} | {"orderId":"68d5c261da2a2a6323604918"}
+26.9.2025, 1:30:29 - INFO - Emiting event: order-approved to user: 68cff2457d02ba8a7b37f40a socket [id: 7PquOjtZwSx4kMJvAAAC]
+26.9.2025, 1:30:29 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:30:30 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:31:53 - INFO - /api/orders | POST | {"host":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg"},"purchaser":null,"totalPrice":1140.0000000000002,"checkIn":"2025-09-25T21:00:00.000Z","checkOut":"2025-09-27T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d314e4714f672a02170d08","name":"nice home in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663872/onsiqz8ivtizpgjjn4kd.jpg"},"status":"pending"} | {}
+26.9.2025, 1:31:53 - INFO - No active socket for user: 68d31470714f672a02170d07
+26.9.2025, 1:31:53 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:32:03 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":456.00000000000006,"checkIn":"2025-09-25T21:00:00.000Z","checkOut":"2025-09-27T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d29a0a4ba8d00aa5834398","name":"beautiful house","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758632384/hzlzzfyksnmchf8hebd8.jpg"},"status":"pending"} | {}
+26.9.2025, 1:32:04 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: 6juYerhKe3lXLwdMAAAF]
+26.9.2025, 1:32:04 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:32:12 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 1:32:13 - INFO - New connected socket [id: 5Ne_XOgBE7h9CyQzAAAH]
+26.9.2025, 1:32:13 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: 5Ne_XOgBE7h9CyQzAAAH]
+26.9.2025, 1:32:13 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: 5Ne_XOgBE7h9CyQzAAAH]
+26.9.2025, 1:32:35 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 1:32:35 - INFO - New connected socket [id: k-Dbq5Ccfbfcwj9QAAAJ]
+26.9.2025, 1:32:35 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: k-Dbq5Ccfbfcwj9QAAAJ]
+26.9.2025, 1:32:36 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: k-Dbq5Ccfbfcwj9QAAAJ]
+26.9.2025, 1:32:43 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 1:32:44 - INFO - New connected socket [id: MUyEdz8icOBqIhvnAAAL]
+26.9.2025, 1:32:44 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: MUyEdz8icOBqIhvnAAAL]
+26.9.2025, 1:32:44 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: MUyEdz8icOBqIhvnAAAL]
+26.9.2025, 1:32:46 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 1:32:49 - INFO - New connected socket [id: DfO4oiFJKyu5Y4dBAAAN]
+26.9.2025, 1:32:49 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: DfO4oiFJKyu5Y4dBAAAN]
+26.9.2025, 1:32:50 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:32:50 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:32:50 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: DfO4oiFJKyu5Y4dBAAAN]
+26.9.2025, 1:32:50 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:32:59 - INFO - /api/orders | PUT | {"_id":"68d5c2e3da2a2a632360491a","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":"","email":"jz@gmail.com"},"totalPrice":456.00000000000006,"checkIn":"2025-09-25T21:00:00.000Z","checkOut":"2025-09-27T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d29a0a4ba8d00aa5834398","name":"beautiful house","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758632384/hzlzzfyksnmchf8hebd8.jpg"},"status":"rejected"} | {"orderId":"68d5c2e3da2a2a632360491a"}
+26.9.2025, 1:32:59 - INFO - Emiting event: order-rejected to user: 68cff2457d02ba8a7b37f40a socket [id: MUyEdz8icOBqIhvnAAAL]
+26.9.2025, 1:32:59 - INFO - /api/orders | GET |  | {}
+26.9.2025, 1:33:00 - INFO - /api/orders | GET |  | {}

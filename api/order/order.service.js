@@ -5,6 +5,12 @@ import { dbService } from '../../services/db.service.js'
 import { asyncLocalStorage } from '../../services/als.service.js'
 import { loggerService } from '../../services/logger.service.js'
 
+function toObjectId(id) {
+    if (id instanceof ObjectId) return id
+    if (ObjectId.isValid(id)) return new ObjectId(id)
+    throw new Error(`❌ Invalid ObjectId: ${id}`)
+}
+
 export const orderService = {
   query,
   getById,
@@ -21,7 +27,6 @@ async function query(filterBy = {}) {
     const collection = await dbService.getCollection('order')
     const orderCursor = await collection.find(criteria)
     const orders = await orderCursor.toArray()
-    console.log("🚀 ~ orders:", orders)
     
     return orders
   } catch (err) {
@@ -32,9 +37,11 @@ async function query(filterBy = {}) {
 
 async function getById(orderId) {
   try {
-    const criteria = { _id: ObjectId.createFromHexString(orderId) }
+    const criteria = { _id: toObjectId(orderId) }
+    console.log("🔎 getById criteria:", criteria)
     const collection = await dbService.getCollection('order')
     const order = await collection.findOne(criteria)
+    console.log("📄 getById found:", order)
     // order.createdAt = order._id.getTimestamp()
     return order
   } catch (err) {
@@ -56,23 +63,19 @@ async function add(order) {
 }
 
 async function update(order) {
-  const criteria = { _id: ObjectId.createFromHexString(order._id) }
+  const criteria = { _id: toObjectId(order._id) }
   const { _id, ...orderToUpdate } = order
-
-  if (orderToUpdate.host?.userId && ObjectId.isValid(orderToUpdate.host.userId)) {
-    orderToUpdate.host.userId = new ObjectId(orderToUpdate.host.userId)
-  }
-  if (orderToUpdate.home?.homeId && ObjectId.isValid(orderToUpdate.home.homeId)) {
-    orderToUpdate.home.homeId = new ObjectId(orderToUpdate.home.homeId)
-  }
-  if (orderToUpdate.purchaser?.userId && ObjectId.isValid(orderToUpdate.purchaser.userId)) {
-    orderToUpdate.purchaser.userId = new ObjectId(orderToUpdate.purchaser.userId)
-  }
   
+  orderToUpdate.host.userId = toObjectId(orderToUpdate.host.userId)
+  orderToUpdate.home.homeId = toObjectId(orderToUpdate.home.homeId)
+  orderToUpdate.purchaser.userId = toObjectId(orderToUpdate.purchaser.userId)
+  
+  console.log("🚀 ~ orderToUpdate:", orderToUpdate)
+
   try {
     const collection = await dbService.getCollection('order')
     await collection.updateOne(criteria, { $set: orderToUpdate })
-    return { ...order, ...orderToUpdate }
+    return orderToUpdate
   } catch (err) {
     loggerService.error('Failed to update order', err)
     throw err
@@ -80,7 +83,7 @@ async function update(order) {
 }
 
 async function remove(orderId) {
-  const criteria = { _id: ObjectId.createFromHexString(orderId) }
+  const criteria = { _id: toObjectId(orderId) }
   try {
     const collection = await dbService.getCollection('order')
     const res = await collection.deleteOne(criteria)
