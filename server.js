@@ -77,7 +77,7 @@ app.use('/api/geocode', geocodeRoutes)
 setupSocketAPI(server)
 
 if (process.env.NODE_ENV === 'production') {
-  app.get('*', (req, res) => {
+  app.get('/*', (req, res) => {
     res.sendFile(path.resolve('public', 'index.html'))
   })
 }
