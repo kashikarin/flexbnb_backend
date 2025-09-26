@@ -30,20 +30,20 @@ app.use(express.urlencoded({ extended: true }))
 app.use(cookieParser())
 
 if (process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.resolve('public')))
+  app.use(express.static(path.resolve('public')))
 } else {
-    const corsOptions = {
-        origin: [
-            'http://127.0.0.1:8000',
-            'http://localhost:8000',
-            'http://127.0.0.1:5173',
-            'http://localhost:5173',
-            'http://127.0.0.1:5174',
-            'http://localhost:5174'
-        ],
-        credentials: true
-    }
-    app.use(cors(corsOptions))
+  const corsOptions = {
+    origin: [
+      'http://127.0.0.1:8000',
+      'http://localhost:8000',
+      'http://127.0.0.1:5173',
+      'http://localhost:5173',
+      'http://127.0.0.1:5174',
+      'http://localhost:5174',
+    ],
+    credentials: true,
+  }
+  app.use(cors(corsOptions))
 }
 
 // app.use(
@@ -84,6 +84,7 @@ app.use((req, res, next) => {
 })
 
 app.use(errorHandler)
+// console.log(process.env.PORT)
 
 server.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`)
