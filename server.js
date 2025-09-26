@@ -78,6 +78,9 @@ app.use('/api/geocode', geocodeRoutes)
 
 setupSocketAPI(server)
 
+app.get('/*all', (req, res) => {
+  res.sendFile(path.resolve('public/index.html'))
+})
 // 404 - Fallback route
 app.use((req, res, next) => {
   const error = new Error(`Not Found - ${req.originalUrl}`)
