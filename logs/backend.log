@@ -3202,7 +3202,6 @@
 24.9.2025, 20:18:59 - INFO - /api/orders | PUT | {"_id":"68d3154f714f672a02170d09","host":{"userId":"68d31470714f672a02170d07","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg"},"purchaser":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":"","email":"kk@gmail.com"},"totalPrice":1140.0000000000002,"checkIn":"2025-09-23T21:00:00.000Z","checkOut":"2025-09-25T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d314e4714f672a02170d08","name":"nice home in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663872/onsiqz8ivtizpgjjn4kd.jpg"},"status":"approved"} | {"orderId":"68d3154f714f672a02170d09"}
 24.9.2025, 20:19:00 - INFO - /api/orders | GET |  | {}
 24.9.2025, 20:19:00 - INFO - /api/orders | GET |  | {}
-<<<<<<< HEAD
 24.9.2025, 21:19:19 - INFO - New connected socket [id: sn4Lp7j7SIknrQvtAAAB]
 24.9.2025, 21:19:22 - INFO - Socket disconnected [id: undefined]
 24.9.2025, 21:19:23 - INFO - New connected socket [id: rGMoU-NIhmZHz9DBAAAD]
@@ -3420,10 +3419,8 @@
 25.9.2025, 15:14:06 - INFO - /api/auth | POST | {"email":"kkk@gmail.com","password":"kkk"} | {}
 25.9.2025, 15:14:07 - INFO - User login:  | {"_id":"68d31470714f672a02170d07","email":"kkk@gmail.com","username":"kkk","fullname":"karin kashi","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758663782/fd73dqyj0ujzr06z1hum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758663792837}
 25.9.2025, 15:14:07 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: AEMQ1gZkSv3xvVOmAAAB]
-=======
 21.9.2025, 23:43:54 - DEBUG - auth.route - new account created: {"_id":"68d0638a5b394c4e05cae76b","email":"a","username":"a","fullname":"a","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758487434067}
 21.9.2025, 23:43:54 - INFO - User signup: | {"_id":"68d0638a5b394c4e05cae76b","email":"a","username":"a","fullname":"a","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758487434067}
->>>>>>> 421ccda8d2ff3e29b70e0ad182534e6aa41c3d38
 25.9.2025, 15:41:45 - INFO - New connected socket [id: fMwv1MVJdPKy1Pr8AAAB]
 25.9.2025, 15:41:46 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: fMwv1MVJdPKy1Pr8AAAB]
 25.9.2025, 15:41:46 - INFO - Setting socket.userId = 68d31470714f672a02170d07 for socket [id: fMwv1MVJdPKy1Pr8AAAB]
@@ -4350,3 +4347,189 @@
 26.9.2025, 23:52:32 - INFO - New connected socket [id: EY0Q_aVUZmLn2w21AABB]
 26.9.2025, 23:52:33 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: EY0Q_aVUZmLn2w21AABB]
 26.9.2025, 23:52:33 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: EY0Q_aVUZmLn2w21AABB]
+26.9.2025, 8:15:11 - INFO - New connected socket [id: 3L3u3tVILuYmvX1QAAAB]
+26.9.2025, 8:15:12 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 8:15:12 - INFO - New connected socket [id: rh4S4K8vCdCpO0LQAAAD]
+26.9.2025, 8:15:25 - INFO - New connected socket [id: vBxL4XioXzv4h_isAAAF]
+26.9.2025, 8:15:32 - INFO - /api/auth | POST | {"email":"kk@gmail.com","password":"kk"} | {}
+26.9.2025, 8:15:32 - INFO - User login:  | {"_id":"68cffa1ee68e1ea21bb4a403","email":"kk@gmail.com","username":"kk","fullname":"kk","imageUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758460446446}
+26.9.2025, 8:15:32 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: vBxL4XioXzv4h_isAAAF]
+26.9.2025, 8:15:40 - INFO - /api/auth | POST | {"email":"jz@gmail.com","password":"jz"} | {}
+26.9.2025, 8:15:40 - INFO - User login:  | {"_id":"68cff2457d02ba8a7b37f40a","email":"jz@gmail.com","username":"jzoe","fullname":"john zoe","imageUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758458437870}
+26.9.2025, 8:15:40 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: rh4S4K8vCdCpO0LQAAAD]
+26.9.2025, 8:15:43 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 8:15:43 - INFO - New connected socket [id: pmqQ_lv-iQY1j2wBAAAH]
+26.9.2025, 8:15:43 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: pmqQ_lv-iQY1j2wBAAAH]
+26.9.2025, 8:15:43 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: pmqQ_lv-iQY1j2wBAAAH]
+26.9.2025, 8:15:59 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"pending"} | {}
+26.9.2025, 8:15:59 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: pmqQ_lv-iQY1j2wBAAAH]
+26.9.2025, 8:15:59 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:16:06 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:16:29 - INFO - /api/orders | PUT | {"_id":"68d6218f945f0b0d9ffe9914","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":"","email":"jz@gmail.com"},"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"approved"} | {"orderId":"68d6218f945f0b0d9ffe9914"}
+26.9.2025, 8:16:30 - INFO - Emiting event: order-approved to user: 68cff2457d02ba8a7b37f40a socket [id: rh4S4K8vCdCpO0LQAAAD]
+26.9.2025, 8:16:30 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:16:30 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:23:35 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 8:23:35 - INFO - New connected socket [id: qxZ0ZT5zsUDRUHNWAAAJ]
+26.9.2025, 8:23:35 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: qxZ0ZT5zsUDRUHNWAAAJ]
+26.9.2025, 8:23:35 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: qxZ0ZT5zsUDRUHNWAAAJ]
+26.9.2025, 8:24:45 - INFO - /api/orders | PUT | {"_id":"68d5a8651ce8f5ab9d0b5bc9","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":"","email":"kk@gmail.com"},"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"approved"} | {"orderId":"68d5a8651ce8f5ab9d0b5bc9"}
+26.9.2025, 8:24:45 - INFO - Emiting event: order-approved to user: 68cffa1ee68e1ea21bb4a403 socket [id: pmqQ_lv-iQY1j2wBAAAH]
+26.9.2025, 8:24:45 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:24:45 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:24:50 - INFO - /api/orders | PUT | {"_id":"68d5a8a51ce8f5ab9d0b5bcb","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":"","email":"kk@gmail.com"},"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"approved"} | {"orderId":"68d5a8a51ce8f5ab9d0b5bcb"}
+26.9.2025, 8:24:50 - INFO - Emiting event: order-approved to user: 68cffa1ee68e1ea21bb4a403 socket [id: pmqQ_lv-iQY1j2wBAAAH]
+26.9.2025, 8:24:50 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:24:51 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:25:08 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 8:25:08 - INFO - New connected socket [id: mj23grPghw0yJferAAAL]
+26.9.2025, 8:25:08 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: mj23grPghw0yJferAAAL]
+26.9.2025, 8:25:08 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: mj23grPghw0yJferAAAL]
+26.9.2025, 8:39:42 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 8:39:52 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 8:42:21 - INFO - New connected socket [id: KSq5p88lAf_QbjhWAAAN]
+26.9.2025, 8:42:21 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: KSq5p88lAf_QbjhWAAAN]
+26.9.2025, 8:42:21 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: KSq5p88lAf_QbjhWAAAN]
+26.9.2025, 8:42:21 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:42:21 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:42:21 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:42:27 - INFO - New connected socket [id: elDjkbGgikK0nNUvAAAP]
+26.9.2025, 8:42:27 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: elDjkbGgikK0nNUvAAAP]
+26.9.2025, 8:42:27 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: elDjkbGgikK0nNUvAAAP]
+26.9.2025, 8:42:43 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"pending"} | {}
+26.9.2025, 8:42:44 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: KSq5p88lAf_QbjhWAAAN]
+26.9.2025, 8:42:44 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:42:52 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:42:55 - INFO - /api/orders | PUT | {"_id":"68d5a8ce1ce8f5ab9d0b5bcc","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":"","email":"kk@gmail.com"},"totalPrice":456.00000000000006,"checkIn":"2025-09-24T21:00:00.000Z","checkOut":"2025-09-26T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d29a0a4ba8d00aa5834398","name":"beautiful house","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758632384/hzlzzfyksnmchf8hebd8.jpg"},"status":"approved"} | {"orderId":"68d5a8ce1ce8f5ab9d0b5bcc"}
+26.9.2025, 8:42:55 - INFO - Emiting event: order-approved to user: 68cffa1ee68e1ea21bb4a403 socket [id: KSq5p88lAf_QbjhWAAAN]
+26.9.2025, 8:42:55 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:42:56 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:43:01 - INFO - /api/orders | PUT | {"_id":"68d627d3945f0b0d9ffe9915","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":"","email":"jz@gmail.com"},"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"approved"} | {"orderId":"68d627d3945f0b0d9ffe9915"}
+26.9.2025, 8:43:02 - INFO - Emiting event: order-approved to user: 68cff2457d02ba8a7b37f40a socket [id: elDjkbGgikK0nNUvAAAP]
+26.9.2025, 8:43:02 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:43:02 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:44:23 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"pending"} | {}
+26.9.2025, 8:44:24 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: KSq5p88lAf_QbjhWAAAN]
+26.9.2025, 8:44:24 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:44:38 - INFO - /api/orders | PUT | {"_id":"68d5a90556c07c6dc19a343b","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":"","email":"kk@gmail.com"},"totalPrice":456.00000000000006,"checkIn":"2025-09-24T21:00:00.000Z","checkOut":"2025-09-26T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d29a0a4ba8d00aa5834398","name":"beautiful house","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758632384/hzlzzfyksnmchf8hebd8.jpg"},"status":"approved"} | {"orderId":"68d5a90556c07c6dc19a343b"}
+26.9.2025, 8:44:39 - INFO - Emiting event: order-approved to user: 68cffa1ee68e1ea21bb4a403 socket [id: KSq5p88lAf_QbjhWAAAN]
+26.9.2025, 8:44:39 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:44:39 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:44:42 - INFO - /api/orders | PUT | {"_id":"68d5a97d56c07c6dc19a343c","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":"","email":"kk@gmail.com"},"totalPrice":456.00000000000006,"checkIn":"2025-09-24T21:00:00.000Z","checkOut":"2025-09-26T21:00:00.000Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d29a0a4ba8d00aa5834398","name":"beautiful house","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758632384/hzlzzfyksnmchf8hebd8.jpg"},"status":"rejected"} | {"orderId":"68d5a97d56c07c6dc19a343c"}
+26.9.2025, 8:44:42 - INFO - Emiting event: order-rejected to user: 68cffa1ee68e1ea21bb4a403 socket [id: KSq5p88lAf_QbjhWAAAN]
+26.9.2025, 8:44:42 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:44:42 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:44:46 - INFO - /api/orders | PUT | {"_id":"68d62838945f0b0d9ffe9916","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":"","email":"jz@gmail.com"},"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"approved"} | {"orderId":"68d62838945f0b0d9ffe9916"}
+26.9.2025, 8:44:46 - INFO - Emiting event: order-approved to user: 68cff2457d02ba8a7b37f40a socket [id: elDjkbGgikK0nNUvAAAP]
+26.9.2025, 8:44:46 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:44:46 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:47:22 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"pending"} | {}
+26.9.2025, 8:47:22 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: KSq5p88lAf_QbjhWAAAN]
+26.9.2025, 8:47:22 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:48:00 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"pending"} | {}
+26.9.2025, 8:48:00 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: KSq5p88lAf_QbjhWAAAN]
+26.9.2025, 8:48:00 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:48:23 - INFO - /api/orders | POST | {"host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":null,"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"pending"} | {}
+26.9.2025, 8:48:23 - INFO - Emiting event: home-booked to user: 68cffa1ee68e1ea21bb4a403 socket [id: KSq5p88lAf_QbjhWAAAN]
+26.9.2025, 8:48:23 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:48:28 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 8:48:28 - INFO - New connected socket [id: LIVRZ8EU_h3FwQyHAAAR]
+26.9.2025, 8:48:28 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: LIVRZ8EU_h3FwQyHAAAR]
+26.9.2025, 8:48:28 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: LIVRZ8EU_h3FwQyHAAAR]
+26.9.2025, 8:48:28 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:48:29 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:48:29 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:48:36 - INFO - /api/orders | PUT | {"_id":"68d628ea945f0b0d9ffe9917","host":{"userId":"68cffa1ee68e1ea21bb4a403","fullname":"kk","imageUrl":null},"purchaser":{"userId":"68cff2457d02ba8a7b37f40a","fullname":"john zoe","imageUrl":"","email":"jz@gmail.com"},"totalPrice":570.0000000000001,"checkIn":"2025-09-28T21:30:07.515Z","checkOut":"2025-09-30T21:30:07.515Z","guests":{"adults":1,"children":0,"infants":0,"pets":0},"home":{"homeId":"68d3115f714f672a02170d06","name":"lovely apartment in givatayim","imageUrl":"https://res.cloudinary.com/dse2v78fc/image/upload/v1758662971/ugfnxlsk6ke8qtdmspd6.jpg"},"status":"approved"} | {"orderId":"68d628ea945f0b0d9ffe9917"}
+26.9.2025, 8:48:36 - INFO - Emiting event: order-approved to user: 68cff2457d02ba8a7b37f40a socket [id: elDjkbGgikK0nNUvAAAP]
+26.9.2025, 8:48:36 - INFO - /api/orders | GET |  | {}
+26.9.2025, 8:48:36 - INFO - /api/orders | GET |  | {}
+26.9.2025, 9:03:00 - INFO - /api/homes | PUT | {"_id":"68bf3a7da4e092bac135ad5d","name":"Barcelona Stay #9","type":"Studio","price":420,"capacity":7,"petsAllowed":false,"amenities":["Free parking on premises","Lake access","Exercise equipment","Outdoor dining area","Dedicated workspace","Hot tub","Air conditioning","First aid kit","Outdoor shower","Patio"],"bathCount":1,"bedRoomsCount":4,"bedsCount":3,"imageUrls":["http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436597/l90ukcpzpv6yvv6vhsnd.jpg","https://res.cloudinary.com/dmtlr2viw/image/upload/v1663436460/qi3vkpts37b4k0dedosc.jpg","http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436933/ysvap4wzv8ziwtpbznf8.jpg","https://res.cloudinary.com/dmtlr2viw/image/upload/v1663436481/tqwkxtbalipudzhivoag.jpg","http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg"],"labels":["Walkable","Near nightlife"],"likedByUsers":[null,null],"host":{"userId":"68d052f3998c54e8c029efff","fullname":"Idan Bahar","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758483984/user_profiles/profiles/google_user_108855278567799105353.jpg"},"loc":{"address":"Eixample, Carrer de València 300, Barcelona","city":"Barcelona","country":"Spain","countryCode":"ES","lat":41.39443,"lng":2.161},"bookings":[{"checkIn":"2025-09-27T22:33:22.875Z","checkOut":"2025-10-03T22:33:22.875Z"},{"checkIn":"2025-10-09T22:33:22.875Z","checkOut":"2025-10-16T22:33:22.875Z"},{"checkIn":"2025-10-19T22:33:22.875Z","checkOut":"2025-10-22T22:33:22.875Z"},{"checkIn":"2025-11-01T23:33:22.875Z","checkOut":"2025-11-04T23:33:22.875Z"},{"checkIn":"2025-11-10T23:33:22.875Z","checkOut":"2025-11-15T23:33:22.875Z"},{"checkIn":"2025-11-24T23:33:22.875Z","checkOut":"2025-11-28T23:33:22.875Z"},{"checkIn":"2025-12-04T23:33:22.875Z","checkOut":"2025-12-06T23:33:22.875Z"},{"checkIn":"2025-12-15T23:33:22.875Z","checkOut":"2025-12-21T23:33:22.875Z"},{"checkIn":"2025-12-24T23:33:22.875Z","checkOut":"2025-12-31T23:33:22.875Z"},{"checkIn":"2026-01-02T23:33:22.875Z","checkOut":"2026-01-06T23:33:22.875Z"},{"checkIn":"2026-01-14T23:33:22.875Z","checkOut":"2026-01-16T23:33:22.875Z"}],"reviews":[{"id":"rv1","txt":"Spacious and bright, loved the design.","rate":3,"by":{"id":"u266","fullname":"Sara","imageURL":"https://randomuser.me/api/portraits/men/87.jpg"}},{"id":"rv2","txt":"Close to transport and restaurants.","rate":4,"by":{"id":"u230","fullname":"Lina","imageURL":"https://randomuser.me/api/portraits/women/85.jpg"}}],"summary":"Bright and comfortable stay near Eixample, Carrer de València 300, Barcelona."} | {"homeId":"68bf3a7da4e092bac135ad5d"}
+26.9.2025, 9:03:01 - INFO - /api/homes | PUT | {"_id":"68bf3a7da4e092bac135ad5d","name":"Barcelona Stay #9","type":"Studio","price":420,"capacity":7,"petsAllowed":false,"amenities":["Free parking on premises","Lake access","Exercise equipment","Outdoor dining area","Dedicated workspace","Hot tub","Air conditioning","First aid kit","Outdoor shower","Patio"],"bathCount":1,"bedRoomsCount":4,"bedsCount":3,"imageUrls":["http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436597/l90ukcpzpv6yvv6vhsnd.jpg","https://res.cloudinary.com/dmtlr2viw/image/upload/v1663436460/qi3vkpts37b4k0dedosc.jpg","http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436933/ysvap4wzv8ziwtpbznf8.jpg","https://res.cloudinary.com/dmtlr2viw/image/upload/v1663436481/tqwkxtbalipudzhivoag.jpg","http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg"],"labels":["Walkable","Near nightlife"],"likedByUsers":[null,null],"host":{"userId":"68d052f3998c54e8c029efff","fullname":"Idan Bahar","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758483984/user_profiles/profiles/google_user_108855278567799105353.jpg"},"loc":{"address":"Eixample, Carrer de València 300, Barcelona","city":"Barcelona","country":"Spain","countryCode":"ES","lat":41.39443,"lng":2.161},"bookings":[{"checkIn":"2025-09-27T22:33:22.875Z","checkOut":"2025-10-03T22:33:22.875Z"},{"checkIn":"2025-10-09T22:33:22.875Z","checkOut":"2025-10-16T22:33:22.875Z"},{"checkIn":"2025-10-19T22:33:22.875Z","checkOut":"2025-10-22T22:33:22.875Z"},{"checkIn":"2025-11-01T23:33:22.875Z","checkOut":"2025-11-04T23:33:22.875Z"},{"checkIn":"2025-11-10T23:33:22.875Z","checkOut":"2025-11-15T23:33:22.875Z"},{"checkIn":"2025-11-24T23:33:22.875Z","checkOut":"2025-11-28T23:33:22.875Z"},{"checkIn":"2025-12-04T23:33:22.875Z","checkOut":"2025-12-06T23:33:22.875Z"},{"checkIn":"2025-12-15T23:33:22.875Z","checkOut":"2025-12-21T23:33:22.875Z"},{"checkIn":"2025-12-24T23:33:22.875Z","checkOut":"2025-12-31T23:33:22.875Z"},{"checkIn":"2026-01-02T23:33:22.875Z","checkOut":"2026-01-06T23:33:22.875Z"},{"checkIn":"2026-01-14T23:33:22.875Z","checkOut":"2026-01-16T23:33:22.875Z"}],"reviews":[{"id":"rv1","txt":"Spacious and bright, loved the design.","rate":3,"by":{"id":"u266","fullname":"Sara","imageURL":"https://randomuser.me/api/portraits/men/87.jpg"}},{"id":"rv2","txt":"Close to transport and restaurants.","rate":4,"by":{"id":"u230","fullname":"Lina","imageURL":"https://randomuser.me/api/portraits/women/85.jpg"}}],"summary":"Bright and comfortable stay near Eixample, Carrer de València 300, Barcelona."} | {"homeId":"68bf3a7da4e092bac135ad5d"}
+26.9.2025, 9:03:02 - INFO - /api/homes | PUT | {"_id":"68bf3a7da4e092bac135ad5d","name":"Barcelona Stay #9","type":"Studio","price":420,"capacity":7,"petsAllowed":false,"amenities":["Free parking on premises","Lake access","Exercise equipment","Outdoor dining area","Dedicated workspace","Hot tub","Air conditioning","First aid kit","Outdoor shower","Patio"],"bathCount":1,"bedRoomsCount":4,"bedsCount":3,"imageUrls":["http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436597/l90ukcpzpv6yvv6vhsnd.jpg","https://res.cloudinary.com/dmtlr2viw/image/upload/v1663436460/qi3vkpts37b4k0dedosc.jpg","http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436933/ysvap4wzv8ziwtpbznf8.jpg","https://res.cloudinary.com/dmtlr2viw/image/upload/v1663436481/tqwkxtbalipudzhivoag.jpg","http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg"],"labels":["Walkable","Near nightlife"],"likedByUsers":[null,null,null],"host":{"userId":"68d052f3998c54e8c029efff","fullname":"Idan Bahar","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758483984/user_profiles/profiles/google_user_108855278567799105353.jpg"},"loc":{"address":"Eixample, Carrer de València 300, Barcelona","city":"Barcelona","country":"Spain","countryCode":"ES","lat":41.39443,"lng":2.161},"bookings":[{"checkIn":"2025-09-27T22:33:22.875Z","checkOut":"2025-10-03T22:33:22.875Z"},{"checkIn":"2025-10-09T22:33:22.875Z","checkOut":"2025-10-16T22:33:22.875Z"},{"checkIn":"2025-10-19T22:33:22.875Z","checkOut":"2025-10-22T22:33:22.875Z"},{"checkIn":"2025-11-01T23:33:22.875Z","checkOut":"2025-11-04T23:33:22.875Z"},{"checkIn":"2025-11-10T23:33:22.875Z","checkOut":"2025-11-15T23:33:22.875Z"},{"checkIn":"2025-11-24T23:33:22.875Z","checkOut":"2025-11-28T23:33:22.875Z"},{"checkIn":"2025-12-04T23:33:22.875Z","checkOut":"2025-12-06T23:33:22.875Z"},{"checkIn":"2025-12-15T23:33:22.875Z","checkOut":"2025-12-21T23:33:22.875Z"},{"checkIn":"2025-12-24T23:33:22.875Z","checkOut":"2025-12-31T23:33:22.875Z"},{"checkIn":"2026-01-02T23:33:22.875Z","checkOut":"2026-01-06T23:33:22.875Z"},{"checkIn":"2026-01-14T23:33:22.875Z","checkOut":"2026-01-16T23:33:22.875Z"}],"reviews":[{"id":"rv1","txt":"Spacious and bright, loved the design.","rate":3,"by":{"id":"u266","fullname":"Sara","imageURL":"https://randomuser.me/api/portraits/men/87.jpg"}},{"id":"rv2","txt":"Close to transport and restaurants.","rate":4,"by":{"id":"u230","fullname":"Lina","imageURL":"https://randomuser.me/api/portraits/women/85.jpg"}}],"summary":"Bright and comfortable stay near Eixample, Carrer de València 300, Barcelona."} | {"homeId":"68bf3a7da4e092bac135ad5d"}
+26.9.2025, 9:12:23 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 9:12:23 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 9:12:24 - INFO - New connected socket [id: CC-rijVVJ9KveXtwAAAU]
+26.9.2025, 9:12:24 - INFO - New connected socket [id: WetWSFCiZ3P82H32AAAV]
+26.9.2025, 9:12:24 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: CC-rijVVJ9KveXtwAAAU]
+26.9.2025, 9:12:24 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: CC-rijVVJ9KveXtwAAAU]
+26.9.2025, 9:12:24 - INFO - /api/orders | GET |  | {}
+26.9.2025, 9:12:24 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: WetWSFCiZ3P82H32AAAV]
+26.9.2025, 9:12:24 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: WetWSFCiZ3P82H32AAAV]
+26.9.2025, 9:12:24 - INFO - /api/orders | GET |  | {}
+26.9.2025, 9:12:25 - INFO - /api/orders | GET |  | {}
+26.9.2025, 9:12:35 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 9:12:35 - INFO - New connected socket [id: LbQUbZ-FPSK1DAGiAAAX]
+26.9.2025, 9:12:35 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: LbQUbZ-FPSK1DAGiAAAX]
+26.9.2025, 9:12:35 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: LbQUbZ-FPSK1DAGiAAAX]
+26.9.2025, 9:12:51 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 9:12:52 - INFO - New connected socket [id: YVrsXWxL6HSzfxUPAAAZ]
+26.9.2025, 9:12:52 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: YVrsXWxL6HSzfxUPAAAZ]
+26.9.2025, 9:12:52 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: YVrsXWxL6HSzfxUPAAAZ]
+26.9.2025, 9:12:54 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 9:12:54 - INFO - New connected socket [id: EV2ynPZD_d0tj-_NAAAb]
+26.9.2025, 9:12:54 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: EV2ynPZD_d0tj-_NAAAb]
+26.9.2025, 9:12:54 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: EV2ynPZD_d0tj-_NAAAb]
+26.9.2025, 9:13:08 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 9:13:08 - INFO - New connected socket [id: CZ8t_-k6dGjTbRZpAAAd]
+26.9.2025, 9:13:08 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: CZ8t_-k6dGjTbRZpAAAd]
+26.9.2025, 9:13:08 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: CZ8t_-k6dGjTbRZpAAAd]
+26.9.2025, 9:13:38 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 9:13:38 - INFO - New connected socket [id: p_l5NMJAYsxgmjbZAAAf]
+26.9.2025, 9:13:38 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: p_l5NMJAYsxgmjbZAAAf]
+26.9.2025, 9:13:38 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: p_l5NMJAYsxgmjbZAAAf]
+26.9.2025, 9:24:36 - INFO - /api/orders | GET |  | {}
+26.9.2025, 9:25:02 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 9:25:02 - INFO - New connected socket [id: lgwgVaAEZrQfOQWhAAAh]
+26.9.2025, 9:25:02 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: lgwgVaAEZrQfOQWhAAAh]
+26.9.2025, 9:25:02 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: lgwgVaAEZrQfOQWhAAAh]
+26.9.2025, 9:25:45 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 9:25:45 - INFO - New connected socket [id: hHCllDluRribggxBAAAj]
+26.9.2025, 9:25:45 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: hHCllDluRribggxBAAAj]
+26.9.2025, 9:25:45 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: hHCllDluRribggxBAAAj]
+26.9.2025, 9:25:51 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 9:25:51 - INFO - New connected socket [id: an8922uh_L3roBPCAAAl]
+26.9.2025, 9:25:51 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: an8922uh_L3roBPCAAAl]
+26.9.2025, 9:25:51 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: an8922uh_L3roBPCAAAl]
+26.9.2025, 9:40:18 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 9:40:18 - INFO - New connected socket [id: VkT0YZSrn_b6-0WxAAAn]
+26.9.2025, 9:40:19 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: VkT0YZSrn_b6-0WxAAAn]
+26.9.2025, 9:40:19 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: VkT0YZSrn_b6-0WxAAAn]
+26.9.2025, 9:40:37 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 9:40:37 - INFO - New connected socket [id: SOGFPmnhKzSxPwShAAAp]
+26.9.2025, 9:40:37 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: SOGFPmnhKzSxPwShAAAp]
+26.9.2025, 9:40:37 - INFO - Setting socket.userId = 68cff2457d02ba8a7b37f40a for socket [id: SOGFPmnhKzSxPwShAAAp]
+26.9.2025, 9:47:10 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 9:47:10 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 14:04:13 - INFO - New connected socket [id: rJjEyD6iWs2XLpOuAAAB]
+26.9.2025, 14:04:44 - INFO - New connected socket [id: x17pyftpjy1ROBQnAAAB]
+26.9.2025, 14:04:45 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 14:04:46 - INFO - New connected socket [id: EQV0L4nDIZleU457AAAD]
+26.9.2025, 14:05:06 - INFO - /api/auth | POST | {"email":"kk@gmail.com","password":"kk"} | {}
+26.9.2025, 14:05:06 - INFO - User login:  | {"_id":"68cffa1ee68e1ea21bb4a403","email":"kk@gmail.com","username":"kk","fullname":"kk","imageUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758460446446}
+26.9.2025, 14:05:07 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: EQV0L4nDIZleU457AAAD]
+26.9.2025, 14:13:07 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 14:13:07 - INFO - New connected socket [id: ahWCJIcxXltvWHBDAAAF]
+26.9.2025, 14:13:07 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: ahWCJIcxXltvWHBDAAAF]
+26.9.2025, 14:13:07 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: ahWCJIcxXltvWHBDAAAF]
+26.9.2025, 14:15:52 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 14:15:52 - INFO - New connected socket [id: 3Lr8YqL_hEVR4v32AAAH]
+26.9.2025, 14:15:52 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 3Lr8YqL_hEVR4v32AAAH]
+26.9.2025, 14:15:52 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 3Lr8YqL_hEVR4v32AAAH]
+26.9.2025, 14:19:03 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 14:19:14 - INFO - New connected socket [id: cucGcFtyogDkXobfAAAJ]
+26.9.2025, 14:19:14 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: cucGcFtyogDkXobfAAAJ]
+26.9.2025, 14:19:14 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: cucGcFtyogDkXobfAAAJ]
+26.9.2025, 14:19:45 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 14:19:45 - INFO - New connected socket [id: Mk-dPABYUlODAVIDAAAL]
+26.9.2025, 14:19:45 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: Mk-dPABYUlODAVIDAAAL]
+26.9.2025, 14:19:45 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: Mk-dPABYUlODAVIDAAAL]
+26.9.2025, 14:42:12 - INFO - New connected socket [id: _zUKzMLNBfU2ELRFAAAB]
+26.9.2025, 14:42:12 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: _zUKzMLNBfU2ELRFAAAB]
+26.9.2025, 15:31:29 - INFO - New connected socket [id: 2Gj9JjZqKyFqiwl6AAAB]
+26.9.2025, 15:31:29 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: 2Gj9JjZqKyFqiwl6AAAB]
+26.9.2025, 15:31:31 - INFO - New connected socket [id: hS4DlJVt_a3GpmmJAAAD]
+26.9.2025, 15:31:33 - INFO - New connected socket [id: zwDY1zSGQVdQ9_s3AAAF]
+26.9.2025, 15:31:38 - INFO - Socket disconnected [id: undefined]
+26.9.2025, 15:31:38 - INFO - New connected socket [id: nFc3Suo42usw_IpWAAAH]
+26.9.2025, 15:31:38 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: nFc3Suo42usw_IpWAAAH]
+26.9.2025, 15:31:38 - INFO - Setting socket.userId = 68cffa1ee68e1ea21bb4a403 for socket [id: nFc3Suo42usw_IpWAAAH]
