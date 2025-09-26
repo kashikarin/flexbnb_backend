@@ -19,25 +19,25 @@ export function setupSocketAPI(http) {
         //     if (socket.myTopic === topic) return
         //     if (socket.myTopic) {
         //         socket.leave(socket.myTopic)
-        //         loggerService.info(`Socket is leaving topic ${socket.myTopic} [id: ${socket.id}]`)
+        //         logger.info(`Socket is leaving topic ${socket.myTopic} [id: ${socket.id}]`)
         //     }
         //     socket.join(topic)
         //     socket.myTopic = topic
         // })
         // socket.on('chat-send-msg', msg => {
-        //     loggerService.info(`New chat msg from socket [id: ${socket.id}], emitting to topic ${socket.myTopic}`)
+        //     logger.info(`New chat msg from socket [id: ${socket.id}], emitting to topic ${socket.myTopic}`)
         //     // emits to all sockets:
         //     // gIo.emit('chat addMsg', msg)
         //     // emits only to sockets in the same room
         //     gIo.to(socket.myTopic).emit('chat-add-msg', msg)
         // })
-        // socket.on('user-watch', userId => {
-        //     loggerService.info(`user-watch from socket [id: ${socket.id}], on user ${userId}`)
-        //     socket.join('watching:' + userId)
-        // })
+        socket.on('user-watch', userId => {
+            loggerService.info(`user-watch from socket [id: ${socket.id}], on user ${userId}`)
+            socket.join('watching:' + userId)
+        })
         socket.on('set-user-socket', userId => {
             loggerService.info(`Setting socket.userId = ${userId} for socket [id: ${socket.id}]`)
-            socket.userId = userId.toString()
+            socket.userId = userId
         })
         socket.on('unset-user-socket', () => {
             loggerService.info(`Removing socket.userId for socket [id: ${socket.id}]`)
