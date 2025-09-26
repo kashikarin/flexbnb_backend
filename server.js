@@ -46,30 +46,16 @@ if (process.env.NODE_ENV === 'production') {
   app.use(cors(corsOptions))
 }
 
-// app.use(
-//   cors({
-//     origin: [
-//       'http://localhost:5173',
-//       'http://127.0.0.1:5173',
-//       'http://localhost:5174',
-//       'http://127.0.0.1:5174',
-//     ],
-//     credentials: true,
-//   })
-// )
-
 app.get('/api/health', (_req, res) => {
   res.json({ ok: true })
 })
-//console.log("🔑 GOOGLE_API_KEY loaded in backend:", process.env.GOOGLE_API_KEY.slice(0, 5));
 
-// Home Routes
+// API Routes
 app.use('/api/homes', homeRoutes)
 app.use('/api/orders', orderRoutes)
 app.use('/api/users', userRoutes)
 app.use('/api/msgs', msgRoutes)
 app.use('/api/auth', authRoutes)
-
 app.use('/api/reviews', reviewRoutes)
 app.use('/api/cloudinary', cloudinaryRoutes)
 app.use('/api/geocode', geocodeRoutes)
@@ -77,19 +63,22 @@ app.use('/api/geocode', geocodeRoutes)
 setupSocketAPI(server)
 
 if (process.env.NODE_ENV === 'production') {
-  app.get('/*', (req, res) => {
-    res.sendFile(path.resolve('public', 'index.html'))
+  app.use((req, res, next) => {
+    if (req.method === 'GET' && !req.path.startsWith('/api')) {
+      res.sendFile(path.resolve('public', 'index.html'))
+    } else {
+      next()
+    }
   })
 }
-// 404 - Fallback route
-app.use((req, res, next) => {
-  const error = new Error(`Not Found - ${req.originalUrl}`)
+
+app.use('/api/*', (req, res, next) => {
+  const error = new Error(`API Not Found - ${req.originalUrl}`)
   res.status(404)
   next(error)
 })
 
 app.use(errorHandler)
-// console.log(process.env.PORT)
 
 server.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`)
