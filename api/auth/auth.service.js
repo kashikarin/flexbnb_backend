@@ -138,7 +138,6 @@ async function googleAuth({ credential }) {
   }
 
   try {
-    // אימות ה-JWT עם Google
     const ticket = await googleClient.verifyIdToken({
       idToken: credential,
       audience: process.env.GOOGLE_CLIENT_ID,
@@ -146,42 +145,37 @@ async function googleAuth({ credential }) {
 
     const payload = ticket.getPayload()
 
-    // 🆕 העלה תמונה ל-Cloudinary במקום לשמור Google URL
     let cloudinaryImageUrl = null
     if (payload.picture) {
-      console.log('🖼️ Found Google image:', payload.picture) // הוסף את זה
+      console.log('🖼️ Found Google image:', payload.picture) 
 
       try {
-        console.log('📤 Starting upload to Cloudinary...') // הוסף את זה
+        console.log('📤 Starting upload to Cloudinary...') 
 
         console.log('Uploading Google profile image to Cloudinary...')
         cloudinaryImageUrl = await uploadService.uploadImageFromUrl(
           payload.picture,
           `google_user_${payload.sub}`
         )
-        console.log('✅ Upload successful:', cloudinaryImageUrl) // הוסף את זה
+        console.log('✅ Upload successful:', cloudinaryImageUrl) 
       } catch (uploadError) {
         console.error('Failed to upload Google image:', uploadError)
-        // אם העלאה נכשלה, השתמש בתמונת ברירת מחדל או Google URL
-        console.log('❌ Upload failed:', uploadError) // הוסף את זה
+        console.log('❌ Upload failed:', uploadError) 
 
         cloudinaryImageUrl = payload.picture
       }
     }
 
-    // חלץ נתונים מ-Google
     const googleData = {
       email: payload.email,
       fullname: payload.name,
-      imageUrl: cloudinaryImageUrl, // 🔥 עכשיו זה URL מ-Cloudinary שלך!
+      imageUrl: cloudinaryImageUrl, 
       googleId: payload.sub,
     }
 
-    // בדוק אם המשתמש כבר קיים
     let user = await collection.findOne({ email: googleData.email })
 
     if (user) {
-      // משתמש קיים - עדכן תמונה אם השתנתה
       if (googleData.imageUrl && user.imageUrl !== googleData.imageUrl) {
         await collection.updateOne(
           { _id: user._id },
@@ -190,31 +184,28 @@ async function googleAuth({ credential }) {
         user.imageUrl = googleData.imageUrl
       }
     } else {
-      // משתמש חדש - צור חשבון
       const newUser = {
         email: googleData.email,
         username: googleData.email.split('@')[0],
         fullname: googleData.fullname,
-        imageUrl: googleData.imageUrl, // URL מ-Cloudinary
+        imageUrl: googleData.imageUrl, 
         googleId: googleData.googleId,
         isHost: false,
         isAdmin: false,
         likedHomes: [],
         createdAt: Date.now(),
-        // אין password למשתמשי Google
       }
 
       const { insertedId } = await collection.insertOne(newUser)
       user = { _id: insertedId, ...newUser }
     }
 
-    // החזר משתמש בפורמט הרגיל
     return {
       _id: user._id,
       email: user.email,
       username: user.username,
       fullname: user.fullname,
-      imageUrl: user.imageUrl, // עכשיו זה מ-Cloudinary!
+      imageUrl: user.imageUrl, 
       isHost: user.isHost,
       isAdmin: user.isAdmin,
       likedHomes: user.likedHomes,

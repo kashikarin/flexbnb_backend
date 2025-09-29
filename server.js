@@ -48,31 +48,17 @@ if (process.env.NODE_ENV === 'production') {
   app.use(cors(corsOptions))
 }
 
-// app.use(
-//   cors({
-//     origin: [
-//       'http://localhost:5173',
-//       'http://127.0.0.1:5173',
-//       'http://localhost:5174',
-//       'http://127.0.0.1:5174',
-//     ],
-//     credentials: true,
-//   })
-// )
 app.all('/*all', setupAsyncLocalStorage)
 
 app.get('/api/health', (_req, res) => {
   res.json({ ok: true })
 })
-//console.log("🔑 GOOGLE_API_KEY loaded in backend:", process.env.GOOGLE_API_KEY.slice(0, 5));
 
-// Home Routes
 app.use('/api/homes', homeRoutes)
 app.use('/api/orders', orderRoutes)
 app.use('/api/users', userRoutes)
 app.use('/api/msgs', msgRoutes)
 app.use('/api/auth', authRoutes)
-
 app.use('/api/reviews', reviewRoutes)
 app.use('/api/cloudinary', cloudinaryRoutes)
 app.use('/api/geocode', geocodeRoutes)
@@ -90,7 +76,6 @@ app.use((req, res, next) => {
 })
 
 app.use(errorHandler)
-// console.log(process.env.PORT)
 
 server.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`)

@@ -1,8 +1,5 @@
 import { ObjectId } from 'mongodb'
-
-import { makeId } from '../../services/util.service.js'
 import { dbService } from '../../services/db.service.js'
-import { asyncLocalStorage } from '../../services/als.service.js'
 import { loggerService } from '../../services/logger.service.js'
 
 export const reviewService = {
@@ -11,13 +8,10 @@ export const reviewService = {
   add,
   update,
   remove,
-  // addCarMsg,
-  // removeCarMsg,
 }
 
 async function query(filterBy = {}) {
   try {
-    // const criteria = {}
     const criteria = _buildCriteria(filterBy)
     const collection = await dbService.getCollection('review')
     const reviewCursor = await collection.find(criteria)
@@ -35,7 +29,6 @@ async function getById(reviewId) {
     const criteria = { _id: ObjectId.createFromHexString(reviewId) }
     const collection = await dbService.getCollection('review')
     const review = await collection.findOne(criteria)
-    // review.createdAt = review._id.getTimestamp()
     return review
   } catch (err) {
     loggerService.error(`while finding review ${String(reviewId)}`, err)

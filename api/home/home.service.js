@@ -1,8 +1,5 @@
 import { ObjectId } from 'mongodb'
-
-import { makeId } from '../../services/util.service.js'
 import { dbService } from '../../services/db.service.js'
-import { asyncLocalStorage } from '../../services/als.service.js'
 import { loggerService } from '../../services/logger.service.js'
 import geocodeService from '../geocode/geocode.service.js'
 
@@ -11,9 +8,7 @@ export const homeService = {
   getById,
   add,
   update,
-  remove,
-  // addCarMsg,
-  // removeCarMsg,
+  remove
 }
 
 async function query(filterBy = {}) {
@@ -34,7 +29,6 @@ async function getById(homeId) {
     const criteria = { _id: ObjectId.createFromHexString(homeId) }
     const collection = await dbService.getCollection('home')
     const home = await collection.findOne(criteria)
-    // home.createdAt = home._id.getTimestamp()
     return home
   } catch (err) {
     loggerService.error(`while finding home ${String(homeId)}`, err)
@@ -60,8 +54,6 @@ async function add(home) {
         country: locationData.country,
         countryCode: locationData.countryCode,
       }
-
-      console.log('✅ Location data added:', home.loc)
     }
     const collection = await dbService.getCollection('home')
     await collection.insertOne(home)

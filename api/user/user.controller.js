@@ -37,7 +37,6 @@ export async function deleteUser(req, res) {
 }
 
 export async function addUser(req, res) {
-  console.log('🔥 1. Frontend sent to server:', req.body)
   try {
     const { email, username, password, fullname, imageUrl, isHost } = req.body
 

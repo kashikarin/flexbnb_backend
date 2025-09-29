@@ -1,6 +1,3 @@
-import fs from 'fs'
-import { makeId, readJsonFile } from '../../services/util.service.js'
-
 import { dbService } from '../../services/db.service.js'
 import { ObjectId } from 'mongodb'
 import { loggerService } from '../../services/logger.service.js'
@@ -68,8 +65,6 @@ async function remove(userId) {
 
 async function save(user) {
   try {
-    console.log('🔧 userService.save received:', user)
-
     const collection = await dbService.getCollection('users')
     const { insertedId } = await collection.insertOne(user)
 
@@ -77,9 +72,6 @@ async function save(user) {
       _id: insertedId,
       ...user,
     }
-
-    console.log('🗄️ userService.save returning:', result)
-
     return result
   } catch (err) {
     loggerService.error('userService[save]:', err)
@@ -155,10 +147,8 @@ async function getByLoginId(loginId) {
 
 function _buildCriteria(filterBy) {
   const criteria = {}
-
   if (filterBy.city)
     criteria['loc.city'] = { $regex: filterBy.city, $options: 'i' }
   if (filterBy.capacity) criteria.capacity = { $gte: Number(filterBy.capacity) }
-
   return criteria
 }

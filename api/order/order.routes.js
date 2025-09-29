@@ -11,16 +11,8 @@ import {requireAuth} from '../../middleware/auth.middleware.js'
 import { log } from '../../middleware/logger.middleware.js'
 import { requireParams } from '../../middleware/param.middleware.js'
 
-console.log('📦 order.routes loaded')
 const router = express.Router()
-// @route   GET /api/homes
-// @desc    Health check
-// @access Public
 router.get('/health', getHealth)
-
-// @route  GET /api/homes
-// @desc   Get all homes
-// @access Public
 router.get('/', log, requireAuth, getOrders)
 
 router.get('/:orderId', log, requireAuth, getOrder)
@@ -46,10 +38,6 @@ router.put(
             updateOrder
           )
 router.delete('/:orderId', log, requireAuth, removeOrder)
-
-// // @route  POST /api/orders
-// // @desc   Add a new order
-// // @access Authenticated
 router.post(
             '/', 
             log, 

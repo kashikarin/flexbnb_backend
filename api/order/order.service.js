@@ -1,8 +1,5 @@
 import { ObjectId } from 'mongodb'
-
-import { makeId } from '../../services/util.service.js'
 import { dbService } from '../../services/db.service.js'
-import { asyncLocalStorage } from '../../services/als.service.js'
 import { loggerService } from '../../services/logger.service.js'
 
 function toObjectId(id) {
@@ -42,7 +39,6 @@ async function getById(orderId) {
     const collection = await dbService.getCollection('order')
     const order = await collection.findOne(criteria)
     console.log("📄 getById found:", order)
-    // order.createdAt = order._id.getTimestamp()
     return order
   } catch (err) {
     loggerService.error(`while finding order ${String(orderId)}`, err)
@@ -70,8 +66,6 @@ async function update(order) {
   orderToUpdate.home.homeId = toObjectId(orderToUpdate.home.homeId)
   orderToUpdate.purchaser.userId = toObjectId(orderToUpdate.purchaser.userId)
   
-  console.log("🚀 ~ orderToUpdate:", orderToUpdate)
-
   try {
     const collection = await dbService.getCollection('order')
     await collection.updateOne(criteria, { $set: orderToUpdate })
@@ -97,11 +91,9 @@ async function remove(orderId) {
 
 function _buildCriteria(filterBy) {
   const criteria = {}
-
   if (!filterBy.hostId || !ObjectId.isValid(filterBy.hostId)) {
     throw new Error('hostId is required for dashboard queries')
   }
   criteria['host.userId'] = new ObjectId(filterBy.hostId)
-    
   return criteria
 }

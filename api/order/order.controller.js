@@ -5,8 +5,6 @@ import { orderService } from './order.service.js'
 
 export async function getOrders(req, res) {
   const loggedInUserId = req.loggedInUser?._id  
-  console.log('👤 loggedInUserId from req:', loggedInUserId)
-
   try {
     const filterBy = {
       hostId: loggedInUserId,
