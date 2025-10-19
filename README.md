@@ -1,108 +1,95 @@
 # 🏡 Flexbnb
 
-**Flexbnb** is a full-stack web application inspired by Airbnb — a modern home-rental platform with a polished, high-fidelity design that closely replicates Airbnb’s user experience.  
-It includes dynamic search, booking flow, host management, real-time notifications, and a persistent wishlist.
+**Flexbnb** is a full-stack web application inspired by Airbnb — a modern home-rental platform built with a polished, high-fidelity design and a robust backend architecture.  
+The project combines advanced frontend functionality with a scalable Node.js-Express backend and real-time communication features.
 
-🌐 **Live Demo:** [https://flexbnb-karin.onrender.com/](https://flexbnb-karin.onrender.com/)
-
----
-
-## ✨ Main Features
-
-### 🔍 Home Page (Home Index)
-- Search for homes by **destination (city)**, **dates (check-in / check-out)**, and **number of guests**.  
-- Displays all homes initially and dynamically filters results based on user selections.  
-- Each home is represented by a `HomePreview` component — clicking on one opens the detailed view.
-
-### 🏠 Home Details Page
-- Shows comprehensive information about the selected home, including:
-  - Image gallery  
-  - Home description and amenities  
-  - User reviews  
-  - Home location displayed on a **Google Map** (`google-maps-react`)  
-- Includes a **booking modal** that allows users to set or adjust booking dates and number of guests, then confirm the reservation through an interactive flow.
-
-### 💳 Booking Flow
-- Multi-step booking process:
-  1. Choose dates and guests.  
-  2. Review booking summary.  
-  3. Confirm booking and view a success modal.  
-- Designed to closely mimic Airbnb’s checkout experience.
-
-### 🏗️ Host Flow (Create New Home)
-- A step-by-step hosting experience inspired by Airbnb’s home-creation flow.  
-- Each stage is represented by a separate screen with a visual progress bar.  
-- Hosts can upload images (via **Cloudinary**) and complete the listing process.  
-- Once created, a new **home** is stored in the database.
-
-### 👤 Host Dashboard
-- Each host can view all bookings made for their homes.  
-- Hosts can **approve** or **decline** pending reservations.  
-- Real-time status updates are sent to guests when actions are taken.
-
-### 🔔 Real-Time Notifications
-- Implemented using **Socket.io**.  
-- When a guest books a home, the host receives an immediate notification.  
-- When the host accepts or declines, the guest receives a live update as well.
-
-### ❤️ Wishlist
-- Registered users can “like” homes to add them to their wishlist.  
-- The wishlist persists across sessions — data is stored in **MongoDB**.
+🌐 **Live Demo:** [https://flexbnb-karin.onrender.com](https://flexbnb-karin.onrender.com)
 
 ---
 
-## 🧠 Tech Stack
+## ✨ Project Overview
 
-### 🖥️ Frontend
-- **React**  
-- **Redux** for global state management  
-- **SCSS** for advanced styling and layout  
-- **Google Maps React** for map rendering  
-- **Socket.io-client** for real-time updates  
+Flexbnb delivers a seamless experience for both **guests** and **hosts**, featuring:
 
-### ⚙️ Backend
-- **Node.js** with **Express**  
-- **MongoDB** & **Mongoose** for data persistence  
-- **Socket.io** for live communication  
-- **Cloudinary** for image uploads  
-- **ALS (Async Local Storage)** for maintaining request context  
-- **Custom middlewares** like `requireAuth` and `requireParams`  
+- 🔍 **Dynamic home search** by destination, dates, and number of guests  
+- 🏠 **Detailed home pages** with images, amenities, reviews, and location via Google Maps  
+- 💳 **Interactive booking flow** including confirmation and success modals  
+- 🏗️ **Multi-step host flow** for creating new listings with progress tracking  
+- 👤 **Host dashboard** for managing bookings and approving or declining requests  
+- 🔔 **Real-time notifications** powered by Socket.io  
+- ❤️ **Persistent wishlist** stored in MongoDB  
 
-### 🔐 Authentication
-- Email/password authentication  
-- **Google Sign-In** integration via OAuth  
+The app’s design closely follows Airbnb’s UX patterns while integrating complex server-side logic and secure authentication.
 
 ---
 
-## 🗄️ Data Models
+## ⚙️ Backend Architecture
 
-- **User** – stores user info, auth credentials, and wishlist  
-- **Home** – represents home listings  
-- **Order** – tracks bookings between guests and hosts  
-- **Review** – user reviews for each home  
+The backend serves as the foundation of the project, built with **Node.js** and **Express**, and designed for clarity, modularity, and scalability.
 
----
-
-## 🧭 App Flow Overview
-
-1. **Guest** visits the home page → filters homes by destination and dates.  
-2. Clicks a home → opens the details page → views reviews and images.  
-3. Opens the booking modal → selects dates → confirms the order.  
-4. **Host** receives a real-time notification → approves or declines.  
-5. Both parties see instant updates via Socket.io.  
-6. Hosts can manage homes and view all transactions in their dashboard.
+Key responsibilities include:
+- Managing all **API endpoints** for homes, users, orders, and authentication  
+- Handling **data persistence** via **MongoDB** and **Mongoose**  
+- Managing **real-time socket connections** between clients for instant updates  
+- Integrating with **Cloudinary** for image uploads  
+- Implementing **middlewares** for authentication, parameter validation, and async request tracking (ALS)  
+- Providing secure **OAuth Google Sign-In** and traditional email/password login  
 
 ---
 
-## 🧭 Team Collaboration
-- Flexbnb was developed by a team of three developers working collaboratively through **Git** and **GitHub**.  
-- The workflow followed a feature-branch model, where each developer implemented new features or fixes in dedicated branches before merging them into the main branch via pull requests.
+## 🧱 Data Model Overview
 
-Key collaboration highlights: 
+| Entity | Description |
+|--------|--------------|
+| **User** | Stores profile info, authentication data, and wishlist |
+| **Home** | Represents a property listed by a host |
+| **Order** | Tracks bookings and their approval status |
+| **Review** | Manages user reviews for each home |
 
-- Coordinated development across frontend and backend modules
-- Regular merges and conflict resolutions through Git
-- Code reviews and version control best practices
-- Consistent branch naming conventions (e.g. feature/search-bar, fix/socket-bug, etc.)
-- This teamwork ensured smooth integration and a professional development process from start to finish.
+---
 
+## 🧩 Tech Stack
+
+- **Node.js + Express** – REST API and server logic  
+- **MongoDB + Mongoose** – database modeling and queries  
+- **Socket.io** – real-time bi-directional communication  
+- **Cloudinary** – media storage for images  
+- **ALS (Async Local Storage)** – request-context tracking across async calls  
+- **Custom Middleware** – for auth and parameter validation  
+- **React + Redux (Frontend)** – integrated via static build in the backend’s `public/` folder  
+
+---
+
+## 👥 Team Collaboration
+
+Developed by a **team of three**, working collaboratively through **Git** and **GitHub** with a feature-branch workflow:
+
+- Independent feature development in dedicated branches  
+- Regular merges, pull requests, and conflict resolution  
+- Coordinated frontend-backend integration  
+- Code reviews and version-control best practices  
+
+This workflow ensured smooth development, consistent architecture, and high-quality delivery across all parts of the app.
+
+---
+
+## 🧠 Highlights & Takeaways
+
+- Full-stack architecture with clean API separation and real-time communication  
+- Complex data flow handled via Redux and backend filtering  
+- Scalable, production-ready Express server deployed on **Render**  
+- Strong emphasis on design fidelity and UX consistency  
+- Demonstrates teamwork, technical depth, and attention to maintainability  
+
+---
+
+## 🔗 Related Repositories
+
+- 🖥️ **Frontend:** [Flexbnb Frontend](https://github.com/kashikarin/flexbnb-frontend)
+- ⚙️ **Backend (Current Repo):** Flexbnb Backend
+
+---
+
+## 👩‍💻 About
+
+Built with passion for combining **frontend experience and backend logic** — delivering a seamless Airbnb-like platform that blends performance, design, and functionality.
