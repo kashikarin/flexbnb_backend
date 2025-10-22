@@ -1,3 +1,10 @@
+# ⚠️ Project Moved
+
+This repository is no longer maintained.
+
+A new, improved version of this project is now available here:  
+👉 [kashikarin/flexbnb-app-backend](https://github.com/kashikarin/flexbnb-app-backend)
+
 # 🏡 Flexbnb
 
 **Flexbnb** is a full-stack web application inspired by Airbnb — a modern home-rental platform built with a polished, high-fidelity design and a robust backend architecture.  
