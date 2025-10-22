@@ -9,7 +9,6 @@ cloudinary.config({
 export const getSignature = (req, res) => {
   const timestamp = Math.round(new Date().getTime() / 1000)
 
-  // include preset if you want to enforce one
   const signature = cloudinary.utils.api_sign_request(
     { timestamp, upload_preset: "unsigned_preset" },
     process.env.CLOUDINARY_API_SECRET

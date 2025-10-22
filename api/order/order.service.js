@@ -18,9 +18,7 @@ export const orderService = {
 
 async function query(filterBy = {}) {
   try {
-    const criteria = _buildCriteria(filterBy)
-        console.log('🔍 criteria:', criteria)   // 👈
-    
+    const criteria = _buildCriteria(filterBy)    
     const collection = await dbService.getCollection('order')
     const orderCursor = await collection.find(criteria)
     const orders = await orderCursor.toArray()
@@ -35,7 +33,6 @@ async function query(filterBy = {}) {
 async function getById(orderId) {
   try {
     const criteria = { _id: toObjectId(orderId) }
-    console.log("🔎 getById criteria:", criteria)
     const collection = await dbService.getCollection('order')
     const order = await collection.findOne(criteria)
     console.log("📄 getById found:", order)

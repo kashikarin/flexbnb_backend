@@ -1,7 +1,5 @@
 import geocodeService from './geocode.service.js'
-console.log('🔍 Loaded geocodeService:', geocodeService)
 export async function getLocationByCoordinates(req, res) {
-  console.log('geocode service run')
   try {
     const { lat, lng } = req.query
 
@@ -13,7 +11,6 @@ export async function getLocationByCoordinates(req, res) {
     const locationData = await geocodeService.reverseGeocode(lat, lng)
     res.json(locationData)
   } catch (error) {
-    console.error('Geocoding controller error:', error)
     res.status(500).json({
       error: 'Failed to get location data',
     })

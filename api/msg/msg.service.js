@@ -9,8 +9,6 @@ export const msgService = {
   add,
   update,
   remove
-  // addCarMsg,
-  // removeCarMsg,
 }
 
 async function query(filterBy = {}) {
@@ -32,7 +30,6 @@ async function getById(msgId) {
     const criteria = { _id: ObjectId.createFromHexString(msgId) }
     const collection = await dbService.getCollection('msg')
     const msg = await collection.findOne(criteria)
-    // msg.createdAt = msg._id.getTimestamp()
     return msg
   } catch (err) {
     loggerService.error(`while finding msg ${String(msgId)}`, err)
